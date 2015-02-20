@@ -1,7 +1,7 @@
 // Write your package code here!
 
-Template.contract_list.helpers({
-  contractCollection: function () { 
+Template.contractList.helpers({
+  contractCollection: function () {
     return Contracts.find({});
   } ,
 
@@ -22,39 +22,39 @@ Template.contract_list.helpers({
 
 });
 
-Template.contract_display.helpers({ 
-  keyfacfigs: function () { 
+Template.contractDisplay.helpers({
+  keyFacFigs: function () {
     return KeyFacFigs.find({contractId: this._id});
   },
-  est_cost: function () { 
+  est_cost: function () {
     if (this.est_cost && this.est_cost.toFixed)
-      return this.est_cost.toFixed(2); 
+      return this.est_cost.toFixed(2);
     return this.est_cost;
-  }  
+  }
 });
 
-Template.contract_research.helpers({ 
-  keyfacfigs: function () { 
+Template.contractEdit.helpers({
+  keyFacFigs: function () {
     return KeyFacFigs.find({contractId: this._id});
   },
 });
 
-Template.keyfacfig.events({
-  'click a' : function () { 
+Template.keyFacFig.events({
+  'click a' : function () {
     Session.set("modal-template", 'editKeyFacFig');
     Session.set("modal-data", this);
-  
+
     $("#site-modal").modal('toggle');
-  } 
+  }
 });
 
 Template.editKeyFacFig.events({
-  'click button#save' : function (evt, template) { 
-    oldKFF = Session.get("modal-data"); 
+  'click button#save' : function (evt, template) {
+    oldKFF = Session.get("modal-data");
     console.log(template.$('input#data').val());
 
     $("#site-modal").modal('toggle');
     Session.set("modal-template", 'blank');
     Session.set("modal-data", {});
-  } 
+  }
 });

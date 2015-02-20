@@ -1,26 +1,26 @@
-Contracts = new Meteor.Collection("contracts"); 
-KeyFacFigs = new Meteor.Collection("key_fac_figs"); 
+Contracts = new Meteor.Collection("contracts");
+KeyFacFigs = new Meteor.Collection("key_fac_figs");
 
-Router.route('/contractlist', { 
-  template: 'contract_list', 
+Router.route('/contractlist', {
+  template: 'contractList',
   loadingTemplate: 'loading',
-  waitOn: function () { 
+  waitOn: function () {
     return Meteor.subscribe('contracts');
   }
 });
 
-Router.route('/contract/research/:_id',
+Router.route('/contract/edit/:_id',
   {
-    template: 'contract_research',
+    template: 'contractEdit',
     loadingTemplate: 'loading',
     waitOn : function () {
-      return [Meteor.subscribe('contracts'), 
+      return [Meteor.subscribe('contracts'),
               Meteor.subscribe('contract_details', this.params._id)];
     },
     data: function () {
       return Contracts.findOne({_id: this.params._id});
     },
-    name: "contract.research"
+    name: "contract.edit"
   }
 );
 
@@ -29,10 +29,10 @@ Router.route('/contract/research/:_id',
 
 Router.route('/contract/:_id',
   {
-    template: 'contract_display',
+    template: 'contractDisplay',
     loadingTemplate: 'loading',
     waitOn : function () {
-      return [Meteor.subscribe('contracts'), 
+      return [Meteor.subscribe('contracts'),
               Meteor.subscribe('contract_details', this.params._id)];
     },
     data: function () {
@@ -43,10 +43,10 @@ Router.route('/contract/:_id',
 );
 
 
-Router.route('/contractmap', { 
-  template: 'contract_map', 
+Router.route('/contractmap', {
+  template: 'contractMap',
   loadingTemplate: 'loading',
-  waitOn: function () { 
+  waitOn: function () {
     return Meteor.subscribe('contracts');
   }
 });

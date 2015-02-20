@@ -1,4 +1,4 @@
-<template name="contract_list">
+<template name="contractList">
   <div class="container">
   <div class="page-header">
     <h1>Browse Contracts:</h1>
@@ -7,18 +7,18 @@
   </div>
 </template>
 
-<template name="contract_map">
+<template name="contractMap">
 
 test  map
 
 </template>
 
-<template name="contract_display">
+<template name="contractDisplay">
   <div class="container">
    <div role="tabpanel">
       <ul class="nav nav-tabs" role="tablist">
         <li class="active" role="presentation"><a href="{{pathFor route='contract'}}">Display</a></li>
-        <li role="presentation"><a href="{{pathFor route='contract.research'}}">Research</a></li>
+        <li role="presentation"><a href="{{pathFor route='contract.edit'}}">Edit</a></li>
         <li role="presentation"><a href="{{pathFor route='contract.change_log'}}">Change Log</a></li>
         <li role="presentation"><a href="{{pathFor route='contract.chat'}}">Chat</a></li>
       </ul>
@@ -27,11 +27,11 @@ test  map
     <h2>{{name}} </h2><h1><small>Estimated Cost: </small><strong>{{est_cost}}</strong><small>(£m)</small></h1>
   </div>
 
-  
+
     <div class="col-sm-8">
       <h3>Key Facts & Figures:</h3>
-      {{#each keyfacfigs}}
-        {{> keyfacfig}}
+      {{#each keyFacFigs}}
+        {{> keyFacFig}}
       {{/each}}
 
     </div>
@@ -45,37 +45,33 @@ test  map
   </div>
 </template>
 
-<template name="contract_research">
+<template name="contractEdit">
   <div class="container">
     <div role="tabpanel">
       <ul class="nav nav-tabs" role="tablist">
         <li role="presentation"><a href="{{pathFor route='contract'}}">Display</a></li>
-        <li class="active" role="presentation"><a href="{{pathFor route='contract.research'}}">Research</a></li>
+        <li class="active" role="presentation"><a href="{{pathFor route='contract.edit'}}">Edit</a></li>
         <li role="presentation"><a href="{{pathFor route='contract.change_log'}}">Change Log</a></li>
         <li role="presentation"><a href="{{pathFor route='contract.chat'}}">Chat</a></li>
       </ul>
     </div>
 
     <div class="page-header">
-      <p><h3>{{name}}</h3></p>
-      <p><strong>Est Total Cost:</strong> 
-         {{est_cost}} {{#if currentUser}}<a>edit</a>{{/if}}</p>
-      <p><strong>Sector:</strong> 
-         {{sector}} {{#if currentUser}}<a>edit</a>{{/if}}</p>
-      <p><strong>Authority:</strong> 
-         {{authority}} {{#if currentUser}}<a>edit</a>{{/if}}</p>
-      <p><strong>Department:</strong> 
-         {{department}} {{#if currentUser}}<a>edit</a>{{/if}}</p>
-      
-    </div>    
+      <p><h3>{{name}}{{#if currentUser}} <small><a href="#">edit</a></small>{{/if}}</h3></p>
+      <p><strong>Est Total Cost:</strong> {{est_cost}}</p>
+      <p><strong>Sector:</strong> {{sector}}</p>
+      <p><strong>Authority:</strong> {{authority}}</p>
+      <p><strong>Department:</strong> {{department}}</p>
+
+    </div>
 
     <div class="col-sm-8">
       <h3> Key Facts & Figures:</h3>
-      {{#each keyfacfigs}}
-        {{> keyfacfig}}
+      {{#each keyFacFigs}}
+        {{> keyFacFig}}
       {{/each}}
 
-    
+
         <button class="btn btn-primary">Add</button>
     </div>
   </div>
@@ -88,7 +84,7 @@ test  map
   <a href="{{url}}">{{name}}</a><br/>
 </template>
 
-<template name="keyfacfig">
+<template name="keyFacFig">
   {{name}}: {{data}} <a href="#">edit</a><br/>
 </template>
 
@@ -96,7 +92,7 @@ test  map
   <a href="{{pathFor route='contract'}}">{{name}}</a>
 </template>
 
-<template name="editKeyFacFig"> 
+<template name="editKeyFacFig">
    <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
     <h4 class="modal-title">Editing: {{name}}</h4>
@@ -111,5 +107,5 @@ test  map
     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
     <button id="save" type="button" class="btn btn-primary">Save changes</button>
   </div>
- 
+
 </template>
