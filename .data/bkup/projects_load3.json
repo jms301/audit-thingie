@@ -1,0 +1,725 @@
+{ "_id" : "54dfb4aef3617102060061db", "est_cost" : 39.7, "sector" : "Other", "hmt_id" : 2, "name" : "Sunningdale Park Site" }
+{ "_id" : "54dfb4aef3617102060061dc", "est_cost" : 382, "sector" : "IT Infrastructure and communications", "hmt_id" : 3, "name" : "Compass" }
+{ "_id" : "54dfb4aef3617102060061dd", "est_cost" : 41.90000000000001, "sector" : "Other", "hmt_id" : 5, "name" : "RRS Ernest Shackleton " }
+{ "_id" : "54dfb4aef3617102060061de", "est_cost" : 158.7, "sector" : "Schools (Non-BSF)", "hmt_id" : 7, "name" : "Barking and Dagenham PFI Projects - Grouped Schools" }
+{ "_id" : "54dfb4aef3617102060061df", "est_cost" : 190.4, "sector" : "Schools (Non-BSF)", "hmt_id" : 8, "name" : "Barnsley Schools PFI" }
+{ "_id" : "54dfb4aef3617102060061e0", "est_cost" : 134.3, "sector" : "Schools (Non-BSF)", "hmt_id" : 9, "name" : "Mid Beds Upper Schools Project" }
+{ "_id" : "54dfb4aef3617102060061e1", "est_cost" : 306.9, "sector" : "Schools (Non-BSF)", "hmt_id" : 10, "name" : "Birmingham Group Schools 1" }
+{ "_id" : "54dfb4aef3617102060061e2", "est_cost" : 301.3, "sector" : "Schools (Non-BSF)", "hmt_id" : 11, "name" : "Birmingham PPP 2" }
+{ "_id" : "54dfb4aef3617102060061e3", "est_cost" : 44.5, "sector" : "Schools (Non-BSF)", "hmt_id" : 12, "name" : "Castle Hill Community Learning Centre & Primary School" }
+{ "_id" : "54dfb4aef3617102060061e4", "est_cost" : 276.3, "sector" : "Schools (Non-BSF)", "hmt_id" : 13, "name" : "Hadley Learning & Jigsaw Project" }
+{ "_id" : "54dfb4aef3617102060061e5", "est_cost" : 434.5000000000001, "sector" : "Schools (BSF)", "hmt_id" : 14, "name" : "BSF Wave1" }
+{ "_id" : "54dfb4aef3617102060061e6", "est_cost" : 92.7, "sector" : "Schools (Non-BSF)", "hmt_id" : 15, "name" : "Brighton & Hove - Four Schools" }
+{ "_id" : "54dfb4aef3617102060061e7", "est_cost" : 224.2000000000001, "sector" : "Schools (Non-BSF)", "hmt_id" : 16, "name" : "Bristol City Council Schools Phase 1A" }
+{ "_id" : "54dfb4aef3617102060061e8", "est_cost" : 313.2, "sector" : "Schools (BSF)", "hmt_id" : 17, "name" : "BSF Wave1" }
+{ "_id" : "54dfb4aef3617102060061e9", "est_cost" : 324.2, "sector" : "Schools (Non-BSF)", "hmt_id" : 18, "name" : "Tower Hamlets Group schools" }
+{ "_id" : "54dfb4aef3617102060061ea", "est_cost" : 65.60000000000001, "sector" : "Schools (Non-BSF)", "hmt_id" : 19, "name" : "Ellesmere Port Schools" }
+{ "_id" : "54dfb4aef3617102060061eb", "est_cost" : 65.90000000000002, "sector" : "Schools (Non-BSF)", "hmt_id" : 20, "name" : "York Schools PFI" }
+{ "_id" : "54dfb4aef3617102060061ec", "est_cost" : 225.8, "sector" : "Schools (Non-BSF)", "hmt_id" : 21, "name" : "Schools 2" }
+{ "_id" : "54dfb4aef3617102060061ed", "est_cost" : 86, "sector" : "Schools (Non-BSF)", "hmt_id" : 23, "name" : "Caludon Castle PFI" }
+{ "_id" : "54dfb4aef3617102060061ee", "est_cost" : 106.7, "sector" : "Schools (Non-BSF)", "hmt_id" : 24, "name" : "Darlington Five Schools Project" }
+{ "_id" : "54dfb4aef3617102060061ef", "est_cost" : 127.8, "sector" : "Schools (Non-BSF)", "hmt_id" : 25, "name" : "Derby Grouped Schools " }
+{ "_id" : "54dfb4aef3617102060061f0", "est_cost" : 118.6, "sector" : "Schools (Non-BSF)", "hmt_id" : 26, "name" : "Grouped Schools" }
+{ "_id" : "54dfb4aef3617102060061f1", "est_cost" : 129.2, "sector" : "Schools (Non-BSF)", "hmt_id" : 27, "name" : "Schools Phase 2" }
+{ "_id" : "54dfb4aef3617102060061f2", "est_cost" : 342.0999999999999, "sector" : "Schools (Non-BSF)", "hmt_id" : 28, "name" : "Exeter Group Schools PFI" }
+{ "_id" : "54dfb4aef3617102060061f3", "est_cost" : 164.9, "sector" : "Schools (Non-BSF)", "hmt_id" : 29, "name" : "Doncaster Two secondary schools" }
+{ "_id" : "54dfb4aef3617102060061f4", "est_cost" : 80.39999999999999, "sector" : "Schools (Non-BSF)", "hmt_id" : 30, "name" : "The Sir John Colfox School" }
+{ "_id" : "54dfb4aef3617102060061f5", "est_cost" : 85.90000000000001, "sector" : "Schools (Non-BSF)", "hmt_id" : 32, "name" : "Dudley - Paragon" }
+{ "_id" : "54dfb4aef3617102060061f6", "est_cost" : 123.4, "sector" : "Schools (Non-BSF)", "hmt_id" : 33, "name" : "Bridlington Schools" }
+{ "_id" : "54dfb4aef3617102060061f7", "est_cost" : 186.4, "sector" : "Schools (Non-BSF)", "hmt_id" : 34, "name" : "Group schools" }
+{ "_id" : "54dfb4aef3617102060061f8", "est_cost" : 179, "sector" : "Schools (Non-BSF)", "hmt_id" : 35, "name" : "Clacton Secondary Schools" }
+{ "_id" : "54dfb4aef3617102060061f9", "est_cost" : 65.5, "sector" : "Schools (Non-BSF)", "hmt_id" : 36, "name" : "Debden Park High School" }
+{ "_id" : "54dfb4aef3617102060061fa", "est_cost" : 214.1, "sector" : "Schools (Non-BSF)", "hmt_id" : 37, "name" : "Gateshead Schools PFI Project" }
+{ "_id" : "54dfb4aef3617102060061fb", "est_cost" : 312.3, "sector" : "Schools (Non-BSF)", "hmt_id" : 38, "name" : "Grouped secondary schools project" }
+{ "_id" : "54dfb4aef3617102060061fc", "est_cost" : 70.90000000000001, "sector" : "Schools (Non-BSF)", "hmt_id" : 39, "name" : "Special Schools PFI" }
+{ "_id" : "54dfb4aef3617102060061fd", "est_cost" : 74.50000000000001, "sector" : "Schools (Non-BSF)", "hmt_id" : 40, "name" : "Whitecross School PFI" }
+{ "_id" : "54dfb4aef3617102060061fe", "est_cost" : 379.9, "sector" : "Schools (Non-BSF)", "hmt_id" : 41, "name" : "Six Grouped schools PFI" }
+{ "_id" : "54dfb4aef3617102060061ff", "est_cost" : 250.6, "sector" : "Schools (BSF)", "hmt_id" : 42, "name" : "BSF wave 3" }
+{ "_id" : "54dfb4aef361710206006200", "est_cost" : 70.59999999999999, "sector" : "Schools (Non-BSF)", "hmt_id" : 43, "name" : "Swanscombe PFI" }
+{ "_id" : "54dfb4aef361710206006201", "est_cost" : 10.8, "sector" : "Schools (Non-BSF)", "hmt_id" : 44, "name" : "Victoria Dock Primary School" }
+{ "_id" : "54dfb4aef361710206006202", "est_cost" : 358.7, "sector" : "Schools (Non-BSF)", "hmt_id" : 45, "name" : "Kirklees Grouped Schools PPP" }
+{ "_id" : "54dfb4aef361710206006203", "est_cost" : 69.40000000000002, "sector" : "Schools (Non-BSF)", "hmt_id" : 46, "name" : "Special Schools PPP" }
+{ "_id" : "54dfb4aef361710206006204", "est_cost" : 604.8, "sector" : "Schools (BSF)", "hmt_id" : 47, "name" : "BSF Wave 1, Phase 1 and 2" }
+{ "_id" : "54dfb4aef361710206006205", "est_cost" : 107.4, "sector" : "Schools (BSF)", "hmt_id" : 48, "name" : "Leeds BSF Wave 1, Phase 2" }
+{ "_id" : "54dfb4aef361710206006206", "est_cost" : 283.8, "sector" : "Schools (BSF)", "hmt_id" : 49, "name" : "BSF Wave1, Phase 1" }
+{ "_id" : "54dfb4aef361710206006207", "est_cost" : 44, "sector" : "Schools (Non-BSF)", "hmt_id" : 50, "name" : "Fleetwood High School PFI Scheme" }
+{ "_id" : "54dfb4aef361710206006208", "est_cost" : 369.7, "sector" : "Schools (BSF)", "hmt_id" : 51, "name" : "Leeds BSF Wave 1 - Phase 1" }
+{ "_id" : "54dfb4aef361710206006209", "est_cost" : 134.5, "sector" : "Schools (BSF)", "hmt_id" : 52, "name" : "BSF Wave 1, Phase 2" }
+{ "_id" : "54dfb4aef36171020600620a", "est_cost" : 24.4, "sector" : "Schools (Non-BSF)", "hmt_id" : 53, "name" : "Leeds Cardinal Heenan High School" }
+{ "_id" : "54dfb4aef36171020600620b", "est_cost" : 189.4, "sector" : "Schools (Non-BSF)", "hmt_id" : 54, "name" : "Leeds 1 (7) Schools" }
+{ "_id" : "54dfb4aef36171020600620c", "est_cost" : 147.6, "sector" : "Schools (Non-BSF)", "hmt_id" : 55, "name" : "Leeds 2 (10) Primary Schools " }
+{ "_id" : "54dfb4aef36171020600620d", "est_cost" : 408.7, "sector" : "Schools (Non-BSF)", "hmt_id" : 56, "name" : "Leeds 3 & 4 Secondary and Post 16" }
+{ "_id" : "54dfb4aef36171020600620e", "est_cost" : 240.3, "sector" : "Schools (BSF)", "hmt_id" : 57, "name" : "BSF Wave 1, Phase 1" }
+{ "_id" : "54dfb4aef36171020600620f", "est_cost" : 93.59999999999999, "sector" : "Schools (Non-BSF)", "hmt_id" : 58, "name" : "Lincolnshire Schools Grouped PFI Scheme" }
+{ "_id" : "54dfb4aef361710206006210", "est_cost" : 374, "sector" : "Schools (Non-BSF)", "hmt_id" : 59, "name" : "Group Schools" }
+{ "_id" : "54dfb4aef361710206006211", "est_cost" : 107.8, "sector" : "Schools (Non-BSF)", "hmt_id" : 60, "name" : "Liverpool - Speke/Garston Lifelong Learning Centre" }
+{ "_id" : "54dfb4aef361710206006212", "est_cost" : 161.8, "sector" : "Schools (Non-BSF)", "hmt_id" : 61, "name" : "Bexley Three Schools Project" }
+{ "_id" : "54dfb4aef361710206006213", "est_cost" : 116.2, "sector" : "Schools (Non-BSF)", "hmt_id" : 62, "name" : "Jews Free School" }
+{ "_id" : "54dfb4aef361710206006214", "est_cost" : 62.60000000000001, "sector" : "Schools (Non-BSF)", "hmt_id" : 63, "name" : "Haverstock School PFI" }
+{ "_id" : "54dfb4aef361710206006215", "est_cost" : 78.99999999999999, "sector" : "Schools (Non-BSF)", "hmt_id" : 64, "name" : "Ashburton Learning Village" }
+{ "_id" : "54dfb4aef361710206006216", "est_cost" : 141.9, "sector" : "Schools (Non-BSF)", "hmt_id" : 65, "name" : "Group schools 1 " }
+{ "_id" : "54dfb4aef361710206006217", "est_cost" : 246.4, "sector" : "Schools (Non-BSF)", "hmt_id" : 66, "name" : "Group schools 2" }
+{ "_id" : "54dfb4aef361710206006218", "est_cost" : 73.40000000000001, "sector" : "Schools (Non-BSF)", "hmt_id" : 67, "name" : "Highlands School" }
+{ "_id" : "54dfb4aef361710206006219", "est_cost" : 121.9, "sector" : "Schools (Non-BSF)", "hmt_id" : 68, "name" : "Joint Schools PFI (with LB Newham)" }
+{ "_id" : "54dfb4aef36171020600621a", "est_cost" : 78.8, "sector" : "Schools (Non-BSF)", "hmt_id" : 69, "name" : "Barnhill School" }
+{ "_id" : "54dfb4aef36171020600621b", "est_cost" : 142.6, "sector" : "Schools (BSF)", "hmt_id" : 70, "name" : "BSF Wave 2" }
+{ "_id" : "54dfb4aef36171020600621c", "est_cost" : 111.1, "sector" : "Schools (Non-BSF)", "hmt_id" : 71, "name" : "Lambeth Connected Learning project (ICT in Schools)" }
+{ "_id" : "54dfb4aef36171020600621d", "est_cost" : 151.7, "sector" : "Schools (Non-BSF)", "hmt_id" : 72, "name" : "Lillian Baylis School - PFI Scheme" }
+{ "_id" : "54dfb4aef36171020600621e", "est_cost" : 220.9, "sector" : "Schools (Non-BSF)", "hmt_id" : 73, "name" : "GROUPED SCHOOLS MODERNISATION PROJECT" }
+{ "_id" : "54dfb4aef36171020600621f", "est_cost" : 142.6, "sector" : "Schools (BSF)", "hmt_id" : 75, "name" : "BSF Wave 1, Phase 1" }
+{ "_id" : "54dfb4aef361710206006220", "est_cost" : 132.2, "sector" : "Schools (Non-BSF)", "hmt_id" : 76, "name" : "Peacehaven PFI Group schools" }
+{ "_id" : "54dfb4aef361710206006221", "est_cost" : 124, "sector" : "Schools (Non-BSF)", "hmt_id" : 77, "name" : "Joint Schools PFI (with Enfield) - (LBN Cumberland School)" }
+{ "_id" : "54dfb4aef361710206006222", "est_cost" : 120, "sector" : "Schools (Non-BSF)", "hmt_id" : 78, "name" : "Joint Schools PFI (with Enfield) - (LBN Cumberland School)" }
+{ "_id" : "54dfb4aef361710206006223", "est_cost" : 146.6, "sector" : "Schools (Non-BSF)", "hmt_id" : 79, "name" : "Group schools - (Kingsford, Plaistow, Kaizen)" }
+{ "_id" : "54dfb4aef361710206006224", "est_cost" : 114.5, "sector" : "Schools (Non-BSF)", "hmt_id" : 80, "name" : "Mulberry School" }
+{ "_id" : "54dfb4aef361710206006225", "est_cost" : 144.3, "sector" : "Schools (BSF)", "hmt_id" : 81, "name" : "BSF Wave1" }
+{ "_id" : "54dfb4aef361710206006226", "est_cost" : 461, "sector" : "Schools (Non-BSF)", "hmt_id" : 82, "name" : "Grouped Schools PFI" }
+{ "_id" : "54dfb4aef361710206006227", "est_cost" : 162.2, "sector" : "Schools (Non-BSF)", "hmt_id" : 83, "name" : "Lammas School" }
+{ "_id" : "54dfb4aef361710206006228", "est_cost" : 68.09999999999999, "sector" : "Schools (Non-BSF)", "hmt_id" : 84, "name" : "Temple Primary School" }
+{ "_id" : "54dfb4aef361710206006229", "est_cost" : 150.3, "sector" : "Schools (Non-BSF)", "hmt_id" : 85, "name" : "Wright Robinson Sports College" }
+{ "_id" : "54dfb4aef36171020600622a", "est_cost" : 166.5, "sector" : "Schools (Non-BSF)", "hmt_id" : 86, "name" : "Merton Grouped Schools PFI Project" }
+{ "_id" : "54dfb4aef36171020600622b", "est_cost" : 149.5, "sector" : "Schools (BSF)", "hmt_id" : 87, "name" : "BSF Phase 1 " }
+{ "_id" : "54dfb4aef36171020600622c", "est_cost" : 139.6, "sector" : "Schools (Non-BSF)", "hmt_id" : 88, "name" : "Newcastle Schools PFI1 " }
+{ "_id" : "54dfb4aef36171020600622d", "est_cost" : 148.6, "sector" : "Schools (Non-BSF)", "hmt_id" : 90, "name" : "Norwich Area Schools PFI" }
+{ "_id" : "54dfb4aef36171020600622e", "est_cost" : 121.9, "sector" : "Schools (Non-BSF)", "hmt_id" : 91, "name" : "Schools for the Future PFI Project" }
+{ "_id" : "54dfb4aef36171020600622f", "est_cost" : 31.49999999999999, "sector" : "Schools (Non-BSF)", "hmt_id" : 92, "name" : "North Yorkshire Schools PFI Project" }
+{ "_id" : "54dfb4aef361710206006230", "est_cost" : 257.3, "sector" : "Schools (Non-BSF)", "hmt_id" : 93, "name" : "Northampton Schools Review" }
+{ "_id" : "54dfb4aef361710206006231", "est_cost" : 156.7, "sector" : "Schools (Non-BSF)", "hmt_id" : 94, "name" : "Wooldale Centre" }
+{ "_id" : "54dfb4aef361710206006232", "est_cost" : 151.9, "sector" : "Schools (BSF)", "hmt_id" : 95, "name" : "BSF Wave 2 - Gedling; Nottingham North" }
+{ "_id" : "54dfb4aef361710206006233", "est_cost" : 467.7199999999999, "sector" : "Schools (Non-BSF)", "hmt_id" : 96, "name" : "Bassetlaw schools" }
+{ "_id" : "54dfb4aef361710206006234", "est_cost" : 64.767, "sector" : "Schools (Non-BSF)", "hmt_id" : 97, "name" : "East Leake schools" }
+{ "_id" : "54dfb4aef361710206006235", "est_cost" : 150.8, "sector" : "Schools (Non-BSF)", "hmt_id" : 98, "name" : "Oldham Secondary Schools Project" }
+{ "_id" : "54dfb4aef361710206006236", "est_cost" : 149.7, "sector" : "Schools (Non-BSF)", "hmt_id" : 99, "name" : "Peterborough Secondary Schools Scheme" }
+{ "_id" : "54dfb4aef361710206006237", "est_cost" : 146.1, "sector" : "Schools (Non-BSF)", "hmt_id" : 100, "name" : "Wood View Learning Community & Riverside Primary School" }
+{ "_id" : "54dfb4aef361710206006238", "est_cost" : 121.3, "sector" : "Schools (Non-BSF)", "hmt_id" : 101, "name" : "Miltoncross School" }
+{ "_id" : "54dfb4aef361710206006239", "est_cost" : 160, "sector" : "Schools (Non-BSF)", "hmt_id" : 102, "name" : "Redbridge - Oaks Park School" }
+{ "_id" : "54dfb4aef36171020600623a", "est_cost" : 123.1, "sector" : "Schools (Non-BSF)", "hmt_id" : 103, "name" : "Grouped Schools PFI Project" }
+{ "_id" : "54dfb4aef36171020600623b", "est_cost" : 154.3, "sector" : "Schools (Non-BSF)", "hmt_id" : 104, "name" : "Grouped Schools PFI Project" }
+{ "_id" : "54dfb4aef36171020600623c", "est_cost" : 145.6, "sector" : "Schools (Non-BSF)", "hmt_id" : 105, "name" : "Grouped Schools PFI" }
+{ "_id" : "54dfb4aef36171020600623d", "est_cost" : 145.7, "sector" : "Schools (Non-BSF)", "hmt_id" : 106, "name" : "Salford High Schools Project" }
+{ "_id" : "54dfb4aef36171020600623e", "est_cost" : 115.6, "sector" : "Schools (Non-BSF)", "hmt_id" : 107, "name" : "Salford SEN Schools Project" }
+{ "_id" : "54dfb4aef36171020600623f", "est_cost" : 144.6, "sector" : "Schools (BSF)", "hmt_id" : 108, "name" : "BSF Wave 1" }
+{ "_id" : "54dfb4aef361710206006240", "est_cost" : 131.4, "sector" : "Schools (Non-BSF)", "hmt_id" : 109, "name" : "Schools PFI Phase 2 (Priorgate)" }
+{ "_id" : "54dfb4aef361710206006241", "est_cost" : 158.4, "sector" : "Schools (Non-BSF)", "hmt_id" : 110, "name" : "Schools PFI Phase 3 (Academy schools)" }
+{ "_id" : "54dfb4aef361710206006242", "est_cost" : 163.4, "sector" : "Schools (Non-BSF)", "hmt_id" : 111, "name" : "Schools PFI Phase 1 (Pyramid schools)" }
+{ "_id" : "54dfb4aef361710206006243", "est_cost" : 161.2, "sector" : "Schools (Non-BSF)", "hmt_id" : 112, "name" : "Slough Grouped Schools PFI Contract" }
+{ "_id" : "54dfb4aef361710206006244", "est_cost" : 249.7, "sector" : "Schools (BSF)", "hmt_id" : 113, "name" : "BSF Wave1" }
+{ "_id" : "54dfb4aef361710206006245", "est_cost" : 148.2, "sector" : "Schools (Non-BSF)", "hmt_id" : 114, "name" : "Boldon School" }
+{ "_id" : "54dfb4aef361710206006246", "est_cost" : 185.2, "sector" : "Schools (Non-BSF)", "hmt_id" : 116, "name" : "Schools PFI" }
+{ "_id" : "54dfb4aef361710206006247", "est_cost" : 45.279, "sector" : "Schools (Non-BSF)", "hmt_id" : 117, "name" : "Two schools" }
+{ "_id" : "54dfb4aef361710206006248", "est_cost" : 113.3, "sector" : "Schools (Non-BSF)", "hmt_id" : 118, "name" : "Two schools @ Ingleby Barwick" }
+{ "_id" : "54dfb4aef361710206006249", "est_cost" : 239.9, "sector" : "Schools (Non-BSF)", "hmt_id" : 119, "name" : "Stoke Schools PFI" }
+{ "_id" : "54dfb4aef36171020600624a", "est_cost" : 119.6, "sector" : "Schools (Non-BSF)", "hmt_id" : 120, "name" : "Sandhill View Community Learning Centre" }
+{ "_id" : "54dfb4aef36171020600624b", "est_cost" : 173.5, "sector" : "Schools (Non-BSF)", "hmt_id" : 121, "name" : "North Swindon PFI project" }
+{ "_id" : "54dfb4aef36171020600624c", "est_cost" : 114.6, "sector" : "Schools (BSF)", "hmt_id" : 122, "name" : "BSF Wave 3 Phase 1" }
+{ "_id" : "54dfb4aef36171020600624d", "est_cost" : 159.6, "sector" : "Schools (Non-BSF)", "hmt_id" : 123, "name" : "Hattersley Schools PFI Project " }
+{ "_id" : "54dfb4aef36171020600624e", "est_cost" : 116.6, "sector" : "Schools (Non-BSF)", "hmt_id" : 124, "name" : "Two school rebuild" }
+{ "_id" : "54dfb4aef36171020600624f", "est_cost" : 154, "sector" : "Schools (Non-BSF)", "hmt_id" : 125, "name" : "St Thomas More" }
+{ "_id" : "54dfb4aef361710206006250", "est_cost" : 281.4, "sector" : "Schools (Non-BSF)", "hmt_id" : 126, "name" : "Crawley Schools" }
+{ "_id" : "54dfb4aef361710206006251", "est_cost" : 176.5, "sector" : "Schools (Non-BSF)", "hmt_id" : 127, "name" : "Three North Wiltshire Secondary Schools" }
+{ "_id" : "54dfb4aef361710206006252", "est_cost" : 150.4, "sector" : "Schools (Non-BSF)", "hmt_id" : 128, "name" : "Wirral Schools' PFI" }
+{ "_id" : "54dfb4aef361710206006253", "est_cost" : 187.5, "sector" : "Schools (Non-BSF)", "hmt_id" : 129, "name" : "Bromsgrove Schools PFI" }
+{ "_id" : "54dfb4aef361710206006254", "est_cost" : 225.5, "sector" : "Offices", "hmt_id" : 132, "name" : "Depot services" }
+{ "_id" : "54dfb4aef361710206006255", "est_cost" : 1.1, "sector" : "Housing (Non-HRA)", "hmt_id" : 133, "name" : "NE Derbyshire Holmewood Non-HRA" }
+{ "_id" : "54dfb4aef361710206006256", "est_cost" : 8.900000000000004, "sector" : "Housing (HRA)", "hmt_id" : 134, "name" : "Manchester Domestic Energy Services" }
+{ "_id" : "54dfb4aef361710206006257", "est_cost" : 176.6, "sector" : "Offices", "hmt_id" : 135, "name" : "Heart of the City Offices" }
+{ "_id" : "54dfb4aef361710206006258", "est_cost" : 17.5, "sector" : "Emergency Services", "hmt_id" : 136, "name" : "Stretford Divisional Headquarters and Fire Station" }
+{ "_id" : "54dfb4aef361710206006259", "est_cost" : 9.199999999999999, "sector" : "Offices", "hmt_id" : 137, "name" : "Salt Barns" }
+{ "_id" : "54dfb4aef36171020600625a", "est_cost" : 170.4, "sector" : "Offices", "hmt_id" : 138, "name" : "Technology & Learning Centre" }
+{ "_id" : "54dfb4aef36171020600625b", "est_cost" : 21.90000000000001, "sector" : "Housing (Non-HRA)", "hmt_id" : 139, "name" : "Tower Hamlets Barkantine Energy" }
+{ "_id" : "54dfb4aef36171020600625c", "est_cost" : 14.59999999999999, "sector" : "Housing (Non-HRA)", "hmt_id" : 141, "name" : "Derby Inner City Regeneration" }
+{ "_id" : "54dfb4aef36171020600625d", "est_cost" : 27.29999999999999, "sector" : "Emergency Services", "hmt_id" : 142, "name" : "Fire Training Facility and Fire Station" }
+{ "_id" : "54dfb4aef36171020600625e", "est_cost" : 334.0000000000001, "sector" : "Emergency Services", "hmt_id" : 143, "name" : "Fire Vehicles & Equipment" }
+{ "_id" : "54dfb4aef36171020600625f", "est_cost" : 66.2, "sector" : "Emergency Services", "hmt_id" : 144, "name" : "Joint Fire Training Facility" }
+{ "_id" : "54dfb4aef361710206006260", "est_cost" : 47.70000000000001, "sector" : "Emergency Services", "hmt_id" : 145, "name" : "Cornwall Fire Stations" }
+{ "_id" : "54dfb4aef361710206006261", "est_cost" : 56.00000000000001, "sector" : "Offices", "hmt_id" : 146, "name" : "Council Offices & Business Centre" }
+{ "_id" : "54dfb4aef361710206006262", "est_cost" : 45.8, "sector" : "Offices", "hmt_id" : 147, "name" : "Community Learning Resource Centre & Primary School" }
+{ "_id" : "54dfb4aef361710206006263", "est_cost" : 41.1, "sector" : "Offices", "hmt_id" : 148, "name" : "New Council Offices" }
+{ "_id" : "54dfb4aef361710206006264", "est_cost" : 33.4, "sector" : "Offices", "hmt_id" : 149, "name" : "Civic Centre Office Accommodation" }
+{ "_id" : "54dfb4aef361710206006265", "est_cost" : 19.5, "sector" : "Emergency Services", "hmt_id" : 151, "name" : "Divisional HQ and two fire stations" }
+{ "_id" : "54dfb4aef361710206006266", "est_cost" : 357.3, "sector" : "Housing (HRA)", "hmt_id" : 153, "name" : "Islington Street Properties I" }
+{ "_id" : "54dfb4aef361710206006267", "est_cost" : 151.5, "sector" : "Housing (HRA)", "hmt_id" : 154, "name" : "A6 Plymouth Grove / Ardwick HRA" }
+{ "_id" : "54dfb4aef361710206006268", "est_cost" : 114.8, "sector" : "Emergency Services", "hmt_id" : 155, "name" : "New HQ and community fire stations" }
+{ "_id" : "54dfb4aef361710206006269", "est_cost" : 14.5, "sector" : "Housing (Non-HRA)", "hmt_id" : 157, "name" : "Selby, Sherburn and Tadcaster" }
+{ "_id" : "54dfb4aef36171020600626a", "est_cost" : 62, "sector" : "Social Care", "hmt_id" : 158, "name" : "PFI Nursing Homes (Farm Lane)" }
+{ "_id" : "54dfb4aef36171020600626b", "est_cost" : 174, "sector" : "Housing (HRA)", "hmt_id" : 159, "name" : "Reading North Whitley" }
+{ "_id" : "54dfb4aef36171020600626c", "est_cost" : 14.4, "sector" : "Offices", "hmt_id" : 160, "name" : "Kenton & Walker Joint Service Centres (LIFT project)" }
+{ "_id" : "54dfb4aef36171020600626d", "est_cost" : 14.9, "sector" : "Housing (Non-HRA)", "hmt_id" : 161, "name" : "Warrington Phase 1: Anson & Blenheim          Phase 2: John Morris House" }
+{ "_id" : "54dfb4aef36171020600626e", "est_cost" : 50.09999999999999, "sector" : "Offices", "hmt_id" : 162, "name" : "Bentilee Joint Service Centre" }
+{ "_id" : "54dfb4aef36171020600626f", "est_cost" : 271, "sector" : "Housing (HRA)", "hmt_id" : 163, "name" : "Leeds Swarcliffe Social Housing" }
+{ "_id" : "54dfb4aef361710206006270", "est_cost" : 188.5, "sector" : "Housing (HRA)", "hmt_id" : 164, "name" : "NewhamCanning Town" }
+{ "_id" : "54dfb4aef361710206006271", "est_cost" : 37.3, "sector" : "Offices", "hmt_id" : 165, "name" : "Clifton & Hyson Green JSC (LIFT project)" }
+{ "_id" : "54dfb4aef361710206006272", "est_cost" : 5.200000000000002, "sector" : "Offices", "hmt_id" : 166, "name" : "Streatham Joint Service Centre (LIFT project)" }
+{ "_id" : "54dfb4aef361710206006273", "est_cost" : 203.6, "sector" : "Housing (Non-HRA)", "hmt_id" : 167, "name" : "Coventry New Homes  for Old" }
+{ "_id" : "54dfb4aef361710206006274", "est_cost" : 211.5, "sector" : "Housing (HRA)", "hmt_id" : 168, "name" : "Sandwell Hawthorn Fields" }
+{ "_id" : "54dfb4aef361710206006275", "est_cost" : 148.2, "sector" : "Housing (HRA)", "hmt_id" : 169, "name" : "Camden Chalcots Estate" }
+{ "_id" : "54dfb4aef361710206006276", "est_cost" : 421.4, "sector" : "Housing (HRA)", "hmt_id" : 170, "name" : "Islington Street Properties II" }
+{ "_id" : "54dfb4aef361710206006277", "est_cost" : 4.500000000000002, "sector" : "Offices", "hmt_id" : 171, "name" : "Merlyn Vaz Centre (LIFT project - formerly Charnwood JSC)" }
+{ "_id" : "54dfb4aef361710206006278", "est_cost" : 434.3, "sector" : "Housing (HRA)", "hmt_id" : 172, "name" : "Oldham Sheltered Housing PFI" }
+{ "_id" : "54dfb4aef361710206006279", "est_cost" : 9.5, "sector" : "Offices", "hmt_id" : 173, "name" : "Gosforth Joint Service Centre (LIFT project)" }
+{ "_id" : "54dfb4aef36171020600627a", "est_cost" : 32.4, "sector" : "Offices", "hmt_id" : 174, "name" : "Dudley & Shiremoor Joint Service Centres (LIFT project)" }
+{ "_id" : "54dfb4aef36171020600627b", "est_cost" : 160, "sector" : "Social Care", "hmt_id" : 175, "name" : "Homes for the Future(New4Old) Project" }
+{ "_id" : "54dfb4aef36171020600627c", "est_cost" : 512.8999999999999, "sector" : "Housing (HRA)", "hmt_id" : 176, "name" : "Miles Platting HRA" }
+{ "_id" : "54dfb4aef36171020600627d", "est_cost" : 128.7, "sector" : "Housing (HRA)", "hmt_id" : 177, "name" : "Ashford Stanhope" }
+{ "_id" : "54dfb4aef36171020600627e", "est_cost" : 378.6999999999999, "sector" : "Housing (HRA)", "hmt_id" : 178, "name" : "Lewisham Brockley" }
+{ "_id" : "54dfb4aef36171020600627f", "est_cost" : 216.1, "sector" : "Emergency Services", "hmt_id" : 179, "name" : "Dorset Emergency Services Partnership Initiative  (DESPI)" }
+{ "_id" : "54dfb4aef361710206006280", "est_cost" : 11.5, "sector" : "Offices", "hmt_id" : 180, "name" : "West End Joint Service Centre (LIFT project)" }
+{ "_id" : "54dfb4aef361710206006281", "est_cost" : 150.4, "sector" : "Housing (Non-HRA)", "hmt_id" : 181, "name" : "Cheshire Extra Care Housing" }
+{ "_id" : "54dfb4aef361710206006282", "est_cost" : 164.1000000000001, "sector" : "Housing (Non-HRA)", "hmt_id" : 182, "name" : "Kent Better Homes Active Lives " }
+{ "_id" : "54dfb4aef361710206006283", "est_cost" : 5.499999999999999, "sector" : "Offices", "hmt_id" : 183, "name" : "East End Joint Service Centre (LIFT project)" }
+{ "_id" : "54dfb4aef361710206006284", "est_cost" : 19.8, "sector" : "Offices", "hmt_id" : 184, "name" : "Orchard Park Joint Service Centre (LIFT project)" }
+{ "_id" : "54dfb4aef361710206006285", "est_cost" : 237.8, "sector" : "Housing (Non-HRA)", "hmt_id" : 185, "name" : "Leeds Independent Living" }
+{ "_id" : "54dfb4aef361710206006286", "est_cost" : 87.80000000000001, "sector" : "Emergency Services", "hmt_id" : 186, "name" : "Suffolk FRS Serviced Accomodation PFI Project" }
+{ "_id" : "54dfb4aef361710206006287", "est_cost" : 9.200000000000003, "sector" : "Offices", "hmt_id" : 187, "name" : "Heywood Joint Service Centre (LIFT project)" }
+{ "_id" : "54dfb4aef361710206006288", "est_cost" : 91.2, "sector" : "Housing (Non-HRA)", "hmt_id" : 188, "name" : "Brent  Round 2 Non-HRA Housing " }
+{ "_id" : "54dfb4aef361710206006289", "est_cost" : 174, "sector" : "Housing (HRA)", "hmt_id" : 189, "name" : "Newham Forest Gate" }
+{ "_id" : "54dfb4aef36171020600628a", "est_cost" : 36.1, "sector" : "Offices", "hmt_id" : 190, "name" : "Chapeltown & Harehills Joint Service Centres (LIFT project)" }
+{ "_id" : "54dfb4aef36171020600628b", "est_cost" : 217.6, "sector" : "Leisure Facilities", "hmt_id" : 191, "name" : "Wigan Life Centre" }
+{ "_id" : "54dfb4aef36171020600628c", "est_cost" : 124.1, "sector" : "Leisure Facilities", "hmt_id" : 192, "name" : "NEFRA1 North East Fire & Rescue" }
+{ "_id" : "54dfb4aef36171020600628d", "est_cost" : 105.3, "sector" : "Leisure Facilities", "hmt_id" : 193, "name" : "Amber Valley Quest for Leisure" }
+{ "_id" : "54dfb4aef36171020600628e", "est_cost" : 70.39999999999999, "sector" : "Libraries", "hmt_id" : 194, "name" : "New Central Library and community library ICT system" }
+{ "_id" : "54dfb4aef36171020600628f", "est_cost" : 78.89999999999999, "sector" : "Leisure Facilities", "hmt_id" : 195, "name" : "Making Connections Leisure Project   " }
+{ "_id" : "54dfb4aef361710206006290", "est_cost" : 51.10000000000001, "sector" : "Libraries", "hmt_id" : 196, "name" : "Jubilee Library Brighton" }
+{ "_id" : "54dfb4aef361710206006291", "est_cost" : 98.7, "sector" : "Leisure Facilities", "hmt_id" : 197, "name" : "New Leaf Leisure Centres Project" }
+{ "_id" : "54dfb4aef361710206006292", "est_cost" : 63.7, "sector" : "Leisure Facilities", "hmt_id" : 198, "name" : "Willesden Sports Centre" }
+{ "_id" : "54dfb4aef361710206006293", "est_cost" : 72.2, "sector" : "Leisure Facilities", "hmt_id" : 199, "name" : "Downham Lifestyles Centre" }
+{ "_id" : "54dfb4aef361710206006294", "est_cost" : 90.60000000000001, "sector" : "Libraries", "hmt_id" : 200, "name" : "Newcastle City Council Private Finance Initiative Project: New City Library and High Heaton Community Library" }
+{ "_id" : "54dfb4aef361710206006295", "est_cost" : 79.7, "sector" : "Leisure Facilities", "hmt_id" : 201, "name" : "Oldham Library & Lifelong Learning Centre   " }
+{ "_id" : "54dfb4aef361710206006296", "est_cost" : 8.199999999999999, "sector" : "Leisure Facilities", "hmt_id" : 202, "name" : "Penzance Leisure Centre" }
+{ "_id" : "54dfb4aef361710206006297", "est_cost" : 167.6, "sector" : "Leisure Facilities", "hmt_id" : 203, "name" : "Sport & Leisure Facilities & Maltby Joint Service Centre Project" }
+{ "_id" : "54dfb4aef361710206006298", "est_cost" : 30.69999999999999, "sector" : "Leisure Facilities", "hmt_id" : 204, "name" : "Crosby Leisure Centre " }
+{ "_id" : "54dfb4aef361710206006299", "est_cost" : 37.09999999999999, "sector" : "Leisure Facilities", "hmt_id" : 205, "name" : "Uttlesford Sports and Leisure Centre " }
+{ "_id" : "54dfb4aef36171020600629a", "est_cost" : 36.89999999999998, "sector" : "Leisure Facilities", "hmt_id" : 206, "name" : "North East Leisure Centre" }
+{ "_id" : "54dfb4aef36171020600629b", "est_cost" : 495.7000000000001, "sector" : "Waste", "hmt_id" : 207, "name" : "South Gloucestershire Waste Management Project  " }
+{ "_id" : "54dfb4aef36171020600629c", "est_cost" : 718.3999999999999, "sector" : "Waste", "hmt_id" : 208, "name" : "Central Berkshire Waste Management Project" }
+{ "_id" : "54dfb4aef36171020600629d", "est_cost" : 1094.7, "sector" : "Waste", "hmt_id" : 209, "name" : "Cornwall Integrated Waste Manageement Project  " }
+{ "_id" : "54dfb4aef36171020600629e", "est_cost" : 1446, "sector" : "Waste", "hmt_id" : 210, "name" : "ELWA Integrated Waste Management: Put Waste in its Place  " }
+{ "_id" : "54dfb4aef36171020600629f", "est_cost" : 1122, "sector" : "Waste", "hmt_id" : 211, "name" : "E.Sussex Brighton & Hove Intd Waste Management Service New Waste Partnerships" }
+{ "_id" : "54dfb4aef3617102060062a0", "est_cost" : 3907.700000000001, "sector" : "Waste", "hmt_id" : 214, "name" : "Manchester Waste" }
+{ "_id" : "54dfb4aef3617102060062a1", "est_cost" : 94.69999999999999, "sector" : "Waste", "hmt_id" : 215, "name" : "Isle of Wight  Waste Management Project " }
+{ "_id" : "54dfb4aef3617102060062a2", "est_cost" : 165.2, "sector" : "Offices", "hmt_id" : 216, "name" : "PFI Eastbrook" }
+{ "_id" : "54dfb4aef3617102060062a3", "est_cost" : 748.0999999999999, "sector" : "Waste", "hmt_id" : 217, "name" : "Cambridgeshire Waste Management Project " }
+{ "_id" : "54dfb4aef3617102060062a4", "est_cost" : 751.0000000000001, "sector" : "Waste", "hmt_id" : 218, "name" : "Hereford & Worcestershire Waste Management Project  " }
+{ "_id" : "54dfb4aef3617102060062a5", "est_cost" : 1996.100000000001, "sector" : "Waste", "hmt_id" : 219, "name" : "Lancashire Waste Partnership  PFI proposal" }
+{ "_id" : "54dfb4aef3617102060062a6", "est_cost" : 361.4, "sector" : "Waste", "hmt_id" : 220, "name" : "Leicester Contract for Integrated Waste Management Services " }
+{ "_id" : "54dfb4aef3617102060062a7", "est_cost" : 683.5, "sector" : "Waste", "hmt_id" : 221, "name" : "Southwark Integrated Waste Management Solutions Programme   " }
+{ "_id" : "54dfb4aef3617102060062a8", "est_cost" : 708.5999999999999, "sector" : "Waste", "hmt_id" : 222, "name" : "North'land Waste Management PFI Project" }
+{ "_id" : "54dfb4aef3617102060062a9", "est_cost" : 843.4000000000001, "sector" : "Waste", "hmt_id" : 223, "name" : "Nottinghamshire Sustainable Waste Solutions" }
+{ "_id" : "54dfb4aef3617102060062aa", "est_cost" : 874.0000000000001, "sector" : "Waste", "hmt_id" : 224, "name" : "Shropshire Integrated Waste Contract " }
+{ "_id" : "54dfb4aef3617102060062ab", "est_cost" : 257.5000000000001, "sector" : "Waste", "hmt_id" : 225, "name" : "Kirklees Waste Management Project  " }
+{ "_id" : "54dfb4aef3617102060062ac", "est_cost" : 1437.6, "sector" : "Waste", "hmt_id" : 226, "name" : "Surrey Quest Waste Disposal Project " }
+{ "_id" : "54dfb4aef3617102060062ad", "est_cost" : 515.5999999999999, "sector" : "Waste", "hmt_id" : 227, "name" : "West Berkshire Long-term Integrated Waste Management Contract  " }
+{ "_id" : "54dfb4aef3617102060062ae", "est_cost" : 450.3, "sector" : "Waste", "hmt_id" : 228, "name" : "West Sussex Recycling & Waste Handling Project - Reclaim " }
+{ "_id" : "54dfb4aef3617102060062af", "est_cost" : 97.19999999999999, "sector" : "Street Lighting", "hmt_id" : 229, "name" : "Redcar & Cleveland Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062b0", "est_cost" : 107.6, "sector" : "Street Lighting", "hmt_id" : 230, "name" : "Barnet Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062b1", "est_cost" : 456.7, "sector" : "Roads and Highway Maintenance", "hmt_id" : 231, "name" : "Carlisle Northern Development Route" }
+{ "_id" : "54dfb4aef3617102060062b2", "est_cost" : 217.4, "sector" : "Street Lighting", "hmt_id" : 232, "name" : "Sunderland Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062b3", "est_cost" : 126.9, "sector" : "Street Lighting", "hmt_id" : 233, "name" : "Stoke Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062b4", "est_cost" : 466.9, "sector" : "Offices", "hmt_id" : 234, "name" : "Estates Transformation" }
+{ "_id" : "54dfb4aef3617102060062b5", "est_cost" : 199, "sector" : "Street Lighting", "hmt_id" : 235, "name" : "Manchester Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062b6", "est_cost" : 98.89999999999999, "sector" : "Street Lighting", "hmt_id" : 236, "name" : "South Tyneside Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062b7", "est_cost" : 314.6, "sector" : "Roads and Highway Maintenance", "hmt_id" : 237, "name" : "A130" }
+{ "_id" : "54dfb4aef3617102060062b8", "est_cost" : 1079.9, "sector" : "Roads and Highway Maintenance", "hmt_id" : 238, "name" : "A1 Darrington to Dishforth" }
+{ "_id" : "54dfb4aef3617102060062b9", "est_cost" : 750.2000000000002, "sector" : "Roads and Highway Maintenance", "hmt_id" : 239, "name" : "A1(M) Alconbury to Peterborough" }
+{ "_id" : "54dfb4aef3617102060062ba", "est_cost" : 1000.8, "sector" : "Roads and Highway Maintenance", "hmt_id" : 240, "name" : "A19 Dishforth to Tyne Tunnel DBFO" }
+{ "_id" : "54dfb4aef3617102060062bb", "est_cost" : 368.8, "sector" : "Roads and Highway Maintenance", "hmt_id" : 241, "name" : "A249 Stockburyto Sheerness" }
+{ "_id" : "54dfb4aef3617102060062bc", "est_cost" : 704.1999999999999, "sector" : "Roads and Highway Maintenance", "hmt_id" : 242, "name" : "A30/A35 Exeter to Bere Regis" }
+{ "_id" : "54dfb4aef3617102060062bd", "est_cost" : 500.0000000000002, "sector" : "Roads and Highway Maintenance", "hmt_id" : 243, "name" : "A417/A419 Swindon to Gloucester" }
+{ "_id" : "54dfb4aef3617102060062be", "est_cost" : 401.7, "sector" : "Roads and Highway Maintenance", "hmt_id" : 244, "name" : "A50/A564 Stoke to Derby Link " }
+{ "_id" : "54dfb4aef3617102060062bf", "est_cost" : 350.5, "sector" : "Roads and Highway Maintenance", "hmt_id" : 245, "name" : "A69 Carlisle to Newcastle" }
+{ "_id" : "54dfb4aef3617102060062c0", "est_cost" : 1075.7, "sector" : "Roads and Highway Maintenance", "hmt_id" : 246, "name" : "M1-A1 Lofthouse to Bramham Link" }
+{ "_id" : "54dfb4aef3617102060062c1", "est_cost" : 10699.5, "sector" : "Roads and Highway Maintenance", "hmt_id" : 247, "name" : "M25 Orbital" }
+{ "_id" : "54dfb4aef3617102060062c2", "est_cost" : 1083.5, "sector" : "Roads and Highway Maintenance", "hmt_id" : 248, "name" : "M40 Denham to Warwick" }
+{ "_id" : "54dfb4aef3617102060062c3", "est_cost" : null, "sector" : "Roads and Highway Maintenance", "hmt_id" : 249, "name" : "M6 Toll (formerly Birmingham Northern Relief Road 'BNRR')" }
+{ "_id" : "54dfb4aef3617102060062c4", "est_cost" : 495.4, "sector" : "Roads and Highway Maintenance", "hmt_id" : 250, "name" : "National Roads Telecommunications Services" }
+{ "_id" : "54dfb4aef3617102060062c5", "est_cost" : null, "sector" : "Roads and Highway Maintenance", "hmt_id" : 252, "name" : "Severn River Crossings" }
+{ "_id" : "54dfb4aef3617102060062c6", "est_cost" : 150.3, "sector" : "Street Lighting", "hmt_id" : 253, "name" : "Dorset Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062c7", "est_cost" : 164.4, "sector" : "Street Lighting", "hmt_id" : 254, "name" : "Norfolk Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062c8", "est_cost" : 266.4, "sector" : "Street Lighting", "hmt_id" : 255, "name" : "Staffordshire Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062c9", "est_cost" : 86.40000000000001, "sector" : "Street Lighting", "hmt_id" : 256, "name" : "Lambeth Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062ca", "est_cost" : 99.3, "sector" : "Street Lighting", "hmt_id" : 257, "name" : "Walsall Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062cb", "est_cost" : 342.4, "sector" : "Street Lighting", "hmt_id" : 258, "name" : "Leeds Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062cc", "est_cost" : 683.0000000000001, "sector" : "Roads and Highway Maintenance", "hmt_id" : 260, "name" : "Portsmouth Highways Maintenance" }
+{ "_id" : "54dfb4aef3617102060062cd", "est_cost" : 114.6, "sector" : "Street Lighting", "hmt_id" : 261, "name" : "Wakefield Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062ce", "est_cost" : 344, "sector" : "Street Lighting", "hmt_id" : 262, "name" : "North Tyneside & Newcastle Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062cf", "est_cost" : 95.00000000000001, "sector" : "Roads and Highway Maintenance", "hmt_id" : 263, "name" : "Doncaster Interchange" }
+{ "_id" : "54dfb4aef3617102060062d0", "est_cost" : 137.6, "sector" : "Street Lighting", "hmt_id" : 264, "name" : "Derby Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062d1", "est_cost" : 108, "sector" : "Street Lighting", "hmt_id" : 265, "name" : "Ealing Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062d2", "est_cost" : 126.6, "sector" : "Street Lighting", "hmt_id" : 266, "name" : "Enfield Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062d3", "est_cost" : 898.8999999999999, "sector" : "Roads and Highway Maintenance", "hmt_id" : 267, "name" : "A13 Thames Gateway DBFO Contract" }
+{ "_id" : "54dfb4aef3617102060062d4", "est_cost" : 76.60000000000001, "sector" : "Offices", "hmt_id" : 268, "name" : "British Transport Police" }
+{ "_id" : "54dfb4aef3617102060062d5", "est_cost" : 1558.4, "sector" : "Underground Rail", "hmt_id" : 269, "name" : "Connect" }
+{ "_id" : "54dfb4aef3617102060062d6", "est_cost" : 670.0999999999999, "sector" : "Tram/Light Rail", "hmt_id" : 271, "name" : "DLR Lewisham" }
+{ "_id" : "54dfb4aef3617102060062d7", "est_cost" : 196.9, "sector" : "Roads and Highway Maintenance", "hmt_id" : 276, "name" : "MOT Computerisation" }
+{ "_id" : "54dfb4aef3617102060062d8", "est_cost" : 63.49999999999999, "sector" : "Street Lighting", "hmt_id" : 277, "name" : "Islington Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062d9", "est_cost" : 70.80000000000001, "sector" : "Street Lighting", "hmt_id" : 278, "name" : "Brent Street Lighting" }
+{ "_id" : "54dfb4aef3617102060062da", "est_cost" : 359.9, "sector" : "Offices", "hmt_id" : 279, "name" : "HSL Buxton PFI" }
+{ "_id" : "54dfb4aef3617102060062db", "est_cost" : 340.7, "sector" : "Offices", "hmt_id" : 280, "name" : "New Merseyside Centre" }
+{ "_id" : "54dfb4aef3617102060062dc", "est_cost" : 9030.099999999999, "sector" : "Offices", "hmt_id" : 282, "name" : "PRIME" }
+{ "_id" : "54dfb4aef3617102060062dd", "est_cost" : 329, "sector" : "Hospitals and Acute Health", "hmt_id" : 283, "name" : "Reprovision of mental health services " }
+{ "_id" : "54dfb4aef3617102060062de", "est_cost" : 2203, "sector" : "Hospitals and Acute Health", "hmt_id" : 284, "name" : "Oldchurch hospital in Romford" }
+{ "_id" : "54dfb4aef3617102060062df", "est_cost" : 775, "sector" : "Hospitals and Acute Health", "hmt_id" : 285, "name" : "NHS Treatment Centre" }
+{ "_id" : "54dfb4aef3617102060062e0", "est_cost" : 7143, "sector" : "Hospitals and Acute Health", "hmt_id" : 286, "name" : "Acute site rationalisation " }
+{ "_id" : "54dfb4aef3617102060062e1", "est_cost" : 185, "sector" : "Hospitals and Acute Health", "hmt_id" : 287, "name" : "Fairmile (Prospects Park Hospital )" }
+{ "_id" : "54dfb4aef3617102060062e2", "est_cost" : 137, "sector" : "Hospitals and Acute Health", "hmt_id" : 288, "name" : "Newbury & Thatcham Hospital (West Berkshire Community Hospital )" }
+{ "_id" : "54dfb4aef3617102060062e3", "est_cost" : 233, "sector" : "Hospitals and Acute Health", "hmt_id" : 289, "name" : "Reprovsion of mental health services " }
+{ "_id" : "54dfb4aef3617102060062e4", "est_cost" : 95, "sector" : "Hospitals and Acute Health", "hmt_id" : 290, "name" : "The Whitegate Centre" }
+{ "_id" : "54dfb4aef3617102060062e5", "est_cost" : 126, "sector" : "Hospitals and Acute Health", "hmt_id" : 291, "name" : "Willesden" }
+{ "_id" : "54dfb4aef3617102060062e6", "est_cost" : 165, "sector" : "Hospitals and Acute Health", "hmt_id" : 292, "name" : "New Children's Hospital " }
+{ "_id" : "54dfb4aef3617102060062e7", "est_cost" : 646, "sector" : "Hospitals and Acute Health", "hmt_id" : 293, "name" : "Stoke Mandeville" }
+{ "_id" : "54dfb4aef3617102060062e8", "est_cost" : 522, "sector" : "Hospitals and Acute Health", "hmt_id" : 294, "name" : "Wycombe & Amersham" }
+{ "_id" : "54dfb4aef3617102060062e9", "est_cost" : 774, "sector" : "Hospitals and Acute Health", "hmt_id" : 295, "name" : "Calderdale Royal Hospital" }
+{ "_id" : "54dfb4aef3617102060062ea", "est_cost" : 320, "sector" : "Hospitals and Acute Health", "hmt_id" : 296, "name" : "Addenbrookes" }
+{ "_id" : "54dfb4aef3617102060062eb", "est_cost" : 3291, "sector" : "Hospitals and Acute Health", "hmt_id" : 297, "name" : "Redevelopment of 3 hospitals for Women, Children, Adults and a specialist Eye Hospital" }
+{ "_id" : "54dfb4aef3617102060062ec", "est_cost" : 427, "sector" : "Hospitals and Acute Health", "hmt_id" : 298, "name" : "Bishop Auckland General Hospital" }
+{ "_id" : "54dfb4aef3617102060062ed", "est_cost" : 577, "sector" : "Hospitals and Acute Health", "hmt_id" : 299, "name" : "University Hospital of North Durham - Dryburn District Hospital" }
+{ "_id" : "54dfb4aef3617102060062ee", "est_cost" : 899, "sector" : "Hospitals and Acute Health", "hmt_id" : 300, "name" : "Darent Valley" }
+{ "_id" : "54dfb4aef3617102060062ef", "est_cost" : 2502, "sector" : "Hospitals and Acute Health", "hmt_id" : 301, "name" : "Redevelopment of Derby City General Hospital site" }
+{ "_id" : "54dfb4aef3617102060062f0", "est_cost" : 295, "sector" : "Hospitals and Acute Health", "hmt_id" : 302, "name" : "Reprovision of mental health services" }
+{ "_id" : "54dfb4aef3617102060062f1", "est_cost" : 2109, "sector" : "Hospitals and Acute Health", "hmt_id" : 303, "name" : "Russells Hall Acute Hospital" }
+{ "_id" : "54dfb4aef3617102060062f2", "est_cost" : 465, "sector" : "Social Care", "hmt_id" : 304, "name" : "Resource Centres PFI Scheme " }
+{ "_id" : "54dfb4aef3617102060062f3", "est_cost" : 86, "sector" : "Hospitals and Acute Health", "hmt_id" : 305, "name" : "Herts and Essex Community Hospital" }
+{ "_id" : "54dfb4aef3617102060062f4", "est_cost" : 796, "sector" : "Hospitals and Acute Health", "hmt_id" : 306, "name" : "Blackburn" }
+{ "_id" : "54dfb4aef3617102060062f5", "est_cost" : 181, "sector" : "Hospitals and Acute Health", "hmt_id" : 307, "name" : "Burnley" }
+{ "_id" : "54dfb4aef3617102060062f6", "est_cost" : 192, "sector" : "Hospitals and Acute Health", "hmt_id" : 308, "name" : "Mental Health services reprovision at Newham" }
+{ "_id" : "54dfb4aef3617102060062f7", "est_cost" : 153, "sector" : "Hospitals and Acute Health", "hmt_id" : 309, "name" : "Partial site redevelopment" }
+{ "_id" : "54dfb4aef3617102060062f8", "est_cost" : 333, "sector" : "Social Care", "hmt_id" : 310, "name" : "Neighbourhood Resource Centres Greenwich" }
+{ "_id" : "54dfb4aef3617102060062f9", "est_cost" : 215, "sector" : "Hospitals and Acute Health", "hmt_id" : 311, "name" : "Lymington Hospital" }
+{ "_id" : "54dfb4aef3617102060062fa", "est_cost" : 874, "sector" : "Hospitals and Acute Health", "hmt_id" : 312, "name" : "New District General Hospital" }
+{ "_id" : "54dfb4aef3617102060062fb", "est_cost" : 103, "sector" : "Hospitals and Acute Health", "hmt_id" : 313, "name" : "Maternity and acute development - Hull Royal Infirmary" }
+{ "_id" : "54dfb4aef3617102060062fc", "est_cost" : 193, "sector" : "Hospitals and Acute Health", "hmt_id" : 314, "name" : "Reconfiguration of Cancer facilities - Castle Hill Hospital" }
+{ "_id" : "54dfb4aef3617102060062fd", "est_cost" : 134, "sector" : "Hospitals and Acute Health", "hmt_id" : 315, "name" : "Garrett Anderson Treatment Centre" }
+{ "_id" : "54dfb4aef3617102060062fe", "est_cost" : 120, "sector" : "Social Care", "hmt_id" : 316, "name" : "Westview and Victoria House Integrated Care Centres" }
+{ "_id" : "54dfb4aef3617102060062ff", "est_cost" : 726, "sector" : "Hospitals and Acute Health", "hmt_id" : 317, "name" : "New block" }
+{ "_id" : "54dfb4aef361710206006300", "est_cost" : 455, "sector" : "Hospitals and Acute Health", "hmt_id" : 318, "name" : "Kingston Hospital" }
+{ "_id" : "54dfb4aef361710206006301", "est_cost" : 89, "sector" : "Hospitals and Acute Health", "hmt_id" : 319, "name" : "6 5 new Primary Care Centres" }
+{ "_id" : "54dfb4aef361710206006302", "est_cost" : 363, "sector" : "Hospitals and Acute Health", "hmt_id" : 320, "name" : "Reprovision of mental health services" }
+{ "_id" : "54dfb4aef361710206006303", "est_cost" : 977, "sector" : "Hospitals and Acute Health", "hmt_id" : 321, "name" : "St James' University Hospital" }
+{ "_id" : "54dfb4aef361710206006304", "est_cost" : 105, "sector" : "Hospitals and Acute Health", "hmt_id" : 322, "name" : "South Holland Community Hospital   " }
+{ "_id" : "54dfb4aef361710206006305", "est_cost" : 46, "sector" : "Hospitals and Acute Health", "hmt_id" : 323, "name" : "St Mary's Wing" }
+{ "_id" : "54dfb4aef361710206006306", "est_cost" : 989, "sector" : "Hospitals and Acute Health", "hmt_id" : 324, "name" : "Pembury and Maidstone" }
+{ "_id" : "54dfb4aef361710206006307", "est_cost" : 771, "sector" : "Hospitals and Acute Health", "hmt_id" : 325, "name" : "Chelmsford" }
+{ "_id" : "54dfb4aef361710206006308", "est_cost" : 1591, "sector" : "Hospitals and Acute Health", "hmt_id" : 326, "name" : "Hospitals Development Project (Wakefield and Pontefract)" }
+{ "_id" : "54dfb4aef361710206006309", "est_cost" : 1413, "sector" : "Hospitals and Acute Health", "hmt_id" : 327, "name" : "Transforming the Newcastle Hospital" }
+{ "_id" : "54dfb4aef36171020600630a", "est_cost" : 737, "sector" : "Hospitals and Acute Health", "hmt_id" : 328, "name" : "Newham University Hospital" }
+{ "_id" : "54dfb4aef36171020600630b", "est_cost" : 434, "sector" : "Hospitals and Acute Health", "hmt_id" : 329, "name" : "Hereford DGH" }
+{ "_id" : "54dfb4aef36171020600630c", "est_cost" : 654, "sector" : "Hospitals and Acute Health", "hmt_id" : 330, "name" : "Cumberland Infirmary, Carlisle" }
+{ "_id" : "54dfb4aef36171020600630d", "est_cost" : 691, "sector" : "Hospitals and Acute Health", "hmt_id" : 331, "name" : "Reconfiguration of Acute Hospital services" }
+{ "_id" : "54dfb4aef36171020600630e", "est_cost" : 161, "sector" : "Hospitals and Acute Health", "hmt_id" : 332, "name" : "Reprovision of mental health facilities" }
+{ "_id" : "54dfb4aef36171020600630f", "est_cost" : 376, "sector" : "Hospitals and Acute Health", "hmt_id" : 333, "name" : "Central Middlesex Hospital" }
+{ "_id" : "54dfb4aef361710206006310", "est_cost" : 151, "sector" : "Hospitals and Acute Health", "hmt_id" : 334, "name" : "Berrywood Hospital" }
+{ "_id" : "54dfb4aef361710206006311", "est_cost" : 89, "sector" : "Hospitals and Acute Health", "hmt_id" : 335, "name" : "Danetre Community Hospital" }
+{ "_id" : "54dfb4aef361710206006312", "est_cost" : 152, "sector" : "Hospitals and Acute Health", "hmt_id" : 336, "name" : "St George's Park, Morpeth" }
+{ "_id" : "54dfb4aef361710206006313", "est_cost" : 105, "sector" : "Hospitals and Acute Health", "hmt_id" : 337, "name" : "Walkergate Park, Neuro Disability Centre" }
+{ "_id" : "54dfb4aef361710206006314", "est_cost" : 254, "sector" : "Hospitals and Acute Health", "hmt_id" : 338, "name" : "Hexham General Hospital" }
+{ "_id" : "54dfb4aef361710206006315", "est_cost" : 84, "sector" : "Hospitals and Acute Health", "hmt_id" : 339, "name" : "Wansbeck General Hospital (Phase 2)" }
+{ "_id" : "54dfb4aef361710206006316", "est_cost" : 119, "sector" : "Hospitals and Acute Health", "hmt_id" : 340, "name" : "Queen's Medical Centre" }
+{ "_id" : "54dfb4aef361710206006317", "est_cost" : 234, "sector" : "Hospitals and Acute Health", "hmt_id" : 341, "name" : "Elderly & Mental Health Units" }
+{ "_id" : "54dfb4aef361710206006318", "est_cost" : 325, "sector" : "Hospitals and Acute Health", "hmt_id" : 342, "name" : "Orthopaedics/medicine redevelopment at Nuffield Orthopaedic Centre" }
+{ "_id" : "54dfb4aef361710206006319", "est_cost" : 891, "sector" : "Hospitals and Acute Health", "hmt_id" : 343, "name" : "Integrated Cancer Centre" }
+{ "_id" : "54dfb4aef36171020600631a", "est_cost" : 1144, "sector" : "Hospitals and Acute Health", "hmt_id" : 344, "name" : "John Radcliffe Hospital" }
+{ "_id" : "54dfb4aef36171020600631b", "est_cost" : 86, "sector" : "Hospitals and Acute Health", "hmt_id" : 345, "name" : "Joint procurement to reprovide mental health services" }
+{ "_id" : "54dfb4aef36171020600631c", "est_cost" : 1964, "sector" : "Hospitals and Acute Health", "hmt_id" : 346, "name" : "Acute Hospital services" }
+{ "_id" : "54dfb4aef36171020600631d", "est_cost" : 41, "sector" : "Social Care", "hmt_id" : 347, "name" : "Provision of New Residential Respite Care and Day Care Facilities in Portsmouth and Associated Services" }
+{ "_id" : "54dfb4aef36171020600631e", "est_cost" : 2108, "sector" : "Hospitals and Acute Health", "hmt_id" : 348, "name" : "Relocation of Acute services" }
+{ "_id" : "54dfb4aef36171020600631f", "est_cost" : 136, "sector" : "Hospitals and Acute Health", "hmt_id" : 349, "name" : "Redcar Primary Care Hospital" }
+{ "_id" : "54dfb4aef361710206006320", "est_cost" : 715, "sector" : "Hospitals and Acute Health", "hmt_id" : 350, "name" : "Hope Hospital, Salford" }
+{ "_id" : "54dfb4aef361710206006321", "est_cost" : 104, "sector" : "Hospitals and Acute Health", "hmt_id" : 351, "name" : "DGH Redevelopment" }
+{ "_id" : "54dfb4aef361710206006322", "est_cost" : 153, "sector" : "Hospitals and Acute Health", "hmt_id" : 352, "name" : "Ambulatory Care Centre at City Hospital" }
+{ "_id" : "54dfb4aef361710206006323", "est_cost" : 121, "sector" : "Hospitals and Acute Health", "hmt_id" : 353, "name" : "Medical Ward Block at Northern General Hospital" }
+{ "_id" : "54dfb4aef361710206006324", "est_cost" : 2381, "sector" : "Hospitals and Acute Health", "hmt_id" : 354, "name" : "Modernisation of Acute Services" }
+{ "_id" : "54dfb4aef361710206006325", "est_cost" : 108, "sector" : "Social Care", "hmt_id" : 355, "name" : "Quality in Community Services (QiCS) PFI" }
+{ "_id" : "54dfb4aef361710206006326", "est_cost" : 117, "sector" : "Hospitals and Acute Health", "hmt_id" : 357, "name" : "Runwell hospital" }
+{ "_id" : "54dfb4aef361710206006327", "est_cost" : 1543, "sector" : "Hospitals and Acute Health", "hmt_id" : 358, "name" : "Princess Royal Hospital (Bromley)" }
+{ "_id" : "54dfb4aef361710206006328", "est_cost" : 1033, "sector" : "Hospitals and Acute Health", "hmt_id" : 359, "name" : "Queen Elizabeth Hospital (Woolwich)" }
+{ "_id" : "54dfb4aef361710206006329", "est_cost" : 1526, "sector" : "Hospitals and Acute Health", "hmt_id" : 360, "name" : "James Cook University Hospital" }
+{ "_id" : "54dfb4aef36171020600632a", "est_cost" : 172, "sector" : "Hospitals and Acute Health", "hmt_id" : 361, "name" : "Brentwood Community Hospital" }
+{ "_id" : "54dfb4aef36171020600632b", "est_cost" : 429, "sector" : "Hospitals and Acute Health", "hmt_id" : 362, "name" : "Neurological & cardiac units" }
+{ "_id" : "54dfb4aef36171020600632c", "est_cost" : 3797, "sector" : "Hospitals and Acute Health", "hmt_id" : 363, "name" : "Acute Hospital development" }
+{ "_id" : "54dfb4aef36171020600632d", "est_cost" : 83, "sector" : "Hospitals and Acute Health", "hmt_id" : 364, "name" : "Farnham Hospital " }
+{ "_id" : "54dfb4aef36171020600632e", "est_cost" : 82, "sector" : "Hospitals and Acute Health", "hmt_id" : 365, "name" : "Graylingwell Hospital " }
+{ "_id" : "54dfb4aef36171020600632f", "est_cost" : 454, "sector" : "Hospitals and Acute Health", "hmt_id" : 366, "name" : "New District General Hospital" }
+{ "_id" : "54dfb4aef361710206006330", "est_cost" : 441, "sector" : "Hospitals and Acute Health", "hmt_id" : 367, "name" : "Health Investment in Tameside" }
+{ "_id" : "54dfb4aef361710206006331", "est_cost" : 138, "sector" : "Hospitals and Acute Health", "hmt_id" : 368, "name" : "Cancer Centre, Musgrove Park Hospital, Taunton" }
+{ "_id" : "54dfb4aef361710206006332", "est_cost" : 308, "sector" : "Hospitals and Acute Health", "hmt_id" : 369, "name" : "Roseberry Park, Middlesbrough" }
+{ "_id" : "54dfb4aef361710206006333", "est_cost" : 68, "sector" : "Hospitals and Acute Health", "hmt_id" : 371, "name" : "Lanchester Road" }
+{ "_id" : "54dfb4aef361710206006334", "est_cost" : 306, "sector" : "Hospitals and Acute Health", "hmt_id" : 372, "name" : "Riverside Building (University Hospital Lewisham)" }
+{ "_id" : "54dfb4aef361710206006335", "est_cost" : 165, "sector" : "Hospitals and Acute Health", "hmt_id" : 373, "name" : "Redevelopment of Acute Hospital services" }
+{ "_id" : "54dfb4aef361710206006336", "est_cost" : 2454, "sector" : "Hospitals and Acute Health", "hmt_id" : 374, "name" : "University College Hospital" }
+{ "_id" : "54dfb4aef361710206006337", "est_cost" : 2697, "sector" : "Hospitals and Acute Health", "hmt_id" : 375, "name" : "Selly Oak and Queen Elizabeth Hospitals" }
+{ "_id" : "54dfb4aef361710206006338", "est_cost" : 2673, "sector" : "Hospitals and Acute Health", "hmt_id" : 376, "name" : "University Hospital" }
+{ "_id" : "54dfb4aef361710206006339", "est_cost" : 1007, "sector" : "Hospitals and Acute Health", "hmt_id" : 377, "name" : "Wythenshawe Hospital" }
+{ "_id" : "54dfb4aef36171020600633a", "est_cost" : 4027, "sector" : "Hospitals and Acute Health", "hmt_id" : 378, "name" : "New District General Hospital, Walsgrave" }
+{ "_id" : "54dfb4aef36171020600633b", "est_cost" : 624, "sector" : "Hospitals and Acute Health", "hmt_id" : 379, "name" : "Redevelopment of Manor Hospital site " }
+{ "_id" : "54dfb4aef36171020600633c", "est_cost" : 467, "sector" : "Hospitals and Acute Health", "hmt_id" : 380, "name" : "Queen Mary's, Roehampton" }
+{ "_id" : "54dfb4aef36171020600633d", "est_cost" : 841, "sector" : "Hospitals and Acute Health", "hmt_id" : 381, "name" : "New District General Hospital" }
+{ "_id" : "54dfb4aef36171020600633e", "est_cost" : 68, "sector" : "Social Care", "hmt_id" : 382, "name" : "Forrester Court - Older Peoples Residential and Nursing Home" }
+{ "_id" : "54dfb4aef36171020600633f", "est_cost" : 2272, "sector" : "Hospitals and Acute Health", "hmt_id" : 383, "name" : "New District General Hospital" }
+{ "_id" : "54dfb4aef361710206006340", "est_cost" : 155.9, "sector" : "Offices", "hmt_id" : 384, "name" : "Berlin Embassy" }
+{ "_id" : "54dfb4aef361710206006341", "est_cost" : 329.4, "sector" : "IT Infrastructure and communications", "hmt_id" : 385, "name" : "FTN" }
+{ "_id" : "54dfb4aef361710206006342", "est_cost" : 1886.8, "sector" : "Offices", "hmt_id" : 386, "name" : "GCHQ New Accomodation" }
+{ "_id" : "54dfb4aef361710206006343", "est_cost" : 1018, "sector" : "Offices", "hmt_id" : 387, "name" : "Newcastle Estate Development" }
+{ "_id" : "54dfb4aef361710206006344", "est_cost" : 77.10000000000001, "sector" : "Offices", "hmt_id" : 388, "name" : "Bootle PFI" }
+{ "_id" : "54dfb4aef361710206006345", "est_cost" : 25.5, "sector" : "Offices", "hmt_id" : 389, "name" : "Edinburgh PFI" }
+{ "_id" : "54dfb4aef361710206006346", "est_cost" : 26.4, "sector" : "Offices", "hmt_id" : 390, "name" : "Glasgow PFI" }
+{ "_id" : "54dfb4aef361710206006347", "est_cost" : 98, "sector" : "Offices", "hmt_id" : 391, "name" : "Manchester PFI" }
+{ "_id" : "54dfb4aef361710206006348", "est_cost" : 20.7, "sector" : "Offices", "hmt_id" : 392, "name" : "Stockport PFI" }
+{ "_id" : "54dfb4aef361710206006349", "est_cost" : 3732, "sector" : "Offices", "hmt_id" : 393, "name" : "STEPS - Mapeley PLC" }
+{ "_id" : "54dfb4aef36171020600634a", "est_cost" : 904.0000000000001, "sector" : "Offices", "hmt_id" : 394, "name" : "Exchequer Partnership (No. 2)" }
+{ "_id" : "54dfb4aef36171020600634b", "est_cost" : 336.1, "sector" : "Offices", "hmt_id" : 395, "name" : "GOGGS West" }
+{ "_id" : "54dfb4aef36171020600634c", "est_cost" : 353.2, "sector" : "Emergency Services", "hmt_id" : 396, "name" : "Centralised Custody Suites" }
+{ "_id" : "54dfb4aef36171020600634d", "est_cost" : 212.2, "sector" : "Emergency Services", "hmt_id" : 397, "name" : "Force HQ" }
+{ "_id" : "54dfb4aef36171020600634e", "est_cost" : 137.3, "sector" : "Emergency Services", "hmt_id" : 398, "name" : "Rationalised Custody" }
+{ "_id" : "54dfb4aef36171020600634f", "est_cost" : 41.1, "sector" : "Emergency Services", "hmt_id" : 399, "name" : "Firearms Facility" }
+{ "_id" : "54dfb4aef361710206006350", "est_cost" : 32.59999999999999, "sector" : "Emergency Services", "hmt_id" : 400, "name" : "Workington Police Station" }
+{ "_id" : "54dfb4aef361710206006351", "est_cost" : 100.1, "sector" : "Emergency Services", "hmt_id" : 401, "name" : "Divisional HQ" }
+{ "_id" : "54dfb4aef361710206006352", "est_cost" : 14.7, "sector" : "Emergency Services", "hmt_id" : 402, "name" : "Ilkeston Police Station" }
+{ "_id" : "54dfb4aef361710206006353", "est_cost" : 130.8, "sector" : "Emergency Services", "hmt_id" : 403, "name" : "Joint Emergency Services Project" }
+{ "_id" : "54dfb4aef361710206006354", "est_cost" : 127, "sector" : "Emergency Services", "hmt_id" : 404, "name" : "Regional HQ & City Police Stations" }
+{ "_id" : "54dfb4aef361710206006355", "est_cost" : 21.8, "sector" : "Emergency Services", "hmt_id" : 405, "name" : "Ammanford Police Station" }
+{ "_id" : "54dfb4aef361710206006356", "est_cost" : 105.3, "sector" : "Emergency Services", "hmt_id" : 406, "name" : "Force HQ" }
+{ "_id" : "54dfb4aef361710206006357", "est_cost" : 411.1, "sector" : "Emergency Services", "hmt_id" : 407, "name" : "Property Review - Divisional/Sub Divisional HQ & Police Stations" }
+{ "_id" : "54dfb4aef361710206006358", "est_cost" : 32.09999999999999, "sector" : "Emergency Services", "hmt_id" : 408, "name" : "Ystrad Mynach Police Station" }
+{ "_id" : "54dfb4aef361710206006359", "est_cost" : 1145.9, "sector" : "Offices", "hmt_id" : 409, "name" : "Home Office Central London Accommodation Strategy" }
+{ "_id" : "54dfb4aef36171020600635a", "est_cost" : 126.3, "sector" : "Emergency Services", "hmt_id" : 411, "name" : "Medway" }
+{ "_id" : "54dfb4aef36171020600635b", "est_cost" : 215.3, "sector" : "Emergency Services", "hmt_id" : 412, "name" : "North Kent PFI Project" }
+{ "_id" : "54dfb4aef36171020600635c", "est_cost" : 78.00000000000001, "sector" : "Emergency Services", "hmt_id" : 413, "name" : "Divisional HQ" }
+{ "_id" : "54dfb4aef36171020600635d", "est_cost" : 212.4, "sector" : "Emergency Services", "hmt_id" : 414, "name" : "HQ, Operations & Communications Centre" }
+{ "_id" : "54dfb4aef36171020600635e", "est_cost" : 4.7, "sector" : "Emergency Services", "hmt_id" : 415, "name" : "Mounted Facilities" }
+{ "_id" : "54dfb4aef36171020600635f", "est_cost" : 53.3, "sector" : "Emergency Services", "hmt_id" : 418, "name" : "Abingdon Area DHQ" }
+{ "_id" : "54dfb4aef361710206006360", "est_cost" : 21.7, "sector" : "Emergency Services", "hmt_id" : 419, "name" : "Air Support" }
+{ "_id" : "54dfb4aef361710206006361", "est_cost" : 123.6, "sector" : "Emergency Services", "hmt_id" : 420, "name" : "HQ" }
+{ "_id" : "54dfb4aef361710206006362", "est_cost" : 11630.6, "sector" : "Other", "hmt_id" : 421, "name" : "Allenby/Connaught" }
+{ "_id" : "54dfb4aef361710206006363", "est_cost" : 649.8000000000001, "sector" : "Military facility", "hmt_id" : 422, "name" : "Army Foundation College (AFC)" }
+{ "_id" : "54dfb4aef361710206006364", "est_cost" : 541.7, "sector" : "Military facility", "hmt_id" : 423, "name" : "ASTUTE Class Training Service (ACTS)" }
+{ "_id" : "54dfb4aef361710206006365", "est_cost" : 698.4000000000001, "sector" : "Military facility", "hmt_id" : 424, "name" : "Attack Helicopters Training - Apache Simulator Training" }
+{ "_id" : "54dfb4aef361710206006366", "est_cost" : 238.2, "sector" : "Housing (Military)", "hmt_id" : 425, "name" : "Bristol, Bath and Portsmouth Family Married Quarters" }
+{ "_id" : "54dfb4aef361710206006367", "est_cost" : 550.1, "sector" : "Equipment", "hmt_id" : 426, "name" : "C vehicles" }
+{ "_id" : "54dfb4aef361710206006368", "est_cost" : 84.49999999999999, "sector" : "Housing (Military)", "hmt_id" : 427, "name" : "Central Scotland Family Quarters (HQ)" }
+{ "_id" : "54dfb4aef361710206006369", "est_cost" : 2955.9, "sector" : "Military facility", "hmt_id" : 428, "name" : "Colchester" }
+{ "_id" : "54dfb4aef36171020600636a", "est_cost" : 688.8000000000001, "sector" : "Offices", "hmt_id" : 429, "name" : "Corsham" }
+{ "_id" : "54dfb4aef36171020600636b", "est_cost" : 3756.9, "sector" : "IT Infrastructure and communications", "hmt_id" : 431, "name" : "Defence Fixed Telecommunications Service (DFTS)" }
+{ "_id" : "54dfb4aef36171020600636c", "est_cost" : 401.2, "sector" : "Military facility", "hmt_id" : 433, "name" : "Defence Sixth Form College (DSFC)" }
+{ "_id" : "54dfb4aef36171020600636d", "est_cost" : 575.2, "sector" : "Other", "hmt_id" : 434, "name" : "Devonport Support Services - ARMADA" }
+{ "_id" : "54dfb4aef36171020600636e", "est_cost" : 228.4, "sector" : "Equipment", "hmt_id" : 435, "name" : "Field Electrical Power Supplies (FEPS)" }
+{ "_id" : "54dfb4aef36171020600636f", "est_cost" : 1005.3, "sector" : "Other", "hmt_id" : 436, "name" : "Provision of Marine Services (PMS)" }
+{ "_id" : "54dfb4aef361710206006370", "est_cost" : 10656.4, "sector" : "Other", "hmt_id" : 437, "name" : "Future Strategic Tanker Aircraft (FSTA)" }
+{ "_id" : "54dfb4aef361710206006371", "est_cost" : 57.9, "sector" : "Military facility", "hmt_id" : 438, "name" : "Hawk Simulator" }
+{ "_id" : "54dfb4aef361710206006372", "est_cost" : 354.9999999999999, "sector" : "Other", "hmt_id" : 440, "name" : "Heavy Equipment Transporters (HET)" }
+{ "_id" : "54dfb4aef361710206006373", "est_cost" : 720.8999999999999, "sector" : "Military facility", "hmt_id" : 441, "name" : "Joint Services Command and Staff College " }
+{ "_id" : "54dfb4aef361710206006374", "est_cost" : 47.59999999999999, "sector" : "Military facility", "hmt_id" : 443, "name" : "Lynx Aircrew Training" }
+{ "_id" : "54dfb4aef361710206006375", "est_cost" : 2436.9, "sector" : "Offices", "hmt_id" : 444, "name" : "Main Building Refurbishment" }
+{ "_id" : "54dfb4aef361710206006376", "est_cost" : 89.59999999999999, "sector" : "Other", "hmt_id" : 445, "name" : "Marine Support to Range & Aircrew Services" }
+{ "_id" : "54dfb4aef361710206006377", "est_cost" : 69.39999999999999, "sector" : "Other", "hmt_id" : 446, "name" : "Material Handling Equipment (MHE) - (Follow on)" }
+{ "_id" : "54dfb4aef361710206006378", "est_cost" : 786.4, "sector" : "Military facility", "hmt_id" : 447, "name" : "Medium Support Helicopter Aircrew Training Facility (MSHATF)" }
+{ "_id" : "54dfb4aef361710206006379", "est_cost" : 1064.2, "sector" : "Other", "hmt_id" : 448, "name" : "MOD-wide Water and Waste Water Project (Aquatrine) - Package A " }
+{ "_id" : "54dfb4aef36171020600637a", "est_cost" : 339.7, "sector" : "Other", "hmt_id" : 449, "name" : "MOD-wide Water and Wastewater (Project Aquatrine) - Package B" }
+{ "_id" : "54dfb4aef36171020600637b", "est_cost" : 1045.2, "sector" : "Other", "hmt_id" : 450, "name" : "MOD-wide Water and Wastewater (Project Aquatrine) - Package C" }
+{ "_id" : "54dfb4aef36171020600637c", "est_cost" : 259.0000000000001, "sector" : "Other", "hmt_id" : 451, "name" : "Naval Communications" }
+{ "_id" : "54dfb4aef36171020600637d", "est_cost" : 1256.8, "sector" : "Other", "hmt_id" : 452, "name" : "Northwood Headquarters" }
+{ "_id" : "54dfb4aef36171020600637e", "est_cost" : 180.9, "sector" : "Military facility", "hmt_id" : 453, "name" : "NRTA Fire Fighting Training Units (FFTU)" }
+{ "_id" : "54dfb4aef36171020600637f", "est_cost" : 81.90000000000001, "sector" : "Housing (Military)", "hmt_id" : 454, "name" : "Portsmouth Housing 2" }
+{ "_id" : "54dfb4aef361710206006380", "est_cost" : 52.9, "sector" : "Housing (Military)", "hmt_id" : 455, "name" : "RAF Cosford and Shawbury Family Quarters" }
+{ "_id" : "54dfb4aef361710206006381", "est_cost" : 76.90000000000002, "sector" : "Other", "hmt_id" : 456, "name" : "RAF Fylingdales (Power)" }
+{ "_id" : "54dfb4aef361710206006382", "est_cost" : 80.19999999999999, "sector" : "Housing (Military)", "hmt_id" : 457, "name" : "RAF Lossiemouth Family Quarters" }
+{ "_id" : "54dfb4aef361710206006383", "est_cost" : 10.4, "sector" : "Other", "hmt_id" : 458, "name" : "RAF Lyneham Sewerage" }
+{ "_id" : "54dfb4aef361710206006384", "est_cost" : 41.00000000000001, "sector" : "Military facility", "hmt_id" : 460, "name" : "RAF Sentry E3D  Aircrew" }
+{ "_id" : "54dfb4aef361710206006385", "est_cost" : 3971.200000000001, "sector" : "Other", "hmt_id" : 461, "name" : "Skynet 5" }
+{ "_id" : "54dfb4aef361710206006386", "est_cost" : 707.6999999999999, "sector" : "Other", "hmt_id" : 462, "name" : "Strategic Sealift Service" }
+{ "_id" : "54dfb4aef361710206006387", "est_cost" : 340.1999999999999, "sector" : "IT Infrastructure and communications", "hmt_id" : 463, "name" : "TAFMIS (IT)" }
+{ "_id" : "54dfb4aef361710206006388", "est_cost" : 15.6, "sector" : "Other", "hmt_id" : 464, "name" : "Tidworth Water & Sewerage" }
+{ "_id" : "54dfb4aef361710206006389", "est_cost" : 193.7, "sector" : "Military facility", "hmt_id" : 465, "name" : "Tornado GR4 Simulator" }
+{ "_id" : "54dfb4aef36171020600638a", "est_cost" : 107.7, "sector" : "Other", "hmt_id" : 466, "name" : "Tri Service Materials Handling Service" }
+{ "_id" : "54dfb4aef36171020600638b", "est_cost" : 241, "sector" : "Military facility", "hmt_id" : 468, "name" : "UKMFTS - Advanced Jet Trainer Ground Based Training Service (GBTE)" }
+{ "_id" : "54dfb4aef36171020600638c", "est_cost" : 119.4, "sector" : "Housing (Military)", "hmt_id" : 469, "name" : "Wattisham Married Quarters" }
+{ "_id" : "54dfb4aef36171020600638d", "est_cost" : 28.40000000000001, "sector" : "Housing (Military)", "hmt_id" : 470, "name" : "Yeovilton Family Quarters" }
+{ "_id" : "54dfb4aef36171020600638e", "est_cost" : 170.7, "sector" : "Courts", "hmt_id" : 471, "name" : "East Anglia Courts" }
+{ "_id" : "54dfb4aef36171020600638f", "est_cost" : 113.7, "sector" : "Courts", "hmt_id" : 472, "name" : "Exeter Combined Court" }
+{ "_id" : "54dfb4aef361710206006390", "est_cost" : 39.7, "sector" : "Offices", "hmt_id" : 473, "name" : "National Probate Records Centre" }
+{ "_id" : "54dfb4aef361710206006391", "est_cost" : 39.20000000000001, "sector" : "Courts", "hmt_id" : 474, "name" : "Sheffield Family Hearing Centre" }
+{ "_id" : "54dfb4aef361710206006392", "est_cost" : 177.2, "sector" : "Courts", "hmt_id" : 475, "name" : "Derbyshire Magistrates' Courts" }
+{ "_id" : "54dfb4aef361710206006393", "est_cost" : 128.5, "sector" : "Courts", "hmt_id" : 476, "name" : "Humberside Magistrates' Court" }
+{ "_id" : "54dfb4aef361710206006394", "est_cost" : 201.8, "sector" : "Courts", "hmt_id" : 477, "name" : "Manchester Magistrates' Courts" }
+{ "_id" : "54dfb4aef361710206006395", "est_cost" : 907.0999999999999, "sector" : "Prisons", "hmt_id" : 478, "name" : "HMP Altcourse" }
+{ "_id" : "54dfb4aef361710206006396", "est_cost" : 619.1999999999999, "sector" : "Prisons", "hmt_id" : 479, "name" : "HMP Ashfield" }
+{ "_id" : "54dfb4aef361710206006397", "est_cost" : 727.9, "sector" : "Prisons", "hmt_id" : 480, "name" : "HMP Bronzefield" }
+{ "_id" : "54dfb4aef361710206006398", "est_cost" : 827.4999999999999, "sector" : "Prisons", "hmt_id" : 481, "name" : "HMP Dovegate" }
+{ "_id" : "54dfb4aef361710206006399", "est_cost" : 712.8000000000001, "sector" : "Prisons", "hmt_id" : 482, "name" : "HMP Forest Bank" }
+{ "_id" : "54dfb4aef36171020600639a", "est_cost" : 524.1, "sector" : "Prisons", "hmt_id" : 483, "name" : "HMP Lowdham Grange" }
+{ "_id" : "54dfb4aef36171020600639b", "est_cost" : 1018.8, "sector" : "Prisons", "hmt_id" : 484, "name" : "HMP Parc" }
+{ "_id" : "54dfb4aef36171020600639c", "est_cost" : 983.6, "sector" : "Prisons", "hmt_id" : 485, "name" : "HMP Peterborough" }
+{ "_id" : "54dfb4aef36171020600639d", "est_cost" : 449.8, "sector" : "Prisons", "hmt_id" : 486, "name" : "HMP Rye Hill" }
+{ "_id" : "54dfb4aef36171020600639e", "est_cost" : 256.8, "sector" : "Courts", "hmt_id" : 487, "name" : "Avon & Somerset Magistrates Court *includes Probation Service element" }
+{ "_id" : "54dfb4aef36171020600639f", "est_cost" : 177.3, "sector" : "Courts", "hmt_id" : 488, "name" : "Hereford and Worcester Magistrates' Court" }
+{ "_id" : "54dfb4aef3617102060063a0", "est_cost" : 463.2, "sector" : "Secure Training Centres (YJB)", "hmt_id" : 489, "name" : "Milton Keynes STC" }
+{ "_id" : "54dfb4aef3617102060063a1", "est_cost" : 172.6, "sector" : "Secure Training Centres (YJB)", "hmt_id" : 490, "name" : "STC Cookham Wood" }
+{ "_id" : "54dfb4aef3617102060063a2", "est_cost" : 77.49999999999999, "sector" : "Secure Training Centres (YJB)", "hmt_id" : 492, "name" : "STC Hassockfield" }
+{ "_id" : "54dfb4aef3617102060063a3", "est_cost" : 127.6, "sector" : "Secure Training Centres (YJB)", "hmt_id" : 494, "name" : "STC Onley" }
+{ "_id" : "54dfb4aef3617102060063a4", "est_cost" : 73.3, "sector" : "Hospitals and Acute Health", "hmt_id" : 497, "name" : "Cancer Centre (equipment, maintenance and consumables)" }
+{ "_id" : "54dfb4aef3617102060063a5", "est_cost" : 13.3, "sector" : "Hospitals and Acute Health", "hmt_id" : 498, "name" : "New Renal Dialysis facilities" }
+{ "_id" : "54dfb4aef3617102060063a6", "est_cost" : 130.7, "sector" : "Hospitals and Acute Health", "hmt_id" : 499, "name" : "Managed Equipment Service (MES) / ATICS" }
+{ "_id" : "54dfb4aef3617102060063a7", "est_cost" : 0, "sector" : "Hospitals and Acute Health", "hmt_id" : 500, "name" : "RVH Car Park" }
+{ "_id" : "54dfb4aef3617102060063a8", "est_cost" : 70.10000000000001, "sector" : "Other", "hmt_id" : 501, "name" : "Belfast Metropolitan College - Millfield Campus" }
+{ "_id" : "54dfb4aef3617102060063a9", "est_cost" : 76.89999999999999, "sector" : "Other", "hmt_id" : 502, "name" : "Belfast Metropolitan College - Titanic Quarter" }
+{ "_id" : "54dfb4aef3617102060063aa", "est_cost" : 44.7, "sector" : "Other", "hmt_id" : 503, "name" : "North West Regional College - Northland Building" }
+{ "_id" : "54dfb4aef3617102060063ab", "est_cost" : 68.30000000000001, "sector" : "Other", "hmt_id" : 504, "name" : "SERC - Downpatrick Campuses" }
+{ "_id" : "54dfb4aef3617102060063ac", "est_cost" : 53.4, "sector" : "Other", "hmt_id" : 505, "name" : "SERC - Lisburn Campus" }
+{ "_id" : "54dfb4aef3617102060063ad", "est_cost" : 58.3, "sector" : "Other", "hmt_id" : 506, "name" : "South West College - Dungannon Campus" }
+{ "_id" : "54dfb4aef3617102060063ae", "est_cost" : 60.3, "sector" : "Other", "hmt_id" : 507, "name" : "South West College - Omagh Campus" }
+{ "_id" : "54dfb4aef3617102060063af", "est_cost" : 561.6, "sector" : "Roads and Highway Maintenance", "hmt_id" : 508, "name" : "Roads Service DBFO - Package 1" }
+{ "_id" : "54dfb4aef3617102060063b0", "est_cost" : 1077, "sector" : "Roads and Highway Maintenance", "hmt_id" : 509, "name" : "Roads Service DBFO - Package 2" }
+{ "_id" : "54dfb4aef3617102060063b1", "est_cost" : 29.3, "sector" : "Libraries", "hmt_id" : 510, "name" : "Electronic Libraries for Northern Ireland" }
+{ "_id" : "54dfb4aef3617102060063b2", "est_cost" : 6.199999999999999, "sector" : "Libraries", "hmt_id" : 511, "name" : "Lisburn City Library" }
+{ "_id" : "54dfb4aef3617102060063b3", "est_cost" : 74.59999999999999, "sector" : "Offices", "hmt_id" : 512, "name" : "Invest NI HQ Accommodation Project" }
+{ "_id" : "54dfb4aef3617102060063b4", "est_cost" : 48.2, "sector" : "Roads and Highway Maintenance", "hmt_id" : 513, "name" : "Replacement of Vehicle Test Equipment and related services" }
+{ "_id" : "54dfb4aef3617102060063b5", "est_cost" : 61.1, "sector" : "Schools (Non-BSF)", "hmt_id" : 515, "name" : "Bangor Academy / Nendrum College PPP Project" }
+{ "_id" : "54dfb4aef3617102060063b6", "est_cost" : 149.8, "sector" : "Schools (Non-BSF)", "hmt_id" : 516, "name" : "BELB Strategic Partnering PPP Project, Phase 1 - PFI Schools" }
+{ "_id" : "54dfb4aef3617102060063b7", "est_cost" : 86.10000000000001, "sector" : "IT Infrastructure and communications", "hmt_id" : 517, "name" : "Classroom 2000 Post Primary and Special local area network managed service - referred to as Lot 3" }
+{ "_id" : "54dfb4aef3617102060063b8", "est_cost" : 104.7, "sector" : "IT Infrastructure and communications", "hmt_id" : 518, "name" : "Classroom 2000 Wide Area Network managed service (all schools) - referred to as Lot 5" }
+{ "_id" : "54dfb4aef3617102060063b9", "est_cost" : 51.1, "sector" : "IT Infrastructure and communications", "hmt_id" : 519, "name" : "Classrooom 2000 Primary Service local area network managed service - referred to as Lot 6" }
+{ "_id" : "54dfb4aef3617102060063ba", "est_cost" : 69.7, "sector" : "Schools (Non-BSF)", "hmt_id" : 520, "name" : "Derry Diocese St Cecilia's College / St Mary's College PPP Project" }
+{ "_id" : "54dfb4aef3617102060063bb", "est_cost" : 93.80000000000001, "sector" : "Schools (Non-BSF)", "hmt_id" : 521, "name" : "Down & Connor / De la Salle Schools" }
+{ "_id" : "54dfb4aef3617102060063bc", "est_cost" : 18.9, "sector" : "Schools (Non-BSF)", "hmt_id" : 522, "name" : "Drumglass High School PFI Project" }
+{ "_id" : "54dfb4aef3617102060063bd", "est_cost" : 2.3, "sector" : "IT Infrastructure and communications", "hmt_id" : 523, "name" : "Eschools Data Warehouse" }
+{ "_id" : "54dfb4aef3617102060063be", "est_cost" : 68, "sector" : "Schools (Non-BSF)", "hmt_id" : 524, "name" : "Holy Cross College PPP Project" }
+{ "_id" : "54dfb4aef3617102060063bf", "est_cost" : 45.7, "sector" : "Schools (Non-BSF)", "hmt_id" : 525, "name" : "St Genevieve's High School PFI Project" }
+{ "_id" : "54dfb4aef3617102060063c0", "est_cost" : 18.3, "sector" : "Schools (Non-BSF)", "hmt_id" : 526, "name" : "Wellington College/Balmoral High School PFI Project" }
+{ "_id" : "54dfb4aef3617102060063c1", "est_cost" : 49.8, "sector" : "Other", "hmt_id" : 527, "name" : "LANDWEB" }
+{ "_id" : "54dfb4aef3617102060063c2", "est_cost" : 41.8, "sector" : "Other", "hmt_id" : 528, "name" : "Kinnegar WwTW" }
+{ "_id" : "54dfb4aef3617102060063c3", "est_cost" : 242.9, "sector" : "Other", "hmt_id" : 529, "name" : "Project Alpha" }
+{ "_id" : "54dfb4aef3617102060063c4", "est_cost" : 305.2, "sector" : "Other", "hmt_id" : 530, "name" : "Project Omega" }
+{ "_id" : "54dfb4aef3617102060063c5", "est_cost" : 12, "sector" : "Hospitals and Acute Health", "hmt_id" : 531, "name" : "New Renal Dialysis facilities" }
+{ "_id" : "54dfb4aef3617102060063c6", "est_cost" : 28.8, "sector" : "Hospitals and Acute Health", "hmt_id" : 532, "name" : "Services Centre (New pathology pharmacy & changing rooms)" }
+{ "_id" : "54dfb4aef3617102060063c7", "est_cost" : 98.8, "sector" : "Schools (Non-BSF)", "hmt_id" : 533, "name" : "Aberdeenshire Schools PPP1" }
+{ "_id" : "54dfb4aef3617102060063c8", "est_cost" : 200.5, "sector" : "Schools (Non-BSF)", "hmt_id" : 534, "name" : "Aberdeenshire Schools PPP2" }
+{ "_id" : "54dfb4aef3617102060063c9", "est_cost" : 212.6, "sector" : "Roads and Highway Maintenance", "hmt_id" : 535, "name" : "Angus A92" }
+{ "_id" : "54dfb4aef3617102060063ca", "est_cost" : 194.9, "sector" : "Schools (Non-BSF)", "hmt_id" : 536, "name" : "Angus Schools" }
+{ "_id" : "54dfb4aef3617102060063cb", "est_cost" : 122.7, "sector" : "Waste", "hmt_id" : 537, "name" : "Argyll & Bute Waste Management" }
+{ "_id" : "54dfb4aef3617102060063cc", "est_cost" : 738.4000000000004, "sector" : "Schools (Non-BSF)", "hmt_id" : 538, "name" : "Edinburgh Schools PPP2" }
+{ "_id" : "54dfb4aef3617102060063cd", "est_cost" : 536.4, "sector" : "Schools (Non-BSF)", "hmt_id" : 539, "name" : "Edinburgh Schools PPP1 " }
+{ "_id" : "54dfb4aef3617102060063ce", "est_cost" : 1594.1, "sector" : "Schools (Non-BSF)", "hmt_id" : 540, "name" : "Glasgow Schools" }
+{ "_id" : "54dfb4aef3617102060063cf", "est_cost" : 293.7, "sector" : "Schools (Non-BSF)", "hmt_id" : 541, "name" : "Clackmannanshire Schools " }
+{ "_id" : "54dfb4aef3617102060063d0", "est_cost" : 257.2, "sector" : "Waste", "hmt_id" : 542, "name" : "Dumfries & Galloway Waste" }
+{ "_id" : "54dfb4aef3617102060063d1", "est_cost" : 483.1, "sector" : "Schools (Non-BSF)", "hmt_id" : 543, "name" : "Dumfries & Galloway Schools" }
+{ "_id" : "54dfb4aef3617102060063d2", "est_cost" : 130, "sector" : "Energy", "hmt_id" : 544, "name" : "Baldovie" }
+{ "_id" : "54dfb4aef3617102060063d3", "est_cost" : 406.1, "sector" : "Schools (Non-BSF)", "hmt_id" : 545, "name" : "Dundee Schools " }
+{ "_id" : "54dfb4aef3617102060063d4", "est_cost" : 329, "sector" : "Schools (Non-BSF)", "hmt_id" : 546, "name" : "East Ayrshire Schools" }
+{ "_id" : "54dfb4aef3617102060063d5", "est_cost" : 499.9, "sector" : "Schools (Non-BSF)", "hmt_id" : 547, "name" : "East Dunbartonshire Schools " }
+{ "_id" : "54dfb4aef3617102060063d6", "est_cost" : 277.7, "sector" : "Schools (Non-BSF)", "hmt_id" : 548, "name" : "East Lothian Schools " }
+{ "_id" : "54dfb4aef3617102060063d7", "est_cost" : 74.7, "sector" : "Schools (Non-BSF)", "hmt_id" : 549, "name" : "East Renfrewshire Schools PPP1" }
+{ "_id" : "54dfb4aef3617102060063d8", "est_cost" : 232.7, "sector" : "Schools (Non-BSF)", "hmt_id" : 550, "name" : "East Renfrewshire Schools PPP2" }
+{ "_id" : "54dfb4aef3617102060063d9", "est_cost" : 331.4999999999999, "sector" : "Schools (Non-BSF)", "hmt_id" : 551, "name" : "Falkirk Schools PPP1" }
+{ "_id" : "54dfb4aef3617102060063da", "est_cost" : 193.5, "sector" : "Schools (Non-BSF)", "hmt_id" : 552, "name" : "Fife Schools PPP1" }
+{ "_id" : "54dfb4aef3617102060063db", "est_cost" : 218.9, "sector" : "Schools (Non-BSF)", "hmt_id" : 553, "name" : "Fife Schools PPP2 " }
+{ "_id" : "54dfb4aef3617102060063dc", "est_cost" : 49.50000000000001, "sector" : "Other", "hmt_id" : 554, "name" : "James Watt College, Kilwinning" }
+{ "_id" : "54dfb4aef3617102060063dd", "est_cost" : 738.2, "sector" : "Schools (Non-BSF)", "hmt_id" : 557, "name" : "Highland Schools  PPP2" }
+{ "_id" : "54dfb4aef3617102060063de", "est_cost" : 95.00000000000001, "sector" : "Schools (Non-BSF)", "hmt_id" : 558, "name" : "Highland Schools PPP1" }
+{ "_id" : "54dfb4aef3617102060063df", "est_cost" : 394, "sector" : "Schools (Non-BSF)", "hmt_id" : 559, "name" : "Inverclyde Schools" }
+{ "_id" : "54dfb4aef3617102060063e0", "est_cost" : 153, "sector" : "Schools (Non-BSF)", "hmt_id" : 560, "name" : "Midlothian Schools PPP1" }
+{ "_id" : "54dfb4aef3617102060063e1", "est_cost" : 173.8, "sector" : "Schools (Non-BSF)", "hmt_id" : 561, "name" : "Midlothian Schools PPP2" }
+{ "_id" : "54dfb4aef3617102060063e2", "est_cost" : 87.69999999999999, "sector" : "Hospitals and Acute Health", "hmt_id" : 563, "name" : "Crosshouse Maternity" }
+{ "_id" : "54dfb4aef3617102060063e3", "est_cost" : 39.70000000000001, "sector" : "Hospitals and Acute Health", "hmt_id" : 564, "name" : "East Ayrshire Community Hospital" }
+{ "_id" : "54dfb4aef3617102060063e4", "est_cost" : 68.7, "sector" : "Hospitals and Acute Health", "hmt_id" : 565, "name" : "Provision of Maternity & Day Care services" }
+{ "_id" : "54dfb4aef3617102060063e5", "est_cost" : 898.1999999999998, "sector" : "Hospitals and Acute Health", "hmt_id" : 566, "name" : "General Hospitals & Maternity Services, Kirkcaldy" }
+{ "_id" : "54dfb4aef3617102060063e6", "est_cost" : 116.8, "sector" : "Hospitals and Acute Health", "hmt_id" : 567, "name" : "St Andrews Hospital & Health Centre" }
+{ "_id" : "54dfb4aef3617102060063e7", "est_cost" : 1779.2, "sector" : "Hospitals and Acute Health", "hmt_id" : 568, "name" : "Acute Hospital, Larbert" }
+{ "_id" : "54dfb4aef3617102060063e8", "est_cost" : 93.59999999999999, "sector" : "Hospitals and Acute Health", "hmt_id" : 569, "name" : "Clackmannanshire Community Health Services" }
+{ "_id" : "54dfb4aef3617102060063e9", "est_cost" : 90.40000000000001, "sector" : "Hospitals and Acute Health", "hmt_id" : 570, "name" : "Gartnavel Royal Hospital" }
+{ "_id" : "54dfb4aef3617102060063ea", "est_cost" : 47.49999999999999, "sector" : "Hospitals and Acute Health", "hmt_id" : 571, "name" : "Larkfield" }
+{ "_id" : "54dfb4aef3617102060063eb", "est_cost" : 46.9, "sector" : "Hospitals and Acute Health", "hmt_id" : 572, "name" : "SGH - Geriatric medicine" }
+{ "_id" : "54dfb4aef3617102060063ec", "est_cost" : 1110.1, "sector" : "Hospitals and Acute Health", "hmt_id" : 573, "name" : "Stobhill & Victoria ACADs" }
+{ "_id" : "54dfb4aef3617102060063ed", "est_cost" : 109.5, "sector" : "Hospitals and Acute Health", "hmt_id" : 574, "name" : "Stobhill Local Forensic Unit" }
+{ "_id" : "54dfb4aef3617102060063ee", "est_cost" : 38.8, "sector" : "Hospitals and Acute Health", "hmt_id" : 575, "name" : "Easter Ross PC Centre" }
+{ "_id" : "54dfb4aef3617102060063ef", "est_cost" : 87.19999999999999, "sector" : "Hospitals and Acute Health", "hmt_id" : 576, "name" : "Mid Argyll Community Hospital" }
+{ "_id" : "54dfb4aef3617102060063f0", "est_cost" : 107.7, "sector" : "Hospitals and Acute Health", "hmt_id" : 577, "name" : "New Craigs Hospital" }
+{ "_id" : "54dfb4aef3617102060063f1", "est_cost" : 687.6, "sector" : "Hospitals and Acute Health", "hmt_id" : 578, "name" : "Hairmyres Hospital" }
+{ "_id" : "54dfb4aef3617102060063f2", "est_cost" : 19.5, "sector" : "Hospitals and Acute Health", "hmt_id" : 579, "name" : "Stonehouse Hospital" }
+{ "_id" : "54dfb4aef3617102060063f3", "est_cost" : 814.9000000000001, "sector" : "Hospitals and Acute Health", "hmt_id" : 580, "name" : "Wishaw General" }
+{ "_id" : "54dfb4aef3617102060063f4", "est_cost" : 39.7, "sector" : "Hospitals and Acute Health", "hmt_id" : 581, "name" : "Ellen's Glen House" }
+{ "_id" : "54dfb4aef3617102060063f5", "est_cost" : 33.50000000000001, "sector" : "Hospitals and Acute Health", "hmt_id" : 582, "name" : "Ferryfield House" }
+{ "_id" : "54dfb4aef3617102060063f6", "est_cost" : 26.70000000000001, "sector" : "Hospitals and Acute Health", "hmt_id" : 583, "name" : "Findlay House" }
+{ "_id" : "54dfb4aef3617102060063f7", "est_cost" : 70.7, "sector" : "Hospitals and Acute Health", "hmt_id" : 584, "name" : "Midlothian Community Hospital " }
+{ "_id" : "54dfb4aef3617102060063f8", "est_cost" : 1437.5, "sector" : "Hospitals and Acute Health", "hmt_id" : 585, "name" : "Royal Infirmary of Edinburgh" }
+{ "_id" : "54dfb4aef3617102060063f9", "est_cost" : 24.20000000000001, "sector" : "Hospitals and Acute Health", "hmt_id" : 586, "name" : "Tippethill (Bathgate)" }
+{ "_id" : "54dfb4aef3617102060063fa", "est_cost" : 62.60000000000001, "sector" : "Hospitals and Acute Health", "hmt_id" : 588, "name" : "Carseview Centre" }
+{ "_id" : "54dfb4aef3617102060063fb", "est_cost" : 46.9, "sector" : "Hospitals and Acute Health", "hmt_id" : 589, "name" : "Forfar & Kirriemuir CRC" }
+{ "_id" : "54dfb4aef3617102060063fc", "est_cost" : 435.4, "sector" : "Schools (Non-BSF)", "hmt_id" : 590, "name" : "North Ayrshire Schools" }
+{ "_id" : "54dfb4aef3617102060063fd", "est_cost" : 753.1, "sector" : "Schools (Non-BSF)", "hmt_id" : 591, "name" : "North Lanarkshire Schools" }
+{ "_id" : "54dfb4aef3617102060063fe", "est_cost" : 74.7, "sector" : "Offices", "hmt_id" : 592, "name" : "Perth & Kinross Office" }
+{ "_id" : "54dfb4aef3617102060063ff", "est_cost" : 643.8000000000001, "sector" : "Schools (Non-BSF)", "hmt_id" : 593, "name" : "Perth & Kinross Schools" }
+{ "_id" : "54dfb4aef361710206006400", "est_cost" : 547.8000000000001, "sector" : "Schools (Non-BSF)", "hmt_id" : 594, "name" : "Renfrewshire Schools" }
+{ "_id" : "54dfb4aef361710206006401", "est_cost" : 323.5, "sector" : "Schools (Non-BSF)", "hmt_id" : 595, "name" : "Scottish Borders Schools " }
+{ "_id" : "54dfb4aef361710206006402", "est_cost" : 25.6, "sector" : "IT Infrastructure and communications", "hmt_id" : 596, "name" : "SCRA - Integrated Information System" }
+{ "_id" : "54dfb4aef361710206006403", "est_cost" : 847.5000000000001, "sector" : "Roads and Highway Maintenance", "hmt_id" : 597, "name" : "M6 DBFO" }
+{ "_id" : "54dfb4aef361710206006404", "est_cost" : 473.8, "sector" : "Roads and Highway Maintenance", "hmt_id" : 598, "name" : "M77 (* including Glasgow Southern Orbital)" }
+{ "_id" : "54dfb4aef361710206006405", "est_cost" : 944, "sector" : "Prisons", "hmt_id" : 599, "name" : "Addiewell Prison" }
+{ "_id" : "54dfb4aef361710206006406", "est_cost" : 368, "sector" : "Prisons", "hmt_id" : 600, "name" : "Kilmarnock Prison" }
+{ "_id" : "54dfb4aef361710206006407", "est_cost" : 592.5, "sector" : "Waste", "hmt_id" : 601, "name" : "Aberdeen" }
+{ "_id" : "54dfb4aef361710206006408", "est_cost" : 713.2, "sector" : "Waste", "hmt_id" : 602, "name" : "AVSE (Almond Valley Seafield & Esk)" }
+{ "_id" : "54dfb4aef361710206006409", "est_cost" : 487.9999999999999, "sector" : "Waste", "hmt_id" : 603, "name" : "Daldowie" }
+{ "_id" : "54dfb4aef36171020600640a", "est_cost" : 227.2, "sector" : "Waste", "hmt_id" : 604, "name" : "Dalmuir" }
+{ "_id" : "54dfb4aef36171020600640b", "est_cost" : 213.3, "sector" : "Waste", "hmt_id" : 605, "name" : "Highland" }
+{ "_id" : "54dfb4aef36171020600640c", "est_cost" : 718.2, "sector" : "Waste", "hmt_id" : 606, "name" : "Levenmouth" }
+{ "_id" : "54dfb4aef36171020600640d", "est_cost" : 345.7, "sector" : "Waste", "hmt_id" : 607, "name" : "Moray" }
+{ "_id" : "54dfb4aef36171020600640e", "est_cost" : 629.3999999999999, "sector" : "Waste", "hmt_id" : 608, "name" : "Tay" }
+{ "_id" : "54dfb4aef36171020600640f", "est_cost" : 454.7, "sector" : "Waste", "hmt_id" : 609, "name" : "MSI (Meadowhead, Stevenston, Inverclyde)" }
+{ "_id" : "54dfb4aef361710206006410", "est_cost" : 376.7000000000001, "sector" : "Schools (Non-BSF)", "hmt_id" : 610, "name" : "South Ayrshire Schools " }
+{ "_id" : "54dfb4aef361710206006411", "est_cost" : 1261.4, "sector" : "Schools (Non-BSF)", "hmt_id" : 611, "name" : "South Lanarkshire Schools" }
+{ "_id" : "54dfb4aef361710206006412", "est_cost" : 81.40000000000001, "sector" : "Schools (Non-BSF)", "hmt_id" : 612, "name" : "Balfron Schools" }
+{ "_id" : "54dfb4aef361710206006413", "est_cost" : 424.8, "sector" : "Schools (Non-BSF)", "hmt_id" : 613, "name" : "Stirling Schools" }
+{ "_id" : "54dfb4aef361710206006414", "est_cost" : 106.5, "sector" : "Other", "hmt_id" : 614, "name" : "Police Force Training Centre " }
+{ "_id" : "54dfb4aef361710206006415", "est_cost" : 917.6, "sector" : "Roads and Highway Maintenance", "hmt_id" : 615, "name" : "M80 Stepps to Haggs" }
+{ "_id" : "54dfb4aef361710206006416", "est_cost" : 457.8, "sector" : "Schools (Non-BSF)", "hmt_id" : 616, "name" : "West Dunbartonshire Schools" }
+{ "_id" : "54dfb4aef361710206006417", "est_cost" : 300.8, "sector" : "Schools (Non-BSF)", "hmt_id" : 617, "name" : "West Lothian Schools PPP2 (PPP3)" }
+{ "_id" : "54dfb4aef361710206006418", "est_cost" : 166.8, "sector" : "Schools (Non-BSF)", "hmt_id" : 618, "name" : "West Lothian Schools PPP1" }
+{ "_id" : "54dfb4aef361710206006419", "est_cost" : 68.40000000000001, "sector" : "Schools (Non-BSF)", "hmt_id" : 619, "name" : "Maesteg Comprehensive School" }
+{ "_id" : "54dfb4aef36171020600641a", "est_cost" : 353.4999999999999, "sector" : "Hospitals and Acute Health", "hmt_id" : 620, "name" : "Neath Port Talbot Hospital" }
+{ "_id" : "54dfb4aef36171020600641b", "est_cost" : 127.3, "sector" : "Other", "hmt_id" : 621, "name" : "SEW Road (Sirhowy Enterprise Way)" }
+{ "_id" : "54dfb4aef36171020600641c", "est_cost" : 131.2, "sector" : "Schools (Non-BSF)", "hmt_id" : 622, "name" : "Ysgol Gyfun Cwm Rhymni & Lewis Boys" }
+{ "_id" : "54dfb4aef36171020600641d", "est_cost" : 110.1999999999999, "sector" : "Hospitals and Acute Health", "hmt_id" : 623, "name" : "St Davids Community Hospital" }
+{ "_id" : "54dfb4aef36171020600641e", "est_cost" : 14.1, "sector" : "Hospitals and Acute Health", "hmt_id" : 624, "name" : "Energy Management" }
+{ "_id" : "54dfb4aef36171020600641f", "est_cost" : 59.09999999999999, "sector" : "Other", "hmt_id" : 625, "name" : "Ysgol Gyfun Penweddig" }
+{ "_id" : "54dfb4aef361710206006420", "est_cost" : 14.3, "sector" : "Hospitals and Acute Health", "hmt_id" : 626, "name" : "Renal Dialysis Unit, Ysbyty Glan Clwyd" }
+{ "_id" : "54dfb4aef361710206006421", "est_cost" : 179.2, "sector" : "Other", "hmt_id" : 627, "name" : "Conwy Schools Project (3 schools)" }
+{ "_id" : "54dfb4aef361710206006422", "est_cost" : 65, "sector" : "Other", "hmt_id" : 628, "name" : "Council offices" }
+{ "_id" : "54dfb4aef361710206006423", "est_cost" : 220.4999999999999, "sector" : "Hospitals and Acute Health", "hmt_id" : 629, "name" : "Lloyd George Avenue & Callaghan Square" }
+{ "_id" : "54dfb4aef361710206006424", "est_cost" : 50.4, "sector" : "Social Care", "hmt_id" : 630, "name" : "Chepstow Community Hopsital" }
+{ "_id" : "54dfb4aef361710206006425", "est_cost" : 18.8, "sector" : "Social Care", "hmt_id" : 631, "name" : "Day Surgery Unit Nevill Hall Hospital" }
+{ "_id" : "54dfb4aef361710206006426", "est_cost" : 17, "sector" : "Social Care", "hmt_id" : 632, "name" : "Energy Management Nevill Hall Hospital" }
+{ "_id" : "54dfb4aef361710206006427", "est_cost" : 10.4, "sector" : "Social Care", "hmt_id" : 633, "name" : "Energy Management Royal Gwent/St Woolos Hospitals" }
+{ "_id" : "54dfb4aef361710206006428", "est_cost" : 24.60000000000001, "sector" : "Social Care", "hmt_id" : 634, "name" : "Monnow Court" }
+{ "_id" : "54dfb4aef361710206006429", "est_cost" : 53.5, "sector" : "Schools (Non-BSF)", "hmt_id" : 635, "name" : "Glan Usk Primary School (Previously known as Durham Road)" }
+{ "_id" : "54dfb4aef36171020600642a", "est_cost" : 279.3999999999999, "sector" : "Roads and Highway Maintenance", "hmt_id" : 636, "name" : "Newport Southern Distributor Road" }
+{ "_id" : "54dfb4aef36171020600642b", "est_cost" : 5.699999999999998, "sector" : "Hospitals and Acute Health", "hmt_id" : 637, "name" : "Energy Management Prince Charles Hospital" }
+{ "_id" : "54dfb4aef36171020600642c", "est_cost" : 52.09999999999999, "sector" : "Schools (Non-BSF)", "hmt_id" : 638, "name" : "Pembroke Dock primary school" }
+{ "_id" : "54dfb4aef36171020600642d", "est_cost" : 9, "sector" : "Hospitals and Acute Health", "hmt_id" : 639, "name" : "Staff Residences Royal Glamorgan Hospital" }
+{ "_id" : "54dfb4aef36171020600642e", "est_cost" : 114.8, "sector" : "Other", "hmt_id" : 640, "name" : "Garth Olwg Lifelong Learning Centre" }
+{ "_id" : "54dfb4aef36171020600642f", "est_cost" : 469.9, "sector" : "Other", "hmt_id" : 641, "name" : "A55" }
+{ "_id" : "54dfb4aef361710206006430", "est_cost" : 446.4, "sector" : "Waste", "hmt_id" : 642, "name" : "Waste management" }
+{ "_id" : "54dfb4aef361710206006431", "est_cost" : 140.3, "sector" : "Emergency Services", "hmt_id" : 643, "name" : "Staffordshire - Improving our Fire Stations" }
+{ "_id" : "54dfb4aef361710206006432", "est_cost" : 2118, "sector" : "Hospitals and Acute Health", "hmt_id" : 644, "name" : "Relocation of acute services onto single site at Southmead" }
+{ "_id" : "54dfb4aef361710206006433", "est_cost" : 142.6, "sector" : "Schools (BSF)", "hmt_id" : 645, "name" : "STaG BSF Phase 1 - Jarrow School" }
+{ "_id" : "54dfb4aef361710206006434", "est_cost" : 158.2, "sector" : "Hospitals and Acute Health", "hmt_id" : 646, "name" : "Enniskillen Hospital" }
+{ "_id" : "54dfb4aef361710206006435", "est_cost" : 135, "sector" : "Libraries", "hmt_id" : 647, "name" : "Worcester Library and History Centre" }
+{ "_id" : "54dfb4aef361710206006436", "est_cost" : 277.4, "sector" : "Street Lighting", "hmt_id" : 648, "name" : "Surrey Street Lighting" }
+{ "_id" : "54dfb4aef361710206006437", "est_cost" : 202.6, "sector" : "Street Lighting", "hmt_id" : 649, "name" : "Cambridgeshire Street Lighting" }
+{ "_id" : "54dfb4aef361710206006438", "est_cost" : 50.5, "sector" : "Offices", "hmt_id" : 651, "name" : "Bulwell JSC (LIFT project)" }
+{ "_id" : "54dfb4aef361710206006439", "est_cost" : 34.99999999999998, "sector" : "Offices", "hmt_id" : 652, "name" : "Hoyland & Darton Joint Service Centre (LIFT project)" }
+{ "_id" : "54dfb4aef36171020600643a", "est_cost" : 35.4, "sector" : "Housing (Non-HRA)", "hmt_id" : 653, "name" : "Derby Round 3 Non HRA " }
+{ "_id" : "54dfb4aef36171020600643b", "est_cost" : 199.4, "sector" : "Housing (HRA)", "hmt_id" : 655, "name" : "Kirklees Excellent Homes for Life" }
+{ "_id" : "54dfb4aef36171020600643c", "est_cost" : 268.9999999999999, "sector" : "Housing (HRA)", "hmt_id" : 656, "name" : "Lambeth Myatts Field North Estate" }
+{ "_id" : "54dfb4aef36171020600643d", "est_cost" : 81.69999999999999, "sector" : "Housing (Non-HRA)", "hmt_id" : 658, "name" : "Wiltshire Social Housing PFI Project (phase 1)" }
+{ "_id" : "54dfb4aef36171020600643e", "est_cost" : 224.7, "sector" : "Housing (HRA)", "hmt_id" : 663, "name" : "Oldham Gateways to Oldham " }
+{ "_id" : "54dfb4aef36171020600643f", "est_cost" : 173.6, "sector" : "Emergency Services", "hmt_id" : 664, "name" : "North West Fire & Rescue PFI" }
+{ "_id" : "54dfb4aef361710206006440", "est_cost" : 96.39999999999998, "sector" : "Emergency Services", "hmt_id" : 665, "name" : "Gloucestershire - Community Fire Safety Project" }
+{ "_id" : "54dfb4aef361710206006441", "est_cost" : 33.6, "sector" : "Leisure Facilities", "hmt_id" : 669, "name" : "Norwood Hall Joint Service Centre" }
+{ "_id" : "54dfb4aef361710206006442", "est_cost" : 28.29999999999999, "sector" : "Offices", "hmt_id" : 671, "name" : "Whitley Bay Joint Service Centre (LIFT project)" }
+{ "_id" : "54dfb4aef361710206006443", "est_cost" : 60, "sector" : "Social Care", "hmt_id" : 674, "name" : "Holt Park Wellbeing Centre" }
+{ "_id" : "54dfb4aef361710206006444", "est_cost" : 35.70000000000001, "sector" : "Social Care", "hmt_id" : 675, "name" : "Portway Lifestyle Centre" }
+{ "_id" : "54dfb4aef361710206006445", "est_cost" : 720.5, "sector" : "Waste", "hmt_id" : 676, "name" : "BDR  Waste PFI " }
+{ "_id" : "54dfb4aef361710206006446", "est_cost" : 740.9999999999999, "sector" : "Waste", "hmt_id" : 680, "name" : "Hertfordshire County Council Waste Management Services" }
+{ "_id" : "54dfb4aef361710206006447", "est_cost" : 544.4, "sector" : "Waste", "hmt_id" : 681, "name" : "Leeds Residual Waste Treatment Project " }
+{ "_id" : "54dfb4aef361710206006448", "est_cost" : 581.3, "sector" : "Waste", "hmt_id" : 685, "name" : "Norfolk Waste Management Project" }
+{ "_id" : "54dfb4aef361710206006449", "est_cost" : 710.4, "sector" : "Waste", "hmt_id" : 688, "name" : "SouthTyne & Wear Waste Management Partnership " }
+{ "_id" : "54dfb4aef36171020600644a", "est_cost" : 436.0000000000001, "sector" : "Waste", "hmt_id" : 689, "name" : "South West Devon Waste Partnership  SWDWP  Waste Management Project" }
+{ "_id" : "54dfb4aef36171020600644b", "est_cost" : 528.8, "sector" : "Waste", "hmt_id" : 690, "name" : "Staffordshire Waste Management Project" }
+{ "_id" : "54dfb4aef36171020600644c", "est_cost" : 603.1, "sector" : "Waste", "hmt_id" : 691, "name" : "Suffolk Waste Management Project" }
+{ "_id" : "54dfb4aef36171020600644d", "est_cost" : 730.0000000000001, "sector" : "Waste", "hmt_id" : 692, "name" : "Wakefield Semi Integrated  Waste Management Project  " }
+{ "_id" : "54dfb4aef36171020600644e", "est_cost" : 774.8000000000001, "sector" : "Waste", "hmt_id" : 694, "name" : "Essex Waste" }
+{ "_id" : "54dfb4aef36171020600644f", "est_cost" : 187, "sector" : "Schools (BSF)", "hmt_id" : 695, "name" : "BSF Wave 4 phase 1" }
+{ "_id" : "54dfb4aef361710206006450", "est_cost" : 142.6, "sector" : "Schools (BSF)", "hmt_id" : 697, "name" : "BSF Wave 2 phase 2" }
+{ "_id" : "54dfb4aef361710206006451", "est_cost" : 125.8, "sector" : "Schools (BSF)", "hmt_id" : 698, "name" : "BSF Wave 5 phase 1" }
+{ "_id" : "54dfb4aef361710206006452", "est_cost" : 161.1, "sector" : "Schools (BSF)", "hmt_id" : 699, "name" : "BSF Wave 4 phase 2" }
+{ "_id" : "54dfb4aef361710206006453", "est_cost" : 114.7, "sector" : "Schools (BSF)", "hmt_id" : 700, "name" : "BSF Wave 5" }
+{ "_id" : "54dfb4aef361710206006454", "est_cost" : 156.9, "sector" : "Schools (BSF)", "hmt_id" : 704, "name" : "BSF Wave 5" }
+{ "_id" : "54dfb4aef361710206006455", "est_cost" : 146.1, "sector" : "Schools (BSF)", "hmt_id" : 705, "name" : "BSF Wave 3 phase 2" }
+{ "_id" : "54dfb4aef361710206006456", "est_cost" : 150.8999999999999, "sector" : "Schools (BSF)", "hmt_id" : 707, "name" : "BSF Wave 4 phase 2" }
+{ "_id" : "54dfb4aef361710206006457", "est_cost" : 103.9, "sector" : "Schools (BSF)", "hmt_id" : 709, "name" : "BSF Wave 6" }
+{ "_id" : "54dfb4aef361710206006458", "est_cost" : 157.4999999999999, "sector" : "Schools (BSF)", "hmt_id" : 710, "name" : "BSF Wave 4 phase 1" }
+{ "_id" : "54dfb4aef361710206006459", "est_cost" : 188.6, "sector" : "Schools (BSF)", "hmt_id" : 712, "name" : "BSF Wave 4 phase 1" }
+{ "_id" : "54dfb4aef36171020600645a", "est_cost" : 152.6, "sector" : "Schools (BSF)", "hmt_id" : 714, "name" : "BSF Wave 2 phase 2" }
+{ "_id" : "54dfb4aef36171020600645b", "est_cost" : 110.9, "sector" : "Schools (BSF)", "hmt_id" : 715, "name" : "STaG 2 BSF Wave 1 Phase 2 - South Shields Community School" }
+{ "_id" : "54dfb4aef36171020600645c", "est_cost" : 121.3, "sector" : "Schools (BSF)", "hmt_id" : 716, "name" : "BSF Wave 5 phase 1" }
+{ "_id" : "54dfb4aef36171020600645d", "est_cost" : 163.5999999999999, "sector" : "Schools (BSF)", "hmt_id" : 718, "name" : "BSF Wave 5 Phase 1 - Highfields and Pennfields " }
+{ "_id" : "54dfb4aef36171020600645e", "est_cost" : 123.9, "sector" : "Schools (BSF)", "hmt_id" : 720, "name" : "BSF Wave 2 phase 2" }
+{ "_id" : "54dfb4aef36171020600645f", "est_cost" : 187.6, "sector" : "Schools (BSF)", "hmt_id" : 722, "name" : "BSF Wave 3 Phase 2" }
+{ "_id" : "54dfb4aef361710206006460", "est_cost" : 83.3, "sector" : "Schools (BSF)", "hmt_id" : 725, "name" : "BSF Wave 2 phase 2" }
+{ "_id" : "54dfb4aef361710206006461", "est_cost" : 115.6, "sector" : "Schools (BSF)", "hmt_id" : 726, "name" : "BSF Wave 4 Phase 1" }
+{ "_id" : "54dfb4aef361710206006462", "est_cost" : 130.1, "sector" : "Schools (BSF)", "hmt_id" : 728, "name" : "BSF Wave 4 Phase 2" }
+{ "_id" : "54dfb4aef361710206006463", "est_cost" : 270.8, "sector" : "Schools (BSF)", "hmt_id" : 730, "name" : "BSF Wave 3 Phase 2" }
+{ "_id" : "54dfb4aef361710206006464", "est_cost" : 671.9, "sector" : "Schools (BSF)", "hmt_id" : 731, "name" : "BSF Wave 3 Phase 3" }
+{ "_id" : "54dfb4aef361710206006465", "est_cost" : 99.00000000000001, "sector" : "Schools (BSF)", "hmt_id" : 732, "name" : "BSF Wave 4" }
+{ "_id" : "54dfb4aef361710206006466", "est_cost" : 278.5, "sector" : "Schools (BSF)", "hmt_id" : 733, "name" : "BSF Wave 4 Phase 1" }
+{ "_id" : "54dfb4aef361710206006467", "est_cost" : 110.3, "sector" : "Schools (BSF)", "hmt_id" : 735, "name" : "BSF Wave 5 - St Helens" }
+{ "_id" : "54dfb4aef361710206006468", "est_cost" : 46.3, "sector" : "Schools (Non-BSF)", "hmt_id" : 739, "name" : "Lagan College/Tor Bank Special School PPP Project" }
+{ "_id" : "54dfb4aef361710206006469", "est_cost" : 1137.1, "sector" : "Prisons", "hmt_id" : 742, "name" : "HMP Thameside (Belmarsh West)" }
+{ "_id" : "54dfb4aef36171020600646a", "est_cost" : 90, "sector" : "Leisure Facilities", "hmt_id" : 749, "name" : "Hengrove Park Leisure Centre" }
+{ "_id" : "54dfb4aef36171020600646b", "est_cost" : 177.6, "sector" : "Libraries", "hmt_id" : 750, "name" : "Central Library and Archive Redevelopment" }
+{ "_id" : "54dfb4aef36171020600646c", "est_cost" : 294.4, "sector" : "Emergency Services", "hmt_id" : 752, "name" : "2 Counties Custody Project (Police Investigation Centres)" }
+{ "_id" : "54dfb4aef36171020600646d", "est_cost" : 2406.5, "sector" : "Roads and Highway Maintenance", "hmt_id" : 753, "name" : "Birmingham Highway Maintenance" }
+{ "_id" : "54dfb4aef36171020600646e", "est_cost" : 588.0999999999999, "sector" : "Roads and Highway Maintenance", "hmt_id" : 754, "name" : "London Borough of Hounslow Highways Maintenance Project " }
+{ "_id" : "54dfb4aef36171020600646f", "est_cost" : 767.6999999999998, "sector" : "Tram/Light Rail", "hmt_id" : 755, "name" : "Nottingham Express Transit Phase 2" }
+{ "_id" : "54dfb4aef361710206006470", "est_cost" : 227, "sector" : "Street Lighting", "hmt_id" : 756, "name" : "Coventry Street Lighting" }
+{ "_id" : "54dfb4aef361710206006471", "est_cost" : 265, "sector" : "Street Lighting", "hmt_id" : 757, "name" : "Croydon & Lewisham Street Lighting" }
+{ "_id" : "54dfb4aef361710206006472", "est_cost" : 123.4, "sector" : "Street Lighting", "hmt_id" : 758, "name" : "Knowsley Street Lighting & Sign Replacement" }
+{ "_id" : "54dfb4aef361710206006473", "est_cost" : 182.5, "sector" : "Street Lighting", "hmt_id" : 759, "name" : "Nottingham City Street Lighting" }
+{ "_id" : "54dfb4aef361710206006474", "est_cost" : 137.6, "sector" : "Street Lighting", "hmt_id" : 761, "name" : "Blackpool Street Lighting & Traffic Signals " }
+{ "_id" : "54dfb4aef361710206006475", "est_cost" : 114.5, "sector" : "Street Lighting", "hmt_id" : 762, "name" : "Oldham Street Lighting" }
+{ "_id" : "54dfb4aef361710206006476", "est_cost" : 1730.8, "sector" : "Roads and Highway Maintenance", "hmt_id" : 763, "name" : "Sheffield Highways Maintenance Project" }
+{ "_id" : "54dfb4aef361710206006477", "est_cost" : 502, "sector" : "Hospitals and Acute Health", "hmt_id" : 781, "name" : "Creation of 'Children's Health Park'" }
+{ "_id" : "54dfb4aef361710206006478", "est_cost" : 169.9, "sector" : "IT Infrastructure and communications", "hmt_id" : 821, "name" : "Classroom 2000 Local Area Network services, Wide Area Services to all Schools and MIS services to all schools - referred to as EN(ni)" }
+{ "_id" : "54dfb4aef361710206006479", "est_cost" : 252.4, "sector" : "Emergency Services", "hmt_id" : 822, "name" : "Modernise Police Estate" }
+{ "_id" : "54dfb4aef36171020600647a", "est_cost" : 339.1999999999999, "sector" : "Emergency Services", "hmt_id" : 823, "name" : "Modernise Police Estate " }
+{ "_id" : "54dfb4aef36171020600647b", "est_cost" : 730.0000000000001, "sector" : "Roads and Highway Maintenance", "hmt_id" : 836, "name" : "Isle of Wight Council - Highways PFI" }
+{ "_id" : "54dfb4aef36171020600647c", "est_cost" : 320.7, "sector" : "Schools (BSF)", "hmt_id" : 853, "name" : "BSF Wave 3 Phase 1" }
+{ "_id" : "54dfb4aef36171020600647d", "est_cost" : 196, "sector" : "Schools (BSF)", "hmt_id" : 855, "name" : "BSF Wave 2 Phase 1" }
+{ "_id" : "54dfb4aef36171020600647e", "est_cost" : 108.3, "sector" : "Schools (BSF)", "hmt_id" : 856, "name" : "BSF Wave 4 phase 1" }
+{ "_id" : "54dfb4aef36171020600647f", "est_cost" : 368.8, "sector" : "Schools (BSF)", "hmt_id" : 857, "name" : "BSF Wave 3 phase 3" }
+{ "_id" : "54dfb4aef361710206006480", "est_cost" : 139.1, "sector" : "Schools (BSF)", "hmt_id" : 858, "name" : "BSF Wave 4" }
+{ "_id" : "54dfb4aef361710206006481", "est_cost" : 89.79999999999998, "sector" : "Schools (BSF)", "hmt_id" : 859, "name" : "BSF Wave 3" }
+{ "_id" : "54dfb4aef361710206006482", "est_cost" : 229, "sector" : "Schools (BSF)", "hmt_id" : 860, "name" : "BSF Wave 3 Phase 1" }
+{ "_id" : "54dfb4aef361710206006483", "est_cost" : 238.6, "sector" : "Schools (BSF)", "hmt_id" : 862, "name" : "BSF Wave 2 Phase 1" }
+{ "_id" : "54dfb4aef361710206006484", "est_cost" : 146.4, "sector" : "Schools (BSF)", "hmt_id" : 863, "name" : "BSF Wave 1 Phase 3" }
+{ "_id" : "54dfb4aef361710206006485", "est_cost" : 393.3, "sector" : "Schools (BSF)", "hmt_id" : 864, "name" : "BSF Wave 1 Phase 1" }
+{ "_id" : "54dfb4aef361710206006486", "est_cost" : 145.6, "sector" : "Schools (BSF)", "hmt_id" : 865, "name" : "BSF Wave 3" }
+{ "_id" : "54dfb4aef361710206006487", "est_cost" : 139.9999999999999, "sector" : "Schools (BSF)", "hmt_id" : 866, "name" : "BSF Wave 2 - (Lister and Rokeby Schools) including Rokeby expansion from 5fe to 6fe" }
+{ "_id" : "54dfb4aef361710206006488", "est_cost" : 71.5, "sector" : "Schools (BSF)", "hmt_id" : 867, "name" : "Wave 3 Phase 1" }
+{ "_id" : "54dfb4aef361710206006489", "est_cost" : 103.1, "sector" : "Schools (BSF)", "hmt_id" : 868, "name" : "BSF Wave 3 " }
+{ "_id" : "54dfb4aef36171020600648a", "est_cost" : 187.7, "sector" : "Schools (BSF)", "hmt_id" : 869, "name" : "BSF wave 1 phase 2" }
+{ "_id" : "54dfb4aef36171020600648b", "est_cost" : 82.99999999999997, "sector" : "Schools (BSF)", "hmt_id" : 870, "name" : "BSF Wave 4" }
+{ "_id" : "54dfb4aef36171020600648c", "est_cost" : 191.8, "sector" : "Schools (BSF)", "hmt_id" : 871, "name" : "BSF Wave 3 Phase 1 - Sedgefield; Easington" }
+{ "_id" : "54dfb4aef36171020600648d", "est_cost" : 177, "sector" : "Schools (BSF)", "hmt_id" : 872, "name" : "Sandwell BSF Wave 3" }
+{ "_id" : "54dfb4aef36171020600648e", "est_cost" : 256.6, "sector" : "Schools (BSF)", "hmt_id" : 873, "name" : "BSF Wave 1 Phase 2" }
+{ "_id" : "54dfb4aef36171020600648f", "est_cost" : 149, "sector" : "Schools (BSF)", "hmt_id" : 874, "name" : "BSF Wave 3 phase 2" }
+{ "_id" : "54dfb4aef361710206006490", "est_cost" : 237.4, "sector" : "Street Lighting", "hmt_id" : 880, "name" : "Northamptonshire Street Lighting" }
+{ "_id" : "54dfb4aef361710206006491", "est_cost" : 112.4, "sector" : "Street Lighting", "hmt_id" : 881, "name" : "Rochdale Street Lighting" }
+{ "_id" : "54dfb4aef361710206006492", "est_cost" : 86, "sector" : "Social Care", "hmt_id" : 882, "name" : "PFI Nursing Homes (St Vincents)" }
+{ "_id" : "54dfb4aef361710206006493", "est_cost" : 24, "sector" : "Social Care", "hmt_id" : 883, "name" : "PFI Extra-Care Sheltered Housing (Mary Seacole)" }
+{ "_id" : "54dfb4aef361710206006494", "est_cost" : 20.10000000000001, "sector" : "Offices", "hmt_id" : 1001, "name" : "Cudworth Joint Service Centre (LIFT project)" }
+{ "_id" : "54dfb4aef361710206006495", "est_cost" : 16.2, "sector" : "IT Infrastructure and communications", "hmt_id" : 1003, "name" : "DECC Fujitsu contract under ELGAR framework" }
+{ "_id" : "54dfb4aef361710206006496", "est_cost" : 66.89999999999999, "sector" : "Schools (Non-BSF)", "hmt_id" : 1004, "name" : "Sandwell Five Schools Project" }
+{ "_id" : "54dfb4aef361710206006497", "est_cost" : 197.8, "sector" : "Schools (BSF)", "hmt_id" : 1006, "name" : "BSF Wave1, Phase 2a" }
+{ "_id" : "54dfb4aef361710206006498", "est_cost" : 118.8, "sector" : "Schools (BSF)", "hmt_id" : 1007, "name" : "Lewisham BSF PFI 3" }
+{ "_id" : "54dfb4aef361710206006499", "est_cost" : 225.6, "sector" : "Schools (BSF)", "hmt_id" : 1008, "name" : "Lewisham BSF PFI 4" }
+{ "_id" : "54dfb4aef36171020600649a", "est_cost" : 25, "sector" : "Social Care", "hmt_id" : 1010, "name" : "Neighbourhood Resource Centres" }
+{ "_id" : "54dfb4aef36171020600649b", "est_cost" : 6.099999999999999, "sector" : "Social Care", "hmt_id" : 1011, "name" : "Ladies Walk Health & Social Care centre" }
+{ "_id" : "54dfb4aef36171020600649c", "est_cost" : 75, "sector" : "Social Care", "hmt_id" : 1012, "name" : "Childrens homes & family support centres" }
+{ "_id" : "54dfb4aef36171020600649d", "est_cost" : 95, "sector" : "Hospitals and Acute Health", "hmt_id" : 1013, "name" : "Bodmin Hospital" }
+{ "_id" : "54dfb4aef36171020600649e", "est_cost" : 22, "sector" : "Social Care", "hmt_id" : 1014, "name" : "Three PFI Children's Homes" }
+{ "_id" : "54dfb4aef36171020600649f", "est_cost" : 49, "sector" : "Hospitals and Acute Health", "hmt_id" : 1015, "name" : "Goodmayes Hospital " }
+{ "_id" : "54dfb4aef3617102060064a0", "est_cost" : 66, "sector" : "Hospitals and Acute Health", "hmt_id" : 1017, "name" : "Mental Health Services" }
+{ "_id" : "54dfb4aef3617102060064a1", "est_cost" : 175, "sector" : "Hospitals and Acute Health", "hmt_id" : 1018, "name" : "Radiology unit" }
+{ "_id" : "54dfb4aef3617102060064a2", "est_cost" : 147, "sector" : "Social Care", "hmt_id" : 1019, "name" : "Residential Care Homes" }
+{ "_id" : "54dfb4aef3617102060064a3", "est_cost" : 54, "sector" : "Hospitals and Acute Health", "hmt_id" : 1021, "name" : "Tiverton Community Hospital" }
+{ "_id" : "54dfb4aef3617102060064a4", "est_cost" : 81, "sector" : "Hospitals and Acute Health", "hmt_id" : 1022, "name" : "Wharfedale Hospital " }
+{ "_id" : "54dfb4aef3617102060064a5", "est_cost" : 15.9, "sector" : "Hospitals and Acute Health", "hmt_id" : 1036, "name" : "Mearnskirk" }
+{ "_id" : "54dfb4aef3617102060064a6", "est_cost" : 22, "sector" : "Emergency Services", "hmt_id" : 1039, "name" : "Riverside Accommodation Services (formerly Traffic Wing)" }
+{ "_id" : "54dfb4aef3617102060064a7", "est_cost" : 79.19999999999996, "sector" : "Emergency Services", "hmt_id" : 1040, "name" : "Vehicle Services" }
+{ "_id" : "54dfb4aef3617102060064a8", "est_cost" : 462.2, "sector" : "Street Lighting", "hmt_id" : 1200, "name" : "Hampshire Street Lighting" }
+{ "_id" : "54dfb4aef3617102060064a9", "est_cost" : 267.3, "sector" : "Street Lighting", "hmt_id" : 1201, "name" : "West Sussex Street Lighting" }
+{ "_id" : "54dfb4aef3617102060064aa", "est_cost" : 102.4, "sector" : "Street Lighting", "hmt_id" : 1202, "name" : "Southampton Street Lighting" }
+{ "_id" : "54dfb4aef3617102060064ab", "est_cost" : 37, "sector" : "Social Care", "hmt_id" : 1300, "name" : "Sancroft (Pathfinder)" }
+{ "_id" : "54dfb4aef3617102060064ac", "est_cost" : 87, "sector" : "Hospitals and Acute Health", "hmt_id" : 1301, "name" : "New Community Hospital - Chester-le-Street" }
+{ "_id" : "54dfb4aef3617102060064ad", "est_cost" : 93.3, "sector" : "Other", "hmt_id" : 1501, "name" : "Laganside Courthouse" }
+{ "_id" : "54dfb4aef3617102060064ae", "est_cost" : 4144.089999999999, "sector" : "Emergency Services", "hmt_id" : 1503, "name" : "Airwave" }
+{ "_id" : "54dfb4aef3617102060064af", "est_cost" : 139, "sector" : "Hospitals and Acute Health", "hmt_id" : 1504, "name" : "Hinchingbrooke DTC " }

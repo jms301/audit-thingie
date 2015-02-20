@@ -1,0 +1,108 @@
+<head>
+  <title>audit</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+ <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/#">Audit Thingie</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li> <a href="/contractlist">Browse Contracts</a> </li>
+            <li> <a href="/contractmap">Map of Contracts</a> </li>
+            <li> <a href="/stats">National Stats</a> </li>
+            <li> <a href="/about">About</a> </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            {{>loginButtons}}
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+  {{> Router}}
+
+
+  {{> modal }} 
+</body>
+
+<template name="home">
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="container">
+    <div class="jumbotron welcome">
+        <h1>Welcome to Audit Thingie</h1>
+        <p>Audit Thingie is a tool for citizen auditing of government contracts. Each contract has a <strong>facts page</strong> showing key facts and figures, a <strong>resource</strong> page detailing current investigations and a <strong>discusion</strong> page allowing researchers to coordinate efforts.</p>
+
+<p>
+Currently there are <strong>XXXXX</strong> contracts being investigated by <strong>YYYY</strong> people. Sign in to help contribute. If you just want to dive right in to play try the buttons on the navbar up top.
+</p>
+      </div>
+    </div>
+
+</template>
+
+<template name="About">
+
+      <div class="container">
+    <div class="jumbotron about">
+        <h1 id="about">About Audit Thingie</h1>
+        <p>Audit Thingie is a spiritual successor to PFI Explorer a hackathon winning project from bla bla bla</p>
+</div>
+</div>
+
+
+</template>
+
+<template name="national_stats">
+    <div class="container"> 
+  <div class="jumbotron stats">
+      <h1>National Statistics:<a id="stats"></a></h1>
+      <h2>Yearly Repayments Chart:</h2>
+      <img src="/nat-chart.png" width="80%">
+      <h2>Contract Bubble Chart:</h2>
+      <img src="/bubbles.png" width="80%">
+    </div> 
+  </div>
+</template>
+
+<template name="loading">
+  <div class="container"> Loading ...  </div>
+</template>
+
+<template name="modal">
+<div id="site-modal" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      {{> Template.dynamic template = modalTemplate data = modalData}}
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+</template>
+
+<template name="blank">
+
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <h4 class="modal-title">Modal title</h4>
+  </div>
+  <div class="modal-body">
+    <p>One fine body&hellip;</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-primary">Save changes</button>
+  </div>
+</template>

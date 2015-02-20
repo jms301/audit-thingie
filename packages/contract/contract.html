@@ -1,0 +1,115 @@
+<template name="contract_list">
+  <div class="container">
+  <div class="page-header">
+    <h1>Browse Contracts:</h1>
+  </div>
+    {{>reactiveTable collection=contractCollection settings=settings}}
+  </div>
+</template>
+
+<template name="contract_map">
+
+test  map
+
+</template>
+
+<template name="contract_display">
+  <div class="container">
+   <div role="tabpanel">
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="active" role="presentation"><a href="{{pathFor route='contract'}}">Display</a></li>
+        <li role="presentation"><a href="{{pathFor route='contract.research'}}">Research</a></li>
+        <li role="presentation"><a href="{{pathFor route='contract.change_log'}}">Change Log</a></li>
+        <li role="presentation"><a href="{{pathFor route='contract.chat'}}">Chat</a></li>
+      </ul>
+    </div>
+ <div class="page-header">
+    <h2>{{name}} </h2><h1><small>Estimated Cost: </small><strong>{{est_cost}}</strong><small>(£m)</small></h1>
+  </div>
+
+  
+    <div class="col-sm-8">
+      <h3>Key Facts & Figures:</h3>
+      {{#each keyfacfigs}}
+        {{> keyfacfig}}
+      {{/each}}
+
+    </div>
+    <div class="col-sm-4">
+      <h4>Files</h4>
+      {{#each files}}
+        {{> filelink}}
+      {{/each}}
+    </div>
+
+  </div>
+</template>
+
+<template name="contract_research">
+  <div class="container">
+    <div role="tabpanel">
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation"><a href="{{pathFor route='contract'}}">Display</a></li>
+        <li class="active" role="presentation"><a href="{{pathFor route='contract.research'}}">Research</a></li>
+        <li role="presentation"><a href="{{pathFor route='contract.change_log'}}">Change Log</a></li>
+        <li role="presentation"><a href="{{pathFor route='contract.chat'}}">Chat</a></li>
+      </ul>
+    </div>
+
+    <div class="page-header">
+      <p><h3>{{name}}</h3></p>
+      <p><strong>Est Total Cost:</strong> 
+         {{est_cost}} {{#if currentUser}}<a>edit</a>{{/if}}</p>
+      <p><strong>Sector:</strong> 
+         {{sector}} {{#if currentUser}}<a>edit</a>{{/if}}</p>
+      <p><strong>Authority:</strong> 
+         {{authority}} {{#if currentUser}}<a>edit</a>{{/if}}</p>
+      <p><strong>Department:</strong> 
+         {{department}} {{#if currentUser}}<a>edit</a>{{/if}}</p>
+      
+    </div>    
+
+    <div class="col-sm-8">
+      <h3> Key Facts & Figures:</h3>
+      {{#each keyfacfigs}}
+        {{> keyfacfig}}
+      {{/each}}
+
+    
+        <button class="btn btn-primary">Add</button>
+    </div>
+  </div>
+
+
+</template>
+
+
+<template name="filelink">
+  <a href="{{url}}">{{name}}</a><br/>
+</template>
+
+<template name="keyfacfig">
+  {{name}}: {{data}} <a href="#">edit</a><br/>
+</template>
+
+<template name="nameTmpl">
+  <a href="{{pathFor route='contract'}}">{{name}}</a>
+</template>
+
+<template name="editKeyFacFig"> 
+   <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <h4 class="modal-title">Editing: {{name}}</h4>
+  </div>
+  <div class="modal-body">
+    <p><label>Data: <input id="data" type="text" value="{{data}}"/></label></p>
+    <p><label>Date: <input id="datetime" type="datetime" value="{{date}}"/></label></p>
+    <p><label>Type: <input id="typeId" type=""/></label></p>
+    <p><label>Description:<br/> <textarea>{{description}}</textarea></label></p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button id="save" type="button" class="btn btn-primary">Save changes</button>
+  </div>
+ 
+</template>
