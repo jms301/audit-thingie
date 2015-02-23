@@ -1,11 +1,31 @@
+echo $1
+
+
+
+if [ 0 -eq $# ]
+then
+  echo "running local data load"
+  host='127.0.0.1:3001'
+  db='meteor'
+else
+  echo "running data load for $1"
+
+  url=`echo $1 | sed -e s,"mongodb://",,g`
+  userpass="`echo $url | grep @ | cut -d@ -f1`"
+  user=`echo $userpass | grep : | cut -d: -f1`
+  pass=`echo $userpass | grep : | cut -d: -f2`
+  host=`echo $url | sed -e s,$userpass@,,g | cut -d/ -f1`
+  db="`echo $url | grep / | cut -d/ -f2-`"
+
+fi
+
+
 #rm old files
 rm contracts.json
 rm key_figures.json
 rm key_facts.json
 rm payments.json
 
-#drop contracts, key_figures & key_facts tables
-mongo localhost:3001/meteor mongodrop.js
 
 #contract data
 jq -c '{_id, name, department: .department.name, authority: .authority.name,  sector: .sector.name, est_cost: (if .payments | length == 0 then 0 else ([.payments[].estimated * 100] | add / 100) end)}' rawdata.json.keep > contracts.json
@@ -40,6 +60,36 @@ jq -c '{contractId: ._id, data: .date_pref_bid, name: "Date Pref Bid", typeId: "
 
 jq -c  '{contractId: ._id, data: .payments[]} | select(.data.estimated != 0) | {contractId, data: .data.estimated, date: .data.year, name: "Est Payment"}'  rawdata.json.keep > payments.json
 
+
+if [ 0 -ne $# ]
+then
+  #drop contracts, key_figures & key_facts tables
+  mongo -p $pass -u $user $host/$db mongodrop.js
+  mongoimport -h $host -db $db -p $pass -u $user -c contracts --file ./contracts.json
+  mongoimport -h $host -db $db -p $pass -u $user -c key_fac_figs --file ./key_figures.json
+  mongoimport -h $host -db $db -p $pass -u $user -c key_fac_figs --file ./key_facts.json
+  mongoimport -h $host -db $db -p $pass -u $user -c key_fac_figs --file ./payments.json
+  #script to switch ids into string format (from mongo object format)
+  mongo -p $pass -u $user $host/$db mongoscript.js
+else
+  #drop contracts, key_figures & key_facts tables
+  mongo $host/$db mongodrop.js
+  mongoimport -h $host -db $db -c contracts --file ./contracts.json
+  mongoimport -h $host -db $db -c key_fac_figs --file ./key_figures.json
+  mongoimport -h $host -db $db -c key_fac_figs --file ./key_facts.json
+  mongoimport -h $host -db $db -c key_fac_figs --file ./payments.json
+  #script to switch ids into string format (from mongo object format)
+  mongo $host/$db mongoscript.js
+fi
+
+
+
+
+
+# Stuff we're not using atm
+
+#mongoexport -h 127.0.0.1:3001 -db meteor -c contracts -o ./rawdata.json.keep
+
 #___Contract fields___
 #Name
 #Department
@@ -72,22 +122,3 @@ jq -c  '{contractId: ._id, data: .payments[]} | select(.data.estimated != 0) | {
 #Equity
 
 
-#Import the contract table INCLUDING IDS (must not have clashing IDS already in database)
-mongoimport -h 127.0.0.1:3001 -db meteor -c contracts --file ./contracts.json
-
-
-mongoimport -h 127.0.0.1:3001 -db meteor -c key_fac_figs --file ./key_figures.json
-
-mongoimport -h 127.0.0.1:3001 -db meteor -c key_fac_figs --file ./key_facts.json
-
-mongoimport -h 127.0.0.1:3001 -db meteor -c key_fac_figs --file ./payments.json
-
-
-#script to switch ids into string format (from mongo object format)
-mongo localhost:3001/meteor mongoscript.js
-
-
-
-
-# Stuff we're not using atm
-#mongoexport -h 127.0.0.1:3001 -db meteor -c contracts -o ./rawdata.json.keep
