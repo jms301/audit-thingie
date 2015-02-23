@@ -8,7 +8,8 @@ rm payments.json
 mongo localhost:3001/meteor mongodrop.js
 
 #contract data
-jq -c '{_id, name, department: .department.name, authority: .authority.name,  sector: .sector.name, est_cost: [.payments[].estimated] |add}' rawdata.json.keep > contracts.json
+jq -c '{_id, name, department: .department.name, authority: .authority.name,  sector: .sector.name, est_cost: (if .payments | length == 0 then 0 else ([.payments[].estimated * 100] | add / 100) end)}' rawdata.json.keep > contracts.json
+
 
 jq -c '{contractId: ._id, name: "Date of Financial Close", data: .date_fin_close, typeId: ""}' rawdata.json.keep > key_figures.json
 
