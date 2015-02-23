@@ -50,10 +50,23 @@ Template.keyFacFig.events({
 
 Template.editKeyFacFig.events({
   'click button#save' : function (evt, template) {
-    oldKFF = Session.get("modal-data");
-    console.log(template.$('input#data').val());
+    toSet = {};
+    if (template.$('input#data').val() != this.data)
+      toSet.data = template.$('input#data').val();
+    if (template.$('input#datetime').val() != this.date)
+      toSet.datetime = template.$('input#datetime').val();
+    if (template.$('input#typeId').val() != this.typeId)
+      toSet.typeId = template.$('input#typeId').val();
+    if (template.$('textarea#description').val() != this.description)
+      toSet.description = template.$('textarea#description').val();
+
+    KeyFacFigs.update({_id: this._id}, {$set: toSet});
 
     $("#site-modal").modal('toggle');
+    Session.set("modal-template", 'blank');
+    Session.set("modal-data", {});
+  },
+  'click button#cancel' : function (evt, template) {
     Session.set("modal-template", 'blank');
     Session.set("modal-data", {});
   }

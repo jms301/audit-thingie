@@ -99,12 +99,13 @@ test  map
   </div>
   <div class="modal-body">
     <p><label>Data: <input id="data" type="text" value="{{data}}"/></label></p>
-    <p><label>Date: <input id="datetime" type="datetime" value="{{date}}"/></label></p>
+    <p><label>Date: <input id="datetime" type="datetime" value="{{date}}"/></label>
+    <label>Date End: <input id="datetime_end" type="datetime" value="{{date}}"/></label></p>
     <p><label>Type: <input id="typeId" type=""/></label></p>
-    <p><label>Description:<br/> <textarea>{{description}}</textarea></label></p>
+    <p><label>Description:<br/> <textarea id="description">{{description}}</textarea></label></p>
   </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button id="cancel" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
     <button id="save" type="button" class="btn btn-primary">Save changes</button>
   </div>
 

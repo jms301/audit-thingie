@@ -1,29 +1,33 @@
 Meteor.publish( "contracts", function () {
-  return Contracts.find({}, {}); 
+  return Contracts.find({}, {});
 });
 
 Meteor.publish( "contract_details", function (_id) {
-  return [KeyFacFigs.find({contractId: _id}, {}), 
+  return [KeyFacFigs.find({contractId: _id}, {}),
           //ChartableData.find({contractId: _id}, {})
           ];
 });
 /*
-Meteor.publish("contracts-map", function (loc, limit) { 
+Meteor.publish("contracts-map", function (loc, limit) {
   return Contracts.find(
 }); */
 
 var default_allow = {
   insert: function (userId, doc) {
-    // the user must be logged in, and the document must be owned by the user
-    return (userId && doc.userId === userId);
+    // must be logged in & then the userId will be set to yours
+    if (userId)
+      doc.userId = userId;
+    return (userId);
   },
   update: function (userId, doc, fields, modifier) {
-    // can only change your own documents
-    return doc.userId === userId;
+    // must be logged in & then the userId will be set to yours
+    if (userId)
+      doc.userId = userId;
+    return (userId);
   },
   remove: function (userId, doc) {
-    // can only remove your own documents
-    return doc.userId === userId;
+    // must be logged in
+    return (userId)
   }, fetch: ['userId']
 };
 
@@ -40,5 +44,6 @@ var default_deny = {
 };
 
 Contracts.allow(default_allow);
-
 Contracts.deny(default_deny);
+KeyFacFigs.allow(default_allow);
+KeyFacFigs.allow(default_deny);
