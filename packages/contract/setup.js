@@ -1,5 +1,5 @@
-Contracts = new Meteor.Collection("contracts");
-KeyFacFigs = new Meteor.Collection("key_fac_figs");
+Contracts = new Mongo.Collection("contracts");
+KeyFacFigs = new Mongo.Collection("key_fac_figs");
 
 Router.route('/contractlist', {
   template: 'contractList',
