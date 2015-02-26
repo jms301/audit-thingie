@@ -50,17 +50,19 @@ Template.keyFacFig.events({
 
 Template.editKeyFacFig.events({
   'click button#save' : function (evt, template) {
-    toSet = {};
+    toSet = {userId: Meteor.userId()};
     if (template.$('input#data').val() != this.data)
       toSet.data = template.$('input#data').val();
-    if (template.$('input#datetime').val() != this.date)
-      toSet.datetime = template.$('input#datetime').val();
+    if (template.$('input#date').val() != this.date)
+      toSet.date = template.$('input#date').val();
+    if (template.$('input#date_end').val() != this.date_end)
+      toSet.date_end = template.$('input#date_end').val();
     if (template.$('input#typeId').val() != this.typeId)
       toSet.typeId = template.$('input#typeId').val();
     if (template.$('textarea#description').val() != this.description)
       toSet.description = template.$('textarea#description').val();
 
-    KeyFacFigs.update({_id: this._id}, {$set: toSet});
+    KeyFacFigs.update(this._id, {$set: toSet});
 
     $("#site-modal").modal('toggle');
     Session.set("modal-template", 'blank');

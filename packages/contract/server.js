@@ -15,15 +15,13 @@ Meteor.publish("contracts-map", function (loc, limit) {
 var default_allow = {
   insert: function (userId, doc) {
     // must be logged in & then the userId will be set to yours
-    if (userId)
       doc.userId = userId;
-    return (userId);
+    return (userId && doc.userId === userId);
   },
   update: function (userId, doc, fields, modifier) {
-    // must be logged in & then the userId will be set to yours
-    if (userId)
-      doc.userId = userId;
-    return (userId);
+
+    //must be loged in, must be setting values & must set user Id to yours
+    return (userId && modifier.$set && modifier.$set.userId === userId);
   },
   remove: function (userId, doc) {
     // must be logged in
@@ -33,8 +31,8 @@ var default_allow = {
 
 var default_deny = {
   update: function (userId, docs, fields, modifier) {
-    // can't change userId
-    return _.contains(fields, 'userId');
+    // can change userId!
+    //return _.contains(fields, 'userId');
   },
   //remove: function (userId, doc) {
     // can't remove locked documents
@@ -44,6 +42,10 @@ var default_deny = {
 };
 
 Contracts.allow(default_allow);
-Contracts.deny(default_deny);
+//Contracts.deny(default_deny); // No deny rules!
 KeyFacFigs.allow(default_allow);
-KeyFacFigs.allow(default_deny);
+//KeyFacFigs.allow(default_deny); // No deny rules!
+
+ChangeLogFuncs.log_changes(KeyFacFigs);
+ChangeLogFuncs.log_changes(Contracts);
+
