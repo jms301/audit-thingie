@@ -39,7 +39,7 @@ Template.contractEdit.helpers({
   },
 });
 
-Template.keyFacFig.events({
+Template.keyFacFigEdit.events({
   'click a' : function () {
     Session.set("modal-template", 'editKeyFacFig');
     Session.set("modal-data", this);

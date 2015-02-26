@@ -68,7 +68,7 @@ test  map
     <div class="col-sm-8">
       <h3> Key Facts & Figures:</h3>
       {{#each keyFacFigs}}
-        {{> keyFacFig}}
+        {{> keyFacFigEdit}}
       {{/each}}
 
 
@@ -85,7 +85,11 @@ test  map
 </template>
 
 <template name="keyFacFig">
-  {{name}}: {{data}} <a href="#">edit</a><br/>
+  <span title="{{description}}" >{{name}}: {{data}} </span><br/>
+</template>
+
+<template name="keyFacFigEdit">
+  {{name}}: {{data}} {{#if currentUser}} <a href="#">edit</a>{{/if}}<br/>
 </template>
 
 <template name="nameTmpl">
