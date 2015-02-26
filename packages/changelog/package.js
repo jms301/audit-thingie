@@ -15,8 +15,8 @@ Package.onUse(function(api) {
   api.use('standard-app-packages');
 
   api.use('matb33:collection-hooks');
-  api.addFiles('changelog.js');
 
+  api.addFiles('changelog.html', 'client');
   api.addFiles('setup.js');
   api.addFiles('server.js', 'server');
   api.addFiles('changelog.js', 'client');

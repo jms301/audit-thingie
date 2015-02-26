@@ -24,6 +24,22 @@ Router.route('/contract/edit/:_id',
   }
 );
 
+Router.route('/contract/changes/:_id',
+  {
+    template: 'contractChangelog',
+    loadingTemplate: 'loading',
+    waitOn : function () {
+      return [Meteor.subscribe('contracts'),
+              Meteor.subscribe('contract_details', this.params._id),
+              Meteor.subscribe('contract_changelog', this.params._id)];
+    },
+    data: function () {
+      return Contracts.findOne({_id: this.params._id});
+    },
+    name: "contract.changelog"
+  }
+);
+
 
 
 

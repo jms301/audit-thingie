@@ -19,7 +19,7 @@ test  map
       <ul class="nav nav-tabs" role="tablist">
         <li class="active" role="presentation"><a href="{{pathFor route='contract'}}">Display</a></li>
         <li role="presentation"><a href="{{pathFor route='contract.edit'}}">Edit</a></li>
-        <li role="presentation"><a href="{{pathFor route='contract.change_log'}}">Change Log</a></li>
+        <li role="presentation"><a href="{{pathFor route='contract.changelog'}}">Change Log</a></li>
         <li role="presentation"><a href="{{pathFor route='contract.chat'}}">Chat</a></li>
       </ul>
     </div>
@@ -51,7 +51,7 @@ test  map
       <ul class="nav nav-tabs" role="tablist">
         <li role="presentation"><a href="{{pathFor route='contract'}}">Display</a></li>
         <li class="active" role="presentation"><a href="{{pathFor route='contract.edit'}}">Edit</a></li>
-        <li role="presentation"><a href="{{pathFor route='contract.change_log'}}">Change Log</a></li>
+        <li role="presentation"><a href="{{pathFor route='contract.changelog'}}">Change Log</a></li>
         <li role="presentation"><a href="{{pathFor route='contract.chat'}}">Chat</a></li>
       </ul>
     </div>
@@ -72,12 +72,31 @@ test  map
       {{/each}}
 
 
-        <button class="btn btn-primary">Add</button>
+        <button id="addKff" class="btn btn-primary">Add</button>
     </div>
   </div>
 
+</template>
+
+<template name="contractChangelog">
+  <div class="container">
+   <div role="tabpanel">
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation"><a href="{{pathFor route='contract'}}">Display</a></li>
+        <li role="presentation"><a href="{{pathFor route='contract.edit'}}">Edit</a></li>
+        <li class="active" role="presentation"><a href="{{pathFor route='contract.changelog'}}">Change Log</a></li>
+        <li role="presentation"><a href="{{pathFor route='contract.chat'}}">Chat</a></li>
+      </ul>
+    </div>
+    <div class="page-header">
+      <h1>Changes for: {{name}}</h1>
+    </div>
+  </div>
+
+  {{> contractChangelogList }}
 
 </template>
+
 
 
 <template name="filelink">
@@ -99,13 +118,34 @@ test  map
 <template name="editKeyFacFig">
    <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-    <h4 class="modal-title">Editing: {{name}}</h4>
+    <h4 class="modal-title">Editing: {{name}} <small>{{type}}</small></h4>
   </div>
   <div class="modal-body">
     <p><label>Data: <input id="data" type="text" value="{{data}}"/></label></p>
     <p><label>Date: <input id="date" type="datetime" value="{{date}}"/></label>
     <label>Date End: <input id="date_end" type="datetime" value="{{date_end}}"/></label></p>
-    <p><label>Type: <input id="typeId" type=""/></label></p>
+    <p><label>Description:<br/> <textarea id="description">{{description}}</textarea></label></p>
+  </div>
+  <div class="modal-footer">
+    <button id="cancel" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button id="save" type="button" class="btn btn-primary">Save changes</button>
+  </div>
+
+</template>
+
+<template name="newKeyFacFig">
+   <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <h4 class="modal-title"><strong>New Key Fact for:</strong> {{name}}.</h4>
+  </div>
+  <div class="modal-body">
+    <p>
+      <label>Type: <input id="typeId" type="text"/></label> or
+      <label>Name: <input id="name" type="text"/></label>
+    </p>
+    <p><label>Data: <input id="data" type="text" value="{{data}}"/></label></p>
+    <p><label>Date: <input id="date" type="datetime" value="{{date}}"/></label>
+    <label>Date End: <input id="date_end" type="datetime" value="{{date_end}}"/></label></p>
     <p><label>Description:<br/> <textarea id="description">{{description}}</textarea></label></p>
   </div>
   <div class="modal-footer">

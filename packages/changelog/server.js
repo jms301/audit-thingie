@@ -1,4 +1,4 @@
-Meteor.publish( "changelog", function (_id) {
+Meteor.publish( "contract_changelog", function (_id) {
   return ChangeLog.find({contractId: _id}, {});
 });
 
@@ -19,6 +19,8 @@ ChangeLogFuncs = {
   log_changes: function (collection) {
     collection.after.insert(function (userId, doc) {
       ChangeLog.insert({ collection: collection._name,
+                        contractId: doc.contractId,
+                        factId: doc._id,
                         data: doc}); // whole doc since it's all new
     });
 
@@ -33,10 +35,12 @@ ChangeLogFuncs = {
       console.log(changedData);
 
       ChangeLog.insert({collection: collection._name,
+                        contractId: doc.contractId,
+                        factId: doc._id,
                         data: changedData});
 
 
-    }, {fetchPrevious: false});
+    }, {fetchPrevious: true});
 
   },
 }
