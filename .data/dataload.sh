@@ -31,34 +31,33 @@ rm payments.json
 jq -c '{_id, name, department: .department.name, authority: .authority.name,  sector: .sector.name, est_cost: (if .payments | length == 0 then 0 else ([.payments[].estimated * 100] | add / 100) end)}' rawdata.json.keep > contracts.json
 
 
-jq -c '{contractId: ._id, name: "Date of Financial Close", data: .date_fin_close, typeId: ""}' rawdata.json.keep > key_figures.json
+jq -c '{contractId: ._id,  data: .date_fin_close, description: "", date: "", date_end: "", typeId: "5506e6b88ba7bdd7c56353c1"}' rawdata.json.keep > key_figures.json
 
-jq -c '{contractId: ._id, name: "Capital Value", data: .capital_value, typeId: ""}' rawdata.json.keep >> key_figures.json
+jq -c '{contractId: ._id, data: .capital_value, description: "", date: "", date_end: "", typeId: "5506e6b88ba7bdd7c56353ca"}' rawdata.json.keep >> key_figures.json
 
-jq -c '{contractId: ._id, name: "Contract Years", data: .contract_years, typeId: ""}' rawdata.json.keep >> key_figures.json
+jq -c '{contractId: ._id, data: .contract_years, description: "", date: "", date_end: "", typeId: "5506e6b88ba7bdd7c56353c6"}' rawdata.json.keep >> key_figures.json
 
-jq -c '{contractId: ._id, name: "First Date of Operation", data: .date_ops, typeId: ""}' rawdata.json.keep >> key_figures.json
+jq -c '{contractId: ._id, data: .date_ops, description: "", date: "", date_end: "", typeId: "5506e6b88ba7bdd7c56353c5"}' rawdata.json.keep >> key_figures.json
 
-jq -c '{contractId: ._id, name: "Date Construction Complete", data: .date_cons_complete, typeId: ""}' rawdata.json.keep >> key_figures.json
+jq -c '{contractId: ._id, data: .date_cons_complete, description: "", date: "", date_end: "", typeId: "5506e6b88ba7bdd7c56353c3"}' rawdata.json.keep >> key_figures.json
 
+jq -c '{contractId: ._id, data: .date_ojeu, description: "", date: "", date_end: "", typeId: "5506e6b88ba7bdd7c56353bf"}' rawdata.json.keep >> key_figures.json
 
-jq -c '{contractId: ._id, name: "Date of OJEU", data: .date_ojeu, typeId: ""}' rawdata.json.keep >> key_figures.json
+jq -c '{contractId: ._id, data: .off_balance_IFRS, description: "", date: "", date_end: "", typeId: "5506e6b88ba7bdd7c56353c7"}' rawdata.json.keep > key_facts.json
 
-jq -c '{contractId: ._id, data: .off_balance_IFRS, name: "Off Balance IFRS", typeId: ""}' rawdata.json.keep > key_facts.json
+jq -c '{contractId: ._id, data: .off_balance_GAAP, description: "", date: "", date_end: "", typeId: "5506e6b88ba7bdd7c56353c9"}' rawdata.json.keep >> key_facts.json
 
-jq -c '{contractId: ._id, data: .off_balance_GAAP, name: "Off Balance GAAP", typeId: ""}' rawdata.json.keep >> key_facts.json
+jq -c '{contractId: ._id, data: .off_balance_ESA95, date: "", description: "", date_end: "", typeId: "5506e6b88ba7bdd7c56353c8"}' rawdata.json.keep >> key_facts.json
 
-jq -c '{contractId: ._id, data: .off_balance_ESA95, name: "Off Balance ESA95", typeId: ""}' rawdata.json.keep >> key_facts.json
+jq -c '{contractId: ._id, data: .hmt_id, description: "", date: "", date_end: "", typeId: "5506e6b88ba7bdd7c56353b4"}' rawdata.json.keep >> key_facts.json
 
-jq -c '{contractId: ._id, data: .hmt_id, name: "HMT ID", typeId: ""}' rawdata.json.keep >> key_facts.json
+jq -c '{contractId: ._id, data: .address, description: "", date: "", date_end: "", typeId: "5506e6b88ba7bdd7c56353dc"}' rawdata.json.keep >> key_facts.json
 
-jq -c '{contractId: ._id, data: .address, name: "Address", typeId: ""}' rawdata.json.keep >> key_facts.json
+jq -c '{contractId: ._id, data: .status, description: "", date: "", date_end: "", typeId: "5506e6b88ba7bdd7c56353be"}' rawdata.json.keep >> key_facts.json
 
-jq -c '{contractId: ._id, data: .status, name: "Status", typeId: ""}' rawdata.json.keep >> key_facts.json
+jq -c '{contractId: ._id, data: .date_pref_bid, description: "", date: "", date_end: "", typeId: "5506e6b88ba7bdd7c56353c0"}' rawdata.json.keep >> key_facts.json
 
-jq -c '{contractId: ._id, data: .date_pref_bid, name: "Date Pref Bid", typeId: ""}' rawdata.json.keep >> key_facts.json
-
-jq -c  '{contractId: ._id, data: .payments[]} | select(.data.estimated != 0) | {contractId, data: .data.estimated, date: .data.year, name: "Est Payment"}'  rawdata.json.keep > payments.json
+jq -c  '{contractId: ._id, data: .payments[]} | select(.data.estimated != 0) | {contractId, data: .data.estimated, date: .data.year, description: "", typeId: "5506e6b88ba7bdd7c56353d1"}'  rawdata.json.keep > payments.json
 
 
 if [ 0 -ne $# ]
@@ -66,6 +65,7 @@ then
   #drop contracts, key_figures & key_facts tables
   mongo -p $pass -u $user $host/$db mongodrop.js
   mongoimport -h $host -db $db -p $pass -u $user -c contracts --file ./contracts.json
+  mongoimport -h $host -db $db -p $pass -u $user -c key_ff_types --file ./key_ff_types.json
   mongoimport -h $host -db $db -p $pass -u $user -c key_fac_figs --file ./key_figures.json
   mongoimport -h $host -db $db -p $pass -u $user -c key_fac_figs --file ./key_facts.json
   mongoimport -h $host -db $db -p $pass -u $user -c key_fac_figs --file ./payments.json
@@ -75,6 +75,7 @@ else
   #drop contracts, key_figures & key_facts tables
   mongo $host/$db mongodrop.js
   mongoimport -h $host -db $db -c contracts --file ./contracts.json
+  mongoimport -h $host -db $db -c key_ff_types --file ./key_ff_types.json
   mongoimport -h $host -db $db -c key_fac_figs --file ./key_figures.json
   mongoimport -h $host -db $db -c key_fac_figs --file ./key_facts.json
   mongoimport -h $host -db $db -c key_fac_figs --file ./payments.json

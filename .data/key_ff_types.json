@@ -1,0 +1,38 @@
+{ "_id" : "5506e6b88ba7bdd7c56353b4", "field_name" : "Unique HMT Project ID", "type" : "ID", "description" : "The unique number assigned by the Treasury to each PFI project." }
+{ "_id" : "5506e6b88ba7bdd7c56353b8", "field_name" : "Yearly public authority income", "type" : "Currency", "description" : "The total budget of the public authority responsible for paying for the PFI." }
+{ "_id" : "5506e6b88ba7bdd7c56353b9", "field_name" : "Proportion of the authortity's spent on PFI", "type" : "Percentage", "description" : "Total proportion of the public authority's budget spent servicing PFI contracts. " }
+{ "_id" : "5506e6b88ba7bdd7c56353ba", "field_name" : "Financial Support given to the public authority", "type" : "Currency", "description" : "Value of emergency loans or grants to the public authority for being in financial distress." }
+{ "_id" : "5506e6b88ba7bdd7c56353bc", "field_name" : "Constituency", "type" : "Text", "description" : "The Parliamentary constituency in which the PFI is located." }
+{ "_id" : "5506e6b88ba7bdd7c56353bd", "field_name" : "Region", "type" : "Text", "description" : "The region in which the PFI is located." }
+{ "_id" : "5506e6b88ba7bdd7c56353be", "field_name" : "Project Status", "type" : "Text", "description" : "Whether the PFI is operating or still in the construction phase." }
+{ "_id" : "5506e6b88ba7bdd7c56353bf", "field_name" : "Date of OJEU", "type" : "Date", "description" : "When the PFI was put out to tender." }
+{ "_id" : "5506e6b88ba7bdd7c56353c0", "field_name" : "Date of Prefered Bidder", "type" : "Date", "description" : "When the preferred PFI consortium was selected." }
+{ "_id" : "5506e6b88ba7bdd7c56353c1", "field_name" : "Date of Financial Close", "type" : "Date", "description" : "When the PFI contract was signed." }
+{ "_id" : "5506e6b88ba7bdd7c56353c2", "field_name" : "Date of Construction Completion", "type" : "Date", "description" : "When the construction phase was completed." }
+{ "_id" : "5506e6b88ba7bdd7c56353c3", "field_name" : "Planned Date of Construction Completion", "type" : "Date", "description" : "When construction was suppoed to have been completed." }
+{ "_id" : "5506e6b88ba7bdd7c56353c4", "field_name" : "Months the project was delayed", "type" : "Number", "description" : "How long the PFI construction was delayed for. " }
+{ "_id" : "5506e6b88ba7bdd7c56353c5", "field_name" : "First Date of Operations", "type" : "Date", "description" : "When the PFI first opened for use." }
+{ "_id" : "5506e6b88ba7bdd7c56353c6", "field_name" : "Operational Period of Contract (years)", "type" : "Number", "description" : "How long the PFI project will run, from when it was signed to when the payments end." }
+{ "_id" : "5506e6b88ba7bdd7c56353c7", "field_name" : "On Balance Sheet under IFRS", "type" : "Boolean", "description" : "Whether the PFI is accounted for under IFRS standards." }
+{ "_id" : "5506e6b88ba7bdd7c56353c8", "field_name" : "On Balance Sheet under ESA 95", "type" : "Boolean", "description" : "Whether the PFI is accounted for under ESA 95 standards." }
+{ "_id" : "5506e6b88ba7bdd7c56353c9", "field_name" : "On Balance Sheet under UK GAAP", "type" : "Boolean", "description" : "Whether the PFI is accounted for under GAAP standards." }
+{ "_id" : "5506e6b88ba7bdd7c56353ca", "field_name" : "Capital Value (£m)", "type" : "Currency", "description" : "The total cost of construction, and so the size of the PFI loan taken out." }
+{ "_id" : "5506e6b88ba7bdd7c56353cb", "field_name" : "Total cost of the contract", "type" : "Number", "description" : "The total cost of the PFI loan and all services provided over the course of the contract." }
+{ "_id" : "5506e6b88ba7bdd7c56353cc", "field_name" : "Repayment Ratio", "type" : "Number", "description" : "The ratio of the total PFI payments to the value of the building constructed." }
+{ "_id" : "5506e6b88ba7bdd7c56353cd", "field_name" : "Services Outsourced to PFI Providers", "type" : "Text", "description" : "The different services that are run by the PFI providers" }
+{ "_id" : "5506e6b88ba7bdd7c56353ce", "field_name" : "Yearly Service Charge", "type" : "Cauurrency", "description" : "The total cost of the services provided by the PFI company." }
+{ "_id" : "5506e6b88ba7bdd7c56353cf", "field_name" : "Yearly Availability Charge", "type" : "Currency", "description" : "The total cost of the loan repayments to the PFI company." }
+{ "_id" : "5506e6b88ba7bdd7c56353d0", "field_name" : "Yearly value of off-contract services", "type" : "Currency", "description" : "The value of additional services that the public body have to buy in addition to what's set out in the PFI contract." }
+{ "_id" : "5506e6b88ba7bdd7c56353d1", "field_name" : "Estimated Unitary Charge Payment (£m)", "type" : "Currency", "description" : "The yearly PFI payment, proposed when the contract was signed. This figure is composed of both loan repayments and the cost of services, and doesn't include any unplanned service payments." }
+{ "_id" : "5506e6b88ba7bdd7c56353d2", "field_name" : "Fines and deductions made against the contractor", "type" : "Date", "description" : "The value of any fines made against the contractor for poor performance. " }
+{ "_id" : "5506e6b88ba7bdd7c56353d3", "field_name" : "Nominal rate of return on PFI investment", "type" : "Text", "description" : "The theoretical rate of profit that the PFI consortium are supposed to make." }
+{ "_id" : "5506e6b88ba7bdd7c56353d4", "field_name" : "Senior Debt", "type" : "Currency", "description" : "What banks have contributed towards the PFI construction loan." }
+{ "_id" : "5506e6b88ba7bdd7c56353d5", "field_name" : "Senior Debt Interest Rate", "type" : "Percentage", "description" : "The annual interest rate the banks will receive for loaning money towards the PFI construction" }
+{ "_id" : "5506e6b88ba7bdd7c56353d6", "field_name" : "Subordinated Debt", "type" : "Currency", "description" : "What the PFI consortium have provided towards the PFI construction loan." }
+{ "_id" : "5506e6b88ba7bdd7c56353d7", "field_name" : "Subordinated Debt Interest Rate", "type" : "Percentage", "description" : "The annual interest ratethe PFI consortium will receive for loaning money towards the PFI construction" }
+{ "_id" : "5506e6b88ba7bdd7c56353d8", "field_name" : "Percentage by which the PFI was found to be cheaper than the public sector option", "type" : "Percentage", "description" : "Percentage by which the PFI was found to be cheaper than the public sector option." }
+{ "_id" : "5506e6b88ba7bdd7c56353d9", "field_name" : "Financial Advisors", "type" : "Text", "description" : "The names of the companies involved in advising on the PFI project." }
+{ "_id" : "5506e6b88ba7bdd7c56353da", "field_name" : "Total cost of planning the contract", "type" : "Currency", "description" : "The amount the PFI company recieved in planning and advisory costs for setting up their own project. " }
+{ "_id" : "5506e6b88ba7bdd7c56353db", "field_name" : "Financial support from central government", "type" : "Currency", "description" : "The value of any ongoing loans or grants to make the PFI 'affordable'." }
+{ "_id" : "5506e6b88ba7bdd7c56353dc", "field_name" : "Address", "type" : "Text", "description" : "The address of the project." }
+{ "_id" : "5506e6b88ba7bdd7c56353dd", "field_name" : "Location", "type" : "Object", "description" : "Location data to be displayed on a map." }

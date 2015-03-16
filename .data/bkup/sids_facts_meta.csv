@@ -1,0 +1,51 @@
+ID,Category,Source,Type,Field Name,Description,Notes
+1,Basic,Treasury 'Current Projects' list,ID,Unique HMT Project ID,The unique number assigned by the Treasury to each PFI project.,
+2,Basic,Treasury 'Current Projects' list,Text,Project Name,The name of the PFI Project.,
+3,Government,Treasury 'Current Projects' list,List,Department,The government department overseeing the PFI project.,
+4,Government,Treasury 'Current Projects' list,List,Procuring Authority,The local government body that is directly responsible for signing and paying for the PFI.,Can be more than one authority. E.g. recycling projects that can be split across several local government areas.
+5,Government,Public Authority Information,Currency,Yearly public authority income,The total budget of the public authority responsible for paying for the PFI.,
+6,Government,Calculation,Percentage,Proportion of the authortity's spent on PFI,Total proportion of the public authority's budget spent servicing PFI contracts. ,Can be split between one 'single' PFI and all the PFIs posessed by the public authroity
+7,Government,New Research,Currency,Financial Support given to the public authority,Value of emergency loans or grants to the public authority for being in financial distress.,
+8,Basic,Treasury 'Current Projects' list,List,Sector,The sector in which the PFI operates.,
+9,Basic,Treasury 'Current Projects' list,List,Constituency,The Parliamentary constituency in which the PFI is located.,
+10,Basic,Treasury 'Current Projects' list,List,Region,The region in which the PFI is located.,
+11,Basic,Treasury 'Current Projects' list,List,Project Status,Whether the PFI is operating or still in the construction phase.,
+12,Basic,Treasury 'Current Projects' list,Date,Date of OJEU,When the PFI was put out to tender.,
+13,Basic,Treasury 'Current Projects' list,Date,Date of Prefered Bidder,When the preferred PFI consortium was selected.,
+14,Basic,Treasury 'Current Projects' list,Date,Date of Financial Close,When the PFI contract was signed.,
+15,Basic,Treasury 'Current Projects' list,Date,Date of Construction Completion,When the construction phase was completed.,
+16,Basic,Business Cases,Date,Planned Date of Construction Completion,When construction was suppoed to have been completed.,
+17,Basic,Calculation,Number,Months the project was delayed,How long the PFI construction was delayed for. ,Date of construction completion minus planned date of construction completion
+18,Basic,Treasury 'Current Projects' list,Date,First Date of Operations,When the PFI first opened for use.,
+19,Basic,Treasury 'Current Projects' list,Number,Operational Period of Contract (years),"How long the PFI project will run, from when it was signed to when the payments end.",
+20,Finance,Treasury 'Current Projects' list,Boolean,On / Off Balance Sheet under IFRS,Whether the PFI is accounted for under IFRS standards.,
+21,Finance,Treasury 'Current Projects' list,Boolean,On / Off Balance Sheet under ESA 95,Whether the PFI is accounted for under ESA 95 standards.,
+22,Finance,Treasury 'Current Projects' list,Boolean,On / Off Balance Sheet under UK GAAP,Whether the PFI is accounted for under GAAP standards.,
+23,Cost,Treasury 'Current Projects' list,Currency,Capital Value (£m),"The total cost of construction, and so the size of the PFI loan taken out.",
+24,Cost,Calculation,Number,Total cost of the contract,The total cost of the PFI loan and all services provided over the course of the contract.,Sum of all unitary charge payments
+25,Cost,Calculation,Number,Repayment Ratio,The ratio of the total PFI payments to the value of the building constructed.,Total cost of the contract divided by the capital value
+26,Basic,Business Cases,Text,Services Outsourced to PFI Providers,The different services that are run by the PFI providers,"Cleaning, catering, car-parking, maintenance, etc etc"
+27,Cost,Business Cases,Currency,Yearly Service Charge,The total cost of the services provided by the PFI company.,In theory these two should add up to the unitary charge.
+28,Cost,Business Cases,Currency,Yearly Availability Charge,The total cost of the loan repayments to the PFI company.,In theory these two should add up to the unitary charge.
+29,Cost,New Research,Currency,Yearly value of off-contract services,The value of additional services that the public body have to buy in addition to what's set out in the PFI contract.,Would need to be split into annual charges. Technically you could go deep enough to make each of the yearly charges a sum total of a spreadsheet that you could upload.
+97,Cost,Treasury 'Current Projects' list,Currency,Estimated Unitary Charge Payment (£m),"The yearly PFI payment, proposed when the contract was signed. This figure is composed of both loan repayments and the cost of services, and doesn't include any unplanned service payments.",
+98,Cost,New Research,Date,Fines and deductions made against the contractor,The value of any fines made against the contractor for poor performance. ,Should probably be split into dates and indicidual values.
+99,Finance,New Research,Text,Nominal rate of return on PFI investment,The theoretical rate of profit that the PFI consortium are supposed to make.,
+100,Finance,Business Cases,Currency,Senior Debt,What banks have contributed towards the PFI construction loan.,
+101,Finance,Business Cases,Percentage,Senior Debt Interest Rate,The annual interest rate the banks will receive for loaning money towards the PFI construction,
+102,Finance,Business Cases,Currency,Subordinated Debt,What the PFI consortium have provided towards the PFI construction loan.,
+103,Finance,Business Cases,Percentage,Subordinated Debt Interest Rate,The annual interest ratethe PFI consortium will receive for loaning money towards the PFI construction,
+104,Finance,Business Cases,Percentage,Percentage by which the PFI was found to be cheaper than the public sector option,Percentage by which the PFI was found to be cheaper than the public sector option.,
+105,Companies,Business Cases,Text,Financial Advisors,The names of the companies involved in advising on the PFI project.,
+106,Cost,Business Cases,Currency,Total cost of planning the contract,The amount the PFI company recieved in planning and advisory costs for setting up their own project. ,
+107,Cost,Business Cases,Currency,Financial support from central government,The value of any ongoing loans or grants to make the PFI 'affordable'.,
+,"Fields which are directly related to company entities and need more thought / planning
+",,,,,
+124,Companies,Treasury 'Current Projects' list,Text,SPV Name,Name of the PFI consortium's holding company.,
+125,Companies,Treasury 'Current Projects' list,ID,SPV Company Number,The Company's House reference number for the PFI holding company.,
+126,Companies,Treasury 'Current Projects' list,Text,SPV Address,Registered Address of the PFI Holding Company,
+108,Companies,New Research,,Current Service Providers,The companies being subcontracted to provide services to the PFI. ,"Subdivided into: Catering, maintenance, cleaning etc etc"
+109,Companies,Treasury 'Current Projects' list,Text,Equity Holder,Owner of the PFI holding company and their % shareholding of the 31st March 2014.,
+121,Companies,New Research,Text,Former Equity Holders,Companies that have owned shares in the PFI,Kindof difficult to do as you'd want to tag each with a 'start' and 'end' date
+122,Finance,New Research,Currency,PFI Share Sales value,The amount the PFI investor sold their shares for.,
+123,Finance,Calculation,,Profit made on PFI sales,The profit made by the company selling their PFI shares.,{Pfi share sales value}-(({Subordinated debt}/100)*{equity share})
