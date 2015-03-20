@@ -67,8 +67,25 @@ test  map
 
     <div class="col-sm-8">
       <h3> Key Facts & Figures:</h3>
-      {{#each keyFacFigs}}
-        {{> keyFacFigEdit}}
+      {{#each kffData}}
+        <div class="keyfflist">
+        {{#with type}}
+          <strong class="kfftype" title="{{description}}">{{field_name}} :</strong>
+        {{/with}}
+        {{#if oneKff}}
+          {{#with oneKff}}
+            {{>keyFacFigEdit}}
+          {{/with}}
+
+        {{else}}
+
+          <div class="kffsItems">
+          {{#each keyffs}}
+            {{> keyFacFigEdit}}
+          {{/each}}
+          </div>
+        {{/if}}
+        </div>
       {{/each}}
 
 
@@ -108,17 +125,26 @@ test  map
 </template>
 
 <template name="keyFacFigEdit">
-  {{name}}: {{data}} {{#if currentUser}} <a href="#">edit</a>{{/if}}<br/>
+  <span title="{{description}}" >
+
+  {{#if currentUser}}
+    {{#if name}}<strong>{{name}}:</strong>{{/if}} <a href="#">{{data}}</a>
+  {{else}}
+    {{#if name}}<strong>{{name}}:</strong>{{/if}} {{data}}
+  {{/if}}
+  </span>
 </template>
 
 <template name="nameTmpl">
   <a href="{{pathFor route='contract'}}">{{name}}</a>
 </template>
 
+<!--Templates for site wide modal-->
+
 <template name="editKeyFacFig">
    <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-    <h4 class="modal-title">Editing: {{name}} <small>{{type}}</small></h4>
+    <h4 class="modal-title">Editing: {{name}} <small>{{untyped}}</small></h4>
   </div>
   <div class="modal-body">
     <p><label>Data: <input id="data" type="text" value="{{data}}"/></label></p>
@@ -140,9 +166,16 @@ test  map
   </div>
   <div class="modal-body">
     <p>
-      <label>Type: <input id="typeId" type="text"/></label> or
-      <label>Name: <input id="name" type="text"/></label>
+      <label>Type: <select id="typeId">
+      {{#each typeList}}
+        <option value="{{_id}}">{{field_name}}</option>
+      {{/each}}
+      <option value=''>Untyped Data (This is much less useful!) </option>
+      </select>
+      <input class="hidden" type="text" id="name"/>
+      </label>
     </p>
+
     <p><label>Data: <input id="data" type="text" value="{{data}}"/></label></p>
     <p><label>Date: <input id="date" type="datetime" value="{{date}}"/></label>
     <label>Date End: <input id="date_end" type="datetime" value="{{date_end}}"/></label></p>

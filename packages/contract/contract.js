@@ -3,8 +3,7 @@
 Template.contractList.helpers({
   contractCollection: function () {
     return Contracts.find({});
-  } ,
-
+  },
   settings: function () {
     return {
       collection: 'contracts',
@@ -18,14 +17,20 @@ Template.contractList.helpers({
                  label: "Estimated Cost"}]
     };
   }
-
-
 });
 
+
 Template.contractDisplay.helpers({
+
+// This could all be done on the server with agregates and would run faster.
+// I want to see how slow it is on the client.
   keyFacFigs: function () {
-    return KeyFacFigs.find({contractId: this._id});
+    keyffs = KeyFacFigs.find({contractId: this._id},
+      {sort: {typeId: 1}}).fetch();
+    types = _.groupBy(keyffs, 'typeId');
+    return (_.values(types));
   },
+
   est_cost: function () {
     if (this.est_cost && this.est_cost.toFixed)
       return this.est_cost.toFixed(2);
@@ -35,8 +40,29 @@ Template.contractDisplay.helpers({
 
 Template.contractEdit.helpers({
   keyFacFigs: function () {
-    return KeyFacFigs.find({contractId: this._id});
+    return this;
   },
+
+  kffData: function () {
+
+    keyffs = KeyFacFigs.find({contractId: this._id,
+                              data: {$exists: true, $ne: null}},
+                             {sort: {typeId: 1}}).fetch();
+
+    types = _.unique(_.pluck(keyffs, 'typeId'));
+
+    types = KeyFFTypes.find({_id : {$in: types}}).fetch();
+    types = _.indexBy(types, '_id');
+    data = _.map(_.groupBy(keyffs, 'typeId'), function (value, key) {
+      return {type: types[key], keyffs: value};
+    });
+    return data;
+  },
+  oneKff: function () {
+    if (this.keyffs.length == 1)
+      return this.keyffs[0];
+    return false;
+  }
 });
 
 Template.contractEdit.events({
@@ -58,15 +84,20 @@ Template.keyFacFigEdit.events({
 });
 
 Template.editKeyFacFig.helpers({
-  'type' : function ( ) {
-     if (this.typeId) {
-
-     }  else {
+  'untyped' : function ( ) {
+     if (!this.typeId) {
        return "Untyped"
      }
   }
+});
 
-
+Template.editKeyFacFig.helpers({
+  name: function () {
+    if(this.typeId)
+      return KeyFFTypes.findOne(this.typeId).field_name;
+    else
+      return this.name;
+  }
 });
 
 Template.editKeyFacFig.events({
@@ -93,13 +124,23 @@ Template.editKeyFacFig.events({
   }
 });
 
+Template.newKeyFacFig.helpers({
+
+  typeList: function () {
+    return KeyFFTypes.find();
+    return [{field_name: "test1", _id: "testtest"}];
+  }
+
+
+});
+
 Template.newKeyFacFig.events({
     'click button#save' : function (evt, template) {
     toAdd = {userId: Meteor.userId(),
              contractId: this._id};
 
-    if (template.$('input#type').val())
-      toAdd.typeId = template.$('input#type').val();
+    if (template.$('select#typeId').val())
+      toAdd.typeId = template.$('select#typeId').val();
     if (template.$('input#name').val())
       toAdd.name = template.$('input#name').val();
     if (template.$('input#data').val())
@@ -111,6 +152,7 @@ Template.newKeyFacFig.events({
     if (template.$('textarea#description').val())
       toAdd.description = template.$('textarea#description').val();
 
+    console.log(toAdd);
     KeyFacFigs.insert(toAdd);
 
     $("#site-modal").modal('toggle');
@@ -122,3 +164,4 @@ Template.newKeyFacFig.events({
     Session.set("modal-data", {});
   }
 })
+

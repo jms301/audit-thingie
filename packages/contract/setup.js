@@ -1,5 +1,6 @@
 Contracts = new Mongo.Collection("contracts");
 KeyFacFigs = new Mongo.Collection("key_fac_figs");
+KeyFFTypes = new Mongo.Collection("key_ff_types");
 
 Router.route('/contractlist', {
   template: 'contractList',
@@ -15,6 +16,7 @@ Router.route('/contract/edit/:_id',
     loadingTemplate: 'loading',
     waitOn : function () {
       return [Meteor.subscribe('contracts'),
+              Meteor.subscribe('key_ff_types'),
               Meteor.subscribe('contract_details', this.params._id)];
     },
     data: function () {
@@ -31,6 +33,7 @@ Router.route('/contract/changes/:_id',
     waitOn : function () {
       return [Meteor.subscribe('contracts'),
               Meteor.subscribe('contract_details', this.params._id),
+              Meteor.subscribe('key_ff_types'),
               Meteor.subscribe('contract_changelog', this.params._id)];
     },
     data: function () {
@@ -40,15 +43,13 @@ Router.route('/contract/changes/:_id',
   }
 );
 
-
-
-
 Router.route('/contract/:_id',
   {
     template: 'contractDisplay',
     loadingTemplate: 'loading',
     waitOn : function () {
       return [Meteor.subscribe('contracts'),
+              Meteor.subscribe('key_ff_types'),
               Meteor.subscribe('contract_details', this.params._id)];
     },
     data: function () {
@@ -57,7 +58,6 @@ Router.route('/contract/:_id',
     name: "contract"
   }
 );
-
 
 Router.route('/contractmap', {
   template: 'contractMap',

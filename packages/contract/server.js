@@ -1,3 +1,7 @@
+Meteor.publish( "key_ff_types", function () {
+  return KeyFFTypes.find({}, {});
+});
+
 Meteor.publish( "contracts", function () {
   return Contracts.find({}, {});
 });
