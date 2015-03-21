@@ -1,0 +1,36 @@
+<template name="exportAudit">
+  <div class="container">
+  <div class="page-header">
+    <h1>Export Audit:</h1>
+	Select Field to Export:
+	<select id="types">
+		{{#each getTypes}}
+			{{>typeOption}}
+		{{/each}}
+	</select>
+	<br/>
+	Now Select Contract (if multi time series):
+	<select id="pfi">
+		{{#each getContracts}}
+			{{>contractOption}}
+		{{/each}}
+	</select>
+	<br/>
+
+	<button id="downloadcsv">Download CSV</button>
+	<button id="downloadjson">Download JSON</button>
+  </div>
+  </div>
+</template>
+
+<template name="typeOption">
+	<option value="{{field_name}}">{{field_name}}</option>
+</template>
+
+<template name="contractOption">
+	<option value="{{_id}}">{{name}}</option>
+</template>
+
+<template name="exportAuditCSV">
+	<div>Nothing to see here...</div>
+</template>
