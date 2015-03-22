@@ -11,6 +11,11 @@ Meteor.publish( "contract_details", function (_id) {
           //ChartableData.find({contractId: _id}, {})
           ];
 });
+
+Meteor.publish( "key_fac_figs", function (_id) {
+  return KeyFacFigs.find({}, {});
+});
+
 /*
 Meteor.publish("contracts-map", function (loc, limit) {
   return Contracts.find(

@@ -74,20 +74,40 @@ Template.contractEdit.events({
   }
 });
 
+Template.keyFacFigEdit.helpers({
+  data : function () {
+    to_return = this.data;
+
+    if (Template.parentData(1).type &&
+        Template.parentData(1).type.type == "Boolean" ) {
+//&& typeof this.data === 'boolean')
+
+      to_return =  this.data ? "True" : "False";
+
+    }
+    if (!this.citation)
+      to_return = to_return + " [citation needed].";
+
+    return to_return;
+  }
+});
+
 Template.keyFacFigEdit.events({
   'click a' : function () {
     Session.set("modal-template", 'editKeyFacFig');
     Session.set("modal-data", this);
 
-    $("#site-modal").modal('toggle');
+    $("#site-modal").modal('show');
   }
 });
 
 Template.editKeyFacFig.helpers({
   'untyped' : function ( ) {
-     if (!this.typeId) {
-       return "Untyped"
-     }
+    if (!this.typeId) {
+      return "Untyped";
+    } else {
+      return false;
+    }
   }
 });
 
@@ -97,6 +117,12 @@ Template.editKeyFacFig.helpers({
       return KeyFFTypes.findOne(this.typeId).field_name;
     else
       return this.name;
+  },
+  description: function () {
+    if(this.typeId)
+      return KeyFFTypes.findOne(this.typeId).description;
+    else
+      return this.description;
   }
 });
 
@@ -111,6 +137,9 @@ Template.editKeyFacFig.events({
       toSet.date_end = template.$('input#date_end').val();
     if (template.$('textarea#description').val() != this.description)
       toSet.description = template.$('textarea#description').val();
+
+    if (template.$('input#citation').val() != this.citation)
+      toSet.citation = template.$('input#citation').val();
 
     KeyFacFigs.update(this._id, {$set: toSet});
 
@@ -152,7 +181,6 @@ Template.newKeyFacFig.events({
     if (template.$('textarea#description').val())
       toAdd.description = template.$('textarea#description').val();
 
-    console.log(toAdd);
     KeyFacFigs.insert(toAdd);
 
     $("#site-modal").modal('toggle');
@@ -160,8 +188,15 @@ Template.newKeyFacFig.events({
     Session.set("modal-data", {});
   },
   'click button#cancel' : function (evt, template) {
-    Session.set("modal-template", 'blank');
-    Session.set("modal-data", {});
+  },
+  'change select#typeId' : function (evt, template) {
+    if(template.$('select#typeId').val() === "") {
+      template.$('p.name').removeClass("hidden");
+      template.$('p.description').removeClass("hidden");
+    } else {
+      template.$('p.name').addClass("hidden");
+      template.$('p.description').addClass("hidden");
+    }
   }
-})
+});
 

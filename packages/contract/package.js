@@ -26,6 +26,8 @@ Package.onUse(function(api) {
   api.addFiles('contract.js', 'client');
 
   api.export('Contracts');
+  api.export('KeyFFTypes');
+  api.export('KeyFacFigs');
 });
 
 Package.onTest(function(api) {

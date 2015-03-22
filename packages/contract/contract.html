@@ -36,8 +36,8 @@ test  map
 
     </div>
     <div class="col-sm-4">
-      <h4>Files</h4>
-      {{#each files}}
+      <h4>Citation Sources:</h4>
+      {{#each citation}}
         {{> filelink}}
       {{/each}}
     </div>
@@ -79,10 +79,13 @@ test  map
 
         {{else}}
 
-          <div class="kffsItems">
+        <a data-toggle="collapse" href="#kff-{{type._id}}">+/-</a>
+          <div class="kffsItems collapse" id="kff-{{type._id}}">
+            <div class="well">
           {{#each keyffs}}
-            {{> keyFacFigEdit}}
+            {{#if date}}{{date}}:{{/if}} {{> keyFacFigEdit}} <br>
           {{/each}}
+            </div>
           </div>
         {{/if}}
         </div>
@@ -150,7 +153,12 @@ test  map
     <p><label>Data: <input id="data" type="text" value="{{data}}"/></label></p>
     <p><label>Date: <input id="date" type="datetime" value="{{date}}"/></label>
     <label>Date End: <input id="date_end" type="datetime" value="{{date_end}}"/></label></p>
+    <p><label><a href="{{citation}}">Citation:</a><input id="citation" type="url" value="{{citation}}"/></label></p>
+    {{#if untyped}}
     <p><label>Description:<br/> <textarea id="description">{{description}}</textarea></label></p>
+    {{else}}
+    <p>{{description}}</p>
+    {{/if}}
   </div>
   <div class="modal-footer">
     <button id="cancel" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -172,14 +180,19 @@ test  map
       {{/each}}
       <option value=''>Untyped Data (This is much less useful!) </option>
       </select>
-      <input class="hidden" type="text" id="name"/>
+      </label>
+    </p>
+    <p class="hidden name">
+      <label>Name:
+      <input type="text" id="name"/>
       </label>
     </p>
 
     <p><label>Data: <input id="data" type="text" value="{{data}}"/></label></p>
     <p><label>Date: <input id="date" type="datetime" value="{{date}}"/></label>
     <label>Date End: <input id="date_end" type="datetime" value="{{date_end}}"/></label></p>
-    <p><label>Description:<br/> <textarea id="description">{{description}}</textarea></label></p>
+    <p class="hidden description"><label>Description:<br/> <textarea id="description">{{description}}</textarea></label></p>
+    <p><label><a href="{{citation}}">Citation:</a> <input id="citation" type="url" value="{{citation}}"/></label></p>
   </div>
   <div class="modal-footer">
     <button id="cancel" type="button" class="btn btn-default" data-dismiss="modal">Close</button>

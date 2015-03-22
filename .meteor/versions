@@ -49,6 +49,7 @@ mongo@1.1.0
 npm-bcrypt@0.7.8_1
 observe-sequence@1.0.5
 ordered-dict@1.0.3
+pfafman:filesaver@0.1.0
 random@1.0.3
 reactive-dict@1.1.0
 reactive-var@1.0.5
@@ -64,6 +65,7 @@ srp@1.0.3
 standard-app-packages@1.0.5
 stylus@1.0.7
 templating@1.1.0
+tiro:auditexport@0.0.1
 tracker@1.0.6
 twbs:bootstrap@3.3.4
 ui@1.0.6
