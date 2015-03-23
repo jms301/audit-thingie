@@ -2,29 +2,34 @@
   <div class="container">
   <div class="page-header">
     <h1>Export Audit:</h1>
-	Select Field to Export:
+
+	<h3>Fields to Export:</h3>
+  {{#each exportFields}}
+    {{field_name}} <button class="remove btn btn-xs">x</button> ,
+  {{/each}}
+  <br>
 	<select id="types">
 		{{#each getTypes}}
 			{{>typeOption}}
 		{{/each}}
 	</select>
+  <button class="btn btn-primary" id="add-field">Add</button>
 	<br/>
-	Now Select Contract (if multi time series):
+	<!--Now Select Contract (if multi time series):
 	<select id="pfi">
 		{{#each getContracts}}
 			{{>contractOption}}
 		{{/each}}
-	</select>
+	</select>-->
 	<br/>
-
+  <label>Filename: <input id="filename"><b>.csv</b></label><br/>
 	<button id="downloadcsv">Download CSV</button>
-	<button id="downloadjson">Download JSON</button>
   </div>
   </div>
 </template>
 
 <template name="typeOption">
-	<option value="{{field_name}}">{{field_name}}</option>
+	<option value="{{_id}}">{{field_name}}</option>
 </template>
 
 <template name="contractOption">

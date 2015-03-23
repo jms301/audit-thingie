@@ -1,22 +1,7 @@
-// Write your package code here!
-
-Template.exportAudit.helpers({
-	getTypes: function () {
-		return KeyFFTypes.find({});
-	},
-	getContracts: function () {
-		return Contracts.find({}, {fields: {'name':1}, sort: {'name': 1}}).fetch();
-	}
-});
-
-var csvdata = "Col1, Col2";
-
+Session.setDefault("exportFields", []);
 
 function JSON2CSV(objArray) {
     var array = typeof objArray != 'object' ? JSON.parse(objArray) : objArray;
-
-    console.log("I happened!!");
-    console.log(array);
 
     var str = '';
     var line = '';
@@ -39,17 +24,69 @@ function JSON2CSV(objArray) {
 
 }
 
-Template.exportAudit.events({
-	"click #downloadcsv": function(event) {
-			csvdata = JSON2CSV(KeyFacFigs.find().fetch());
-			var blob = new Blob([csvdata],{type: "text/csv;charset=utf-8"});
-			saveAs(blob, "test.csv");
+
+
+Template.exportAudit.helpers({
+	getTypes: function () {
+		return KeyFFTypes.find({_id: {$nin: Session.get("exportFields")}});
 	},
-	"click #downloadjson": function(event) {
-		Meteor.subscribe('key_fac_figs', function() {
-			jsondata = Contracts.find().fetch();
-			var blob = new Blob([jsondata],{type: "text/json;charset=utf-8"});
-			saveAs(blob, "test.json");
-		});
-	}
+	getContracts: function () {
+		return Contracts.find({}, {fields: {'name':1}, sort: {'name': 1}}).fetch();
+	},
+  exportFields: function () {
+    return KeyFFTypes.find({_id: {$in: Session.get("exportFields")}});
+  }
+});
+
+
+Template.exportAudit.events({
+  "click button#add-field" : function (evt, temp) {
+
+    var field_array = Session.get("exportFields");
+    field_array.push(temp.$("select#types").val());
+    field_array = _.uniq(field_array);
+    Session.set("exportFields", field_array);
+
+  },
+  "click button.remove" : function (evt, temp) {
+    var field_array = Session.get("exportFields");
+    field_array = _.without(field_array, this._id);
+    Session.set("exportFields", field_array);
+  },
+
+	"click #downloadcsv": function(evt, templ) {
+
+      types =  KeyFFTypes.find(
+                {_id: {$in: Session.get("exportFields")}},
+                {fields: {field_name: 1}, sort: { _id: 1}}).fetch();
+
+			keyFFs = KeyFacFigs.find({
+        typeId: {$in: Session.get("exportFields")}},
+                {fields: {typeId: 1, date: 1, data: 1,contractId:1},
+                 sort: {contractId: 1, typeId: 1, date: 1}}).fetch();
+      keyFFs = _.groupBy(keyFFs, 'contractId');
+
+      // add the the csv header & store a type array
+      csvData = '"Contract","' + _.pluck(types, 'field_name').join('","') + '"\r\n';
+      lineTemplate = _.pluck(types, '_id');
+      line = [];
+
+		  Contracts.find({}, {fields: {'name':1}}).
+        forEach( function (cont) {
+          csvData += '"' + cont.name + '",';
+          facts = _.groupBy(keyFFs[cont._id], 'typeId');
+          _.each(lineTemplate, function(type, i) {
+
+            line[i] = _.pluck(facts[type], 'data').join(',');
+
+          });
+          csvData +=  '"' + line.join('","') + '"\r\n';
+        }
+      );
+
+			var blob = new Blob([csvData],{type: "text/csv;charset=utf-8"});
+      console.log(blob);
+			saveAs(blob, templ.$('#filename').val() + ".csv");
+
+	},
 });
