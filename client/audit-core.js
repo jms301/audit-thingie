@@ -19,3 +19,12 @@ Template.modal.rendered = function () {
 
   });
 };
+
+Template.home.helpers({
+  contract_count: function () {
+     return Contracts.find().count();
+  },
+  user_count: function () {
+    return "";
+  }
+});

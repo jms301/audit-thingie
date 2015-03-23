@@ -1,10 +1,12 @@
-Router.route('/', function () {
-  this.render('home', {
+Router.route('/', {
+    template: 'home',
+    loadingTemplate: 'loading',
+    waitOn : function () {
+      return Meteor.subscribe('contracts');
+    },
     data: function () {
-//return Items.findOne({_id: this.params._id});
-    }
+    },
   });
-});
 
 Router.route('/about');
 Router.route('/stats', {template: "nationalStats"});
