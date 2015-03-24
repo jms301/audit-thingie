@@ -1,31 +1,5 @@
 Session.setDefault("exportFields", []);
 
-function JSON2CSV(objArray) {
-    var array = typeof objArray != 'object' ? JSON.parse(objArray) : objArray;
-
-    var str = '';
-    var line = '';
-    var head = array[0];
-    for (var index in array[0]) {
-      line += index + ',';
-    }
-
-    for (var i = 0; i < array.length; i++) {
-        var line = '';
-
-            for (var index in array[i]) {
-                line += array[i][index] + ',';
-            }
-
-        line = line.slice(0, -1);
-        str += line + '\r\n';
-    }
-    return str;
-
-}
-
-
-
 Template.exportAudit.helpers({
 	getTypes: function () {
 		return KeyFFTypes.find({_id: {$nin: Session.get("exportFields")}});
@@ -38,6 +12,10 @@ Template.exportAudit.helpers({
   }
 });
 
+
+Template.exportAudit.rendered = function () {
+  Meteor.subscribe('key_fac_figs');
+};
 
 Template.exportAudit.events({
   "click button#add-field" : function (evt, temp) {
@@ -53,13 +31,12 @@ Template.exportAudit.events({
     field_array = _.without(field_array, this._id);
     Session.set("exportFields", field_array);
   },
+  "click #downloadcsv": function(evt, templ) {
 
-	"click #downloadcsv": function(evt, templ) {
-
+    Meteor.subscribe('key_fac_figs', function () {
       types =  KeyFFTypes.find(
                 {_id: {$in: Session.get("exportFields")}},
                 {fields: {field_name: 1}, sort: { _id: 1}}).fetch();
-
 			keyFFs = KeyFacFigs.find({
         typeId: {$in: Session.get("exportFields")}},
                 {fields: {typeId: 1, date: 1, data: 1,contractId:1},
@@ -87,6 +64,6 @@ Template.exportAudit.events({
 			var blob = new Blob([csvData],{type: "text/csv;charset=utf-8"});
       console.log(blob);
 			saveAs(blob, templ.$('#filename').val() + ".csv");
-
+    });
 	},
 });
